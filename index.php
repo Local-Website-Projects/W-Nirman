@@ -2,74 +2,33 @@
 <html lang="en">
 
 <head>
-<?php
-include ("includes/head.php");
-$page = "home";
-?>
+    <?php
+    include("includes/head.php");
+    $page = "home";
+    ?>
 </head>
 
 <body>
 
 <div class="page-wrapper">
     <!-- Preloader -->
-<?php
-include ("includes/preloader.php");
-?>
+    <?php
+    include("includes/preloader.php");
+    ?>
 
     <!-- Main Header-->
-<?php
-include ("includes/navbar.php");
-?>
+    <?php
+    include("includes/navbar.php");
+    ?>
     <!--End Main Header -->
 
     <!--Form Back Drop-->
     <div class="form-back-drop"></div>
 
     <!-- Hidden Bar -->
-    <section class="hidden-bar">
-        <div class="inner-box">
-            <div class="cross-icon"><span class="fa fa-times"></span></div>
-            <div class="title">
-                <h2>Get Appointment</h2>
-            </div>
-
-            <!--Appointment Form-->
-            <div class="appointment-form">
-                <form method="post" action="http://html.commonsupport.xyz/2019/Altoona/contact.html">
-                    <div class="form-group">
-                        <input type="text" name="text" value="" placeholder="Name" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="email" name="email" value="" placeholder="Email Address" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="text" name="phone" value="" placeholder="Phone no." required>
-                    </div>
-                    <div class="form-group">
-                        <textarea placeholder="Message"></textarea>
-                    </div>
-                    <div class="form-group">
-                        <button type="submit" class="theme-btn btn-style-three">Submit now</button>
-                    </div>
-                </form>
-            </div>
-
-            <!--Contact Info Box-->
-            <div class="contact-info-box">
-                <ul class="info-list">
-                    <li><a href="mailto:example@gmail.com">example@gmail.com</a></li>
-                    <li><a href="tel:+(123)4567890">+(123) 456 7890</a></li>
-                </ul>
-                <ul class="social-list clearfix">
-                    <li><a href="#">Facebook</a></li>
-                    <li><a href="#">Linkedin</a></li>
-                    <li><a href="#">Twitter</a></li>
-                    <li><a href="#">Google +</a></li>
-                    <li><a href="#">Instagram</a></li>
-                </ul>
-            </div>
-        </div>
-    </section>
+    <?php
+    include("includes/contact_form_side.php");
+    ?>
     <!--End Hidden Bar -->
 
     <!-- Bnner Section -->
@@ -82,8 +41,10 @@ include ("includes/navbar.php");
                     <li class="slide-item" style="background-image: url(images/main-slider/image-1.jpg);">
                         <div class="auto-container">
                             <div class="content-box">
-                                <h1>Luna Residencial</h1>
-                                <div class="text">Building with excellence and sophistication, <br> exceeding expectations.</div>
+                                <h1>Nirman Architecture & Development</h1>
+                                <div class="text">The great buildings that changed the world <br> all start with a
+                                    visionary
+                                </div>
                                 <div class="link-box">
                                     <a href="#" class="theme-btn btn-style-one">Our Service</a>
                                 </div>
@@ -95,8 +56,10 @@ include ("includes/navbar.php");
                     <li class="slide-item" style="background-image: url(images/main-slider/image-2.jpg);">
                         <div class="auto-container">
                             <div class="content-box">
-                                <h1>Luna Residencial</h1>
-                                <div class="text">Building with excellence and sophistication, <br> exceeding expectations.</div>
+                                <h1>Nirman Architecture & Development</h1>
+                                <div class="text">Take the opportunity to re-imagine, <br> how your space can serve its
+                                    purpose
+                                </div>
                                 <div class="link-box">
                                     <a href="#" class="theme-btn btn-style-one">Our Service</a>
                                 </div>
@@ -107,8 +70,10 @@ include ("includes/navbar.php");
                     <li class="slide-item" style="background-image: url(images/main-slider/image-5.jpg);">
                         <div class="auto-container">
                             <div class="content-box">
-                                <h1>Luna Residencial</h1>
-                                <div class="text">Building with excellence and sophistication, <br> exceeding expectations.</div>
+                                <h1>Nirman Architecture & Development</h1>
+                                <div class="text">Where else can you be inspired by the people, <br> who make world
+                                    class architecture happen?
+                                </div>
                                 <div class="link-box">
                                     <a href="#" class="theme-btn btn-style-one">Our Service</a>
                                 </div>
@@ -151,7 +116,8 @@ include ("includes/navbar.php");
                 <div class="image-column col-lg-6 col-md-12 col-sm-12">
                     <div class="inner-column">
                         <div class="image-box">
-                            <figure class="image wow fadeInLeft" data-wow-delay='600ms'><img src="images/resource/1.jpg" alt=""></figure>
+                            <figure class="image wow fadeInLeft" data-wow-delay='600ms'><img src="images/resource/1.jpg"
+                                                                                             alt=""></figure>
                         </div>
                     </div>
                 </div>
@@ -161,11 +127,18 @@ include ("includes/navbar.php");
                     <div class="inner-column wow fadeInLeft">
                         <div class="content-box">
                             <div class="sec-title">
-                                <h2 data-animation-child class="title-fill" data-animation="title-fill-anim" data-text="About Company">About Company</h2>
+                                <h2 data-animation-child class="title-fill" data-animation="title-fill-anim"
+                                    data-text="About Company">About Company</h2>
                             </div>
                             <h5>We create functional, beautiful interiors for our clients since 1987.</h5>
-                            <div class="text">When an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries. When an unknown printer took a galley of type and scrambled it to make a type specimen book. When an unknown printer took a galley of type and scrambled it to make a type specimen book.</div>
-                            <div class="link-box"><a href="about.html" class="theme-btn btn-style-three">Read More</a></div>
+                            <div class="text">When an unknown printer took a galley of type and scrambled it to make a
+                                type specimen book. It has survived not only five centuries. When an unknown printer
+                                took a galley of type and scrambled it to make a type specimen book. When an unknown
+                                printer took a galley of type and scrambled it to make a type specimen book.
+                            </div>
+                            <div class="link-box">
+                                <a href="#" class="theme-btn btn-style-one">Read More</a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -178,7 +151,7 @@ include ("includes/navbar.php");
     <section class="services-section" style="background-image: url(images/background/1.jpg);">
         <div class="auto-container">
             <div class="sec-title text-center">
-                <h2>Interior Service</h2>
+                <h2>Our Service</h2>
             </div>
             <div class="services-box row clearfix">
                 <div class="services-carousel owl-carousel owl-theme">
@@ -186,13 +159,14 @@ include ("includes/navbar.php");
                     <div class="service-block">
                         <div class="inner-box">
                             <div class="icon-box">
-                                <i class="flaticon-house-1"></i>
+                                <i class="flaticon-house"></i>
                             </div>
                             <div class="lower-content">
-                                <h3><a href="#">Plans and Projects</a></h3>
-                                <div class="text">Planning and zoning are important tools for communities in that they provide the opportunity to establish sound and efficient land use patterns.</div>
-                                <div class="link-box">
-                                    <a href="#">Read More</a>
+                                <h3><a href="#">Architectural Design</a></h3>
+                                <div class="text">Architectural design is primarily concerned with functionality. A
+                                    building has to meet the needs of the person or people using it. Safety is also a
+                                    primary concern; a new building needs to be structurally sound, designed to
+                                    withstand the test of time and built in-line with current building regulations.
                                 </div>
                             </div>
                         </div>
@@ -202,13 +176,14 @@ include ("includes/navbar.php");
                     <div class="service-block">
                         <div class="inner-box">
                             <div class="icon-box">
-                                <i class="flaticon-house"></i>
+                                <i class="flaticon-office-building"></i>
                             </div>
                             <div class="lower-content">
-                                <h3><a href="#">Conceptual Architecture</a></h3>
-                                <div class="text">Planning and zoning are important tools for communities in that they provide the opportunity to establish sound and efficient land use patterns.</div>
-                                <div class="link-box">
-                                    <a href="#">Read More</a>
+                                <h3><a href="#">Master Plan</a></h3>
+                                <div class="text">A master plan includes analysis, recommendations, and proposals for a
+                                    site's population, economy, housing, transportation, community facilities, and land
+                                    use. It is based on public input, surveys, planning initiatives, existing
+                                    development, physical characteristics, and social and economic conditions.
                                 </div>
                             </div>
                         </div>
@@ -221,10 +196,61 @@ include ("includes/navbar.php");
                                 <i class="flaticon-town"></i>
                             </div>
                             <div class="lower-content">
-                                <h3><a href="#">Apartment Buildings</a></h3>
-                                <div class="text">Planning and zoning are important tools for communities in that they provide the opportunity to establish sound and efficient land use patterns.</div>
-                                <div class="link-box">
-                                    <a href="#">Read More</a>
+                                <h3><a href="#">Engineering Design</a></h3>
+                                <div class="text">Engineering design is the method of identification and solving
+                                    engineering problems. Engineering design can have different forms, but they all
+                                    include a common attribute: any type of engineering design is a process. The main
+                                    types of engineering design are: Original design, sometimes called innovative
+                                    design.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Service Block -->
+                    <div class="service-block">
+                        <div class="inner-box">
+                            <div class="icon-box">
+                                <i class="flaticon-town-1"></i>
+                            </div>
+                            <div class="lower-content">
+                                <h3><a href="#">Construction</a></h3>
+                                <div class="text">The definition of construction is the process of making something, the
+                                    occupation of building or the way that something is put together. An example of
+                                    construction is the creating and decorating of a new ice cream shoppe in a store
+                                    that previously was a shoe store.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Service Block -->
+                    <div class="service-block">
+                        <div class="inner-box">
+                            <div class="icon-box">
+                                <i class="flaticon-town-2"></i>
+                            </div>
+                            <div class="lower-content">
+                                <h3><a href="#">Interior Design</a></h3>
+                                <div class="text">The art or practice of planning and supervising the design and
+                                    execution of architectural interiors and their furnishings.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Service Block -->
+                    <div class="service-block">
+                        <div class="inner-box">
+                            <div class="icon-box">
+                                <i class="flaticon-urban"></i>
+                            </div>
+                            <div class="lower-content">
+                                <h3><a href="#">Conceptual Architecture</a></h3>
+                                <div class="text">Conceptual design takes the clients imaginary space and creates a
+                                    beautiful structure based on the information provided to the architect. It is an
+                                    essential part of the architectural process in which the homeowner should share
+                                    their personal needs and wants.
                                 </div>
                             </div>
                         </div>
@@ -237,90 +263,11 @@ include ("includes/navbar.php");
                                 <i class="flaticon-house-1"></i>
                             </div>
                             <div class="lower-content">
-                                <h3><a href="#">Plans and Projects</a></h3>
-                                <div class="text">Planning and zoning are important tools for communities in that they provide the opportunity to establish sound and efficient land use patterns.</div>
-                                <div class="link-box">
-                                    <a href="#">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Service Block -->
-                    <div class="service-block">
-                        <div class="inner-box">
-                            <div class="icon-box">
-                                <i class="flaticon-house"></i>
-                            </div>
-                            <div class="lower-content">
-                                <h3><a href="#">Conceptual Architecture</a></h3>
-                                <div class="text">Planning and zoning are important tools for communities in that they provide the opportunity to establish sound and efficient land use patterns.</div>
-                                <div class="link-box">
-                                    <a href="#">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Service Block -->
-                    <div class="service-block">
-                        <div class="inner-box">
-                            <div class="icon-box">
-                                <i class="flaticon-town"></i>
-                            </div>
-                            <div class="lower-content">
                                 <h3><a href="#">Apartment Buildings</a></h3>
-                                <div class="text">Planning and zoning are important tools for communities in that they provide the opportunity to establish sound and efficient land use patterns.</div>
-                                <div class="link-box">
-                                    <a href="#">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Service Block -->
-                    <div class="service-block">
-                        <div class="inner-box">
-                            <div class="icon-box">
-                                <i class="flaticon-house-1"></i>
-                            </div>
-                            <div class="lower-content">
-                                <h3><a href="#">Plans and Projects</a></h3>
-                                <div class="text">Planning and zoning are important tools for communities in that they provide the opportunity to establish sound and efficient land use patterns.</div>
-                                <div class="link-box">
-                                    <a href="#">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Service Block -->
-                    <div class="service-block">
-                        <div class="inner-box">
-                            <div class="icon-box">
-                                <i class="flaticon-house"></i>
-                            </div>
-                            <div class="lower-content">
-                                <h3><a href="#">Conceptual Architecture</a></h3>
-                                <div class="text">Planning and zoning are important tools for communities in that they provide the opportunity to establish sound and efficient land use patterns.</div>
-                                <div class="link-box">
-                                    <a href="#">Read More</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Service Block -->
-                    <div class="service-block">
-                        <div class="inner-box">
-                            <div class="icon-box">
-                                <i class="flaticon-town"></i>
-                            </div>
-                            <div class="lower-content">
-                                <h3><a href="#">Apartment Buildings</a></h3>
-                                <div class="text">Planning and zoning are important tools for communities in that they provide the opportunity to establish sound and efficient land use patterns.</div>
-                                <div class="link-box">
-                                    <a href="#">Read More</a>
+                                <div class="text">An apartment building is a “building containing more than one dwelling
+                                    unit. Apartment buildings are those structures containing three or more living units
+                                    with independent cooking and bathroom facilities, whether designated as apartment
+                                    houses, condominiums, or garden apartments.
                                 </div>
                             </div>
                         </div>
@@ -331,32 +278,52 @@ include ("includes/navbar.php");
     </section>
     <!--End Services Section -->
 
-    <!--Fluid Section One Section -->
-    <section class="fluid-section-one">
-        <div class="container-fluid clearfix">
-            <!--Content Column-->
-            <div class="content-column">
-                <div class="inner-column">
-                    <div class="row clearfix">
-                        <!-- Service Block -->
-                        <div class="text-column">
-                            <div class="inner-box">
-                                <h4>Design, followed by Form & Function. Our core values allow us to innovate & push foward.</h4>
-                                <div class="text">UNIQUE PERSPECTIVE.</div>
+    <!-- Services Section -->
+    <section class="services-section style-two" style="background-image: url(images/background/9.jpg);">
+        <div class="auto-container">
+            <div class="services-box row clearfix">
+                <div class="services-carousel-two owl-carousel owl-theme">
+                    <!-- Service Block -->
+                    <div class="service-block">
+                        <div class="inner-box">
+                            <div class="lower-content">
+                                <h3><a href="#">Perfect Design</a></h3>
+                                <div class="text">A wonderful serenity has taken possession of my entire soul, like
+                                    these sweet mornings of spring which.
+                                </div>
                             </div>
+                            <div class="number-slide">01</div>
+                        </div>
+                    </div>
+                    <!-- Service Block -->
+                    <div class="service-block">
+                        <div class="inner-box">
+                            <div class="lower-content">
+                                <h3><a href="#">Carefully Planned</a></h3>
+                                <div class="text">A wonderful serenity has taken possession of my entire soul, like
+                                    these sweet mornings of spring which.
+                                </div>
+                            </div>
+                            <div class="number-slide">02</div>
+                        </div>
+                    </div>
+                    <!-- Service Block -->
+                    <div class="service-block">
+                        <div class="inner-box">
+                            <div class="lower-content">
+                                <h3><a href="#">Smartly Execute</a></h3>
+                                <div class="text">A wonderful serenity has taken possession of my entire soul, like
+                                    these sweet mornings of spring which.
+                                </div>
+                            </div>
+                            <div class="number-slide">03</div>
                         </div>
                     </div>
                 </div>
             </div>
-
-            <!--Image Column-->
-            <div class="image-column wow fadeInRight animated" style="background-image: url(_images/resource/2.html); visibility: visible; animation-name: fadeInRight;">
-                <figure class="image-box"><img src="images/resource/2.jpg" alt=""></figure>
-                <div class="video-link"><a href="https://www.youtube.com/watch?v=Fvae8nxzVz4" class="link" data-fancybox="gallery" data-caption=""> <span class="fa fa-play"></span></a></div>
-            </div>
         </div>
     </section>
-    <!--End Fluid Section One Section -->
+
 
     <!--Project Section-->
     <section class="project-section">
@@ -376,7 +343,7 @@ include ("includes/navbar.php");
                                         <li class="p-tab-btn" data-tab="#p-tab-2">Commercial</li>
                                         <li class="p-tab-btn" data-tab="#p-tab-3">Hospitality</li>
                                         <li class="p-tab-btn" data-tab="#p-tab-4">Interior Design</li>
-                                        <li class="p-tab-btn" data-tab="#p-tab-5">Residential </li>
+                                        <li class="p-tab-btn" data-tab="#p-tab-5">Residential</li>
                                     </ul>
                                 </div>
                             </div>
@@ -390,7 +357,8 @@ include ("includes/navbar.php");
                             <h3>Buritis Belo Horizonte</h3>
                             <h6>Cayler Offices</h6>
                             <div class="link-box"><a href="#" class="theme-btn btn-style-three">Read More</a></div>
-                            <div class="more-project"><a href="portfolio.html">View All Projects <i class="fa fa-arrows-alt"></i></a></div>
+                            <div class="more-project"><a href="portfolio.html">View All Projects <i
+                                            class="fa fa-arrows-alt"></i></a></div>
                         </div>
                     </div>
                 </div>
@@ -409,12 +377,15 @@ include ("includes/navbar.php");
                                     <div class="project-block">
                                         <div class="inner-box">
                                             <div class="image">
-                                                <img src="images/gallery/1.jpg" alt="" />
+                                                <img src="images/gallery/1.jpg" alt=""/>
                                                 <!--Overlay Two-->
                                                 <div class="overlay-box">
                                                     <div class="overlay-inner">
                                                         <div class="overlay-content">
-                                                            <a href="images/gallery/1.jpg" class="see-more lightbox-image" data-fancybox="gallery"><span class="flaticon-add"></span></a>
+                                                            <a href="images/gallery/1.jpg"
+                                                               class="see-more lightbox-image"
+                                                               data-fancybox="gallery"><span
+                                                                        class="flaticon-add"></span></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -426,12 +397,15 @@ include ("includes/navbar.php");
                                     <div class="project-block">
                                         <div class="inner-box">
                                             <div class="image">
-                                                <img src="images/gallery/2.jpg" alt="" />
-                                                 <!--Overlay Two-->
+                                                <img src="images/gallery/2.jpg" alt=""/>
+                                                <!--Overlay Two-->
                                                 <div class="overlay-box">
                                                     <div class="overlay-inner">
                                                         <div class="overlay-content">
-                                                            <a href="images/gallery/2.jpg" class="see-more lightbox-image" data-fancybox="gallery"><span class="flaticon-add"></span></a>
+                                                            <a href="images/gallery/2.jpg"
+                                                               class="see-more lightbox-image"
+                                                               data-fancybox="gallery"><span
+                                                                        class="flaticon-add"></span></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -443,12 +417,15 @@ include ("includes/navbar.php");
                                     <div class="project-block">
                                         <div class="inner-box">
                                             <div class="image">
-                                                <img src="images/gallery/3.jpg" alt="" />
-                                                 <!--Overlay Two-->
+                                                <img src="images/gallery/3.jpg" alt=""/>
+                                                <!--Overlay Two-->
                                                 <div class="overlay-box">
                                                     <div class="overlay-inner">
                                                         <div class="overlay-content">
-                                                            <a href="images/gallery/3.jpg" class="see-more lightbox-image" data-fancybox="gallery"><span class="flaticon-add"></span></a>
+                                                            <a href="images/gallery/3.jpg"
+                                                               class="see-more lightbox-image"
+                                                               data-fancybox="gallery"><span
+                                                                        class="flaticon-add"></span></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -467,12 +444,15 @@ include ("includes/navbar.php");
                                     <div class="project-block">
                                         <div class="inner-box">
                                             <div class="image">
-                                                <img src="images/gallery/1.jpg" alt="" />
+                                                <img src="images/gallery/1.jpg" alt=""/>
                                                 <!--Overlay Two-->
                                                 <div class="overlay-box">
                                                     <div class="overlay-inner">
                                                         <div class="overlay-content">
-                                                            <a href="images/gallery/1.jpg" class="see-more lightbox-image" data-fancybox="gallery"><span class="flaticon-add"></span></a>
+                                                            <a href="images/gallery/1.jpg"
+                                                               class="see-more lightbox-image"
+                                                               data-fancybox="gallery"><span
+                                                                        class="flaticon-add"></span></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -484,12 +464,15 @@ include ("includes/navbar.php");
                                     <div class="project-block">
                                         <div class="inner-box">
                                             <div class="image">
-                                                <img src="images/gallery/2.jpg" alt="" />
-                                                 <!--Overlay Two-->
+                                                <img src="images/gallery/2.jpg" alt=""/>
+                                                <!--Overlay Two-->
                                                 <div class="overlay-box">
                                                     <div class="overlay-inner">
                                                         <div class="overlay-content">
-                                                            <a href="images/gallery/2.jpg" class="see-more lightbox-image" data-fancybox="gallery"><span class="flaticon-add"></span></a>
+                                                            <a href="images/gallery/2.jpg"
+                                                               class="see-more lightbox-image"
+                                                               data-fancybox="gallery"><span
+                                                                        class="flaticon-add"></span></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -501,12 +484,15 @@ include ("includes/navbar.php");
                                     <div class="project-block">
                                         <div class="inner-box">
                                             <div class="image">
-                                                <img src="images/gallery/3.jpg" alt="" />
-                                                 <!--Overlay Two-->
+                                                <img src="images/gallery/3.jpg" alt=""/>
+                                                <!--Overlay Two-->
                                                 <div class="overlay-box">
                                                     <div class="overlay-inner">
                                                         <div class="overlay-content">
-                                                            <a href="images/gallery/3.jpg" class="see-more lightbox-image" data-fancybox="gallery"><span class="flaticon-add"></span></a>
+                                                            <a href="images/gallery/3.jpg"
+                                                               class="see-more lightbox-image"
+                                                               data-fancybox="gallery"><span
+                                                                        class="flaticon-add"></span></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -525,12 +511,15 @@ include ("includes/navbar.php");
                                     <div class="project-block">
                                         <div class="inner-box">
                                             <div class="image">
-                                                <img src="images/gallery/1.jpg" alt="" />
+                                                <img src="images/gallery/1.jpg" alt=""/>
                                                 <!--Overlay Two-->
                                                 <div class="overlay-box">
                                                     <div class="overlay-inner">
                                                         <div class="overlay-content">
-                                                            <a href="images/gallery/1.jpg" class="see-more lightbox-image" data-fancybox="gallery"><span class="flaticon-add"></span></a>
+                                                            <a href="images/gallery/1.jpg"
+                                                               class="see-more lightbox-image"
+                                                               data-fancybox="gallery"><span
+                                                                        class="flaticon-add"></span></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -542,12 +531,15 @@ include ("includes/navbar.php");
                                     <div class="project-block">
                                         <div class="inner-box">
                                             <div class="image">
-                                                <img src="images/gallery/2.jpg" alt="" />
-                                                 <!--Overlay Two-->
+                                                <img src="images/gallery/2.jpg" alt=""/>
+                                                <!--Overlay Two-->
                                                 <div class="overlay-box">
                                                     <div class="overlay-inner">
                                                         <div class="overlay-content">
-                                                            <a href="images/gallery/2.jpg" class="see-more lightbox-image" data-fancybox="gallery"><span class="flaticon-add"></span></a>
+                                                            <a href="images/gallery/2.jpg"
+                                                               class="see-more lightbox-image"
+                                                               data-fancybox="gallery"><span
+                                                                        class="flaticon-add"></span></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -559,12 +551,15 @@ include ("includes/navbar.php");
                                     <div class="project-block">
                                         <div class="inner-box">
                                             <div class="image">
-                                                <img src="images/gallery/3.jpg" alt="" />
-                                                 <!--Overlay Two-->
+                                                <img src="images/gallery/3.jpg" alt=""/>
+                                                <!--Overlay Two-->
                                                 <div class="overlay-box">
                                                     <div class="overlay-inner">
                                                         <div class="overlay-content">
-                                                            <a href="images/gallery/3.jpg" class="see-more lightbox-image" data-fancybox="gallery"><span class="flaticon-add"></span></a>
+                                                            <a href="images/gallery/3.jpg"
+                                                               class="see-more lightbox-image"
+                                                               data-fancybox="gallery"><span
+                                                                        class="flaticon-add"></span></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -575,7 +570,7 @@ include ("includes/navbar.php");
                                 </div>
                             </div>
 
-                           <!--Portfolio Tab / Active Tab-->
+                            <!--Portfolio Tab / Active Tab-->
                             <div class="p-tab" id="p-tab-4">
                                 <div class="projects-carousel owl-theme owl-carousel">
 
@@ -583,12 +578,15 @@ include ("includes/navbar.php");
                                     <div class="project-block">
                                         <div class="inner-box">
                                             <div class="image">
-                                                <img src="images/gallery/1.jpg" alt="" />
+                                                <img src="images/gallery/1.jpg" alt=""/>
                                                 <!--Overlay Two-->
                                                 <div class="overlay-box">
                                                     <div class="overlay-inner">
                                                         <div class="overlay-content">
-                                                            <a href="images/gallery/1.jpg" class="see-more lightbox-image" data-fancybox="gallery"><span class="flaticon-add"></span></a>
+                                                            <a href="images/gallery/1.jpg"
+                                                               class="see-more lightbox-image"
+                                                               data-fancybox="gallery"><span
+                                                                        class="flaticon-add"></span></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -600,12 +598,15 @@ include ("includes/navbar.php");
                                     <div class="project-block">
                                         <div class="inner-box">
                                             <div class="image">
-                                                <img src="images/gallery/2.jpg" alt="" />
-                                                 <!--Overlay Two-->
+                                                <img src="images/gallery/2.jpg" alt=""/>
+                                                <!--Overlay Two-->
                                                 <div class="overlay-box">
                                                     <div class="overlay-inner">
                                                         <div class="overlay-content">
-                                                            <a href="images/gallery/2.jpg" class="see-more lightbox-image" data-fancybox="gallery"><span class="flaticon-add"></span></a>
+                                                            <a href="images/gallery/2.jpg"
+                                                               class="see-more lightbox-image"
+                                                               data-fancybox="gallery"><span
+                                                                        class="flaticon-add"></span></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -617,12 +618,15 @@ include ("includes/navbar.php");
                                     <div class="project-block">
                                         <div class="inner-box">
                                             <div class="image">
-                                                <img src="images/gallery/3.jpg" alt="" />
-                                                 <!--Overlay Two-->
+                                                <img src="images/gallery/3.jpg" alt=""/>
+                                                <!--Overlay Two-->
                                                 <div class="overlay-box">
                                                     <div class="overlay-inner">
                                                         <div class="overlay-content">
-                                                            <a href="images/gallery/3.jpg" class="see-more lightbox-image" data-fancybox="gallery"><span class="flaticon-add"></span></a>
+                                                            <a href="images/gallery/3.jpg"
+                                                               class="see-more lightbox-image"
+                                                               data-fancybox="gallery"><span
+                                                                        class="flaticon-add"></span></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -641,12 +645,15 @@ include ("includes/navbar.php");
                                     <div class="project-block">
                                         <div class="inner-box">
                                             <div class="image">
-                                                <img src="images/gallery/1.jpg" alt="" />
+                                                <img src="images/gallery/1.jpg" alt=""/>
                                                 <!--Overlay Two-->
                                                 <div class="overlay-box">
                                                     <div class="overlay-inner">
                                                         <div class="overlay-content">
-                                                            <a href="images/gallery/1.jpg" class="see-more lightbox-image" data-fancybox="gallery"><span class="flaticon-add"></span></a>
+                                                            <a href="images/gallery/1.jpg"
+                                                               class="see-more lightbox-image"
+                                                               data-fancybox="gallery"><span
+                                                                        class="flaticon-add"></span></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -658,12 +665,15 @@ include ("includes/navbar.php");
                                     <div class="project-block">
                                         <div class="inner-box">
                                             <div class="image">
-                                                <img src="images/gallery/2.jpg" alt="" />
-                                                 <!--Overlay Two-->
+                                                <img src="images/gallery/2.jpg" alt=""/>
+                                                <!--Overlay Two-->
                                                 <div class="overlay-box">
                                                     <div class="overlay-inner">
                                                         <div class="overlay-content">
-                                                            <a href="images/gallery/2.jpg" class="see-more lightbox-image" data-fancybox="gallery"><span class="flaticon-add"></span></a>
+                                                            <a href="images/gallery/2.jpg"
+                                                               class="see-more lightbox-image"
+                                                               data-fancybox="gallery"><span
+                                                                        class="flaticon-add"></span></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -675,12 +685,15 @@ include ("includes/navbar.php");
                                     <div class="project-block">
                                         <div class="inner-box">
                                             <div class="image">
-                                                <img src="images/gallery/3.jpg" alt="" />
-                                                 <!--Overlay Two-->
+                                                <img src="images/gallery/3.jpg" alt=""/>
+                                                <!--Overlay Two-->
                                                 <div class="overlay-box">
                                                     <div class="overlay-inner">
                                                         <div class="overlay-content">
-                                                            <a href="images/gallery/3.jpg" class="see-more lightbox-image" data-fancybox="gallery"><span class="flaticon-add"></span></a>
+                                                            <a href="images/gallery/3.jpg"
+                                                               class="see-more lightbox-image"
+                                                               data-fancybox="gallery"><span
+                                                                        class="flaticon-add"></span></a>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -697,121 +710,6 @@ include ("includes/navbar.php");
             </div>
         </div>
     </section>
-
-    <!--testimonial Section -->
-    <section class="testimonial-section">
-        <div class="outer-container clearfix">
-            <div class="testmonial-outer">
-                <!--Image Column-->
-                <div class="image-column wow fadeInLeft animated" style="background-image: url(_images/background/7.html); visibility: visible; animation-name: fadeInLeft;">
-                    <figure class="image-box"><img src="images/background/7.jpg" alt=""></figure>
-                </div>
-
-                <!--Image Column-->
-                <div class="image-column-two wow fadeInRight animated" style="background-image: url(_images/background/6.html); visibility: visible; animation-name: fadeInRight;">
-                    <figure class="image-box"><img src="images/background/6.jpg" alt=""></figure>
-                </div>
-        </div>
-
-                <!-- Testimonial Column -->
-                <div class="auto-container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="testimonial-column clearfix">
-                                <div class="inner-column">
-                                    <div class="sec-title text-left">
-                                        <h2>Clients Testimonials</h2>
-                                    </div>
-                                    <div class="testimonial-carousel owl-carousel owl-theme">
-                                        <!-- Testimonial Block -->
-                                        <div class="testimonial-block">
-                                            <div class="inner-box">
-                                                <div class="text">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of me.
-                                                </div>
-
-                                                <div class="info-box">
-                                                    <div class="image-box"><img src="images/resource/6.jpg" alt=""></div>
-                                                    <div class="text-box">
-                                                        <h5 class="name">Jane Smith</h5>
-                                                        <span class="designation">CEO, InDesign</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <!-- Testimonial Block -->
-                                        <div class="testimonial-block">
-                                            <div class="inner-box">
-                                                <div class="text">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of me.
-                                                </div>
-
-                                                <div class="info-box">
-                                                    <div class="image-box"><img src="images/resource/6.jpg" alt=""></div>
-                                                    <div class="text-box">
-                                                        <h5 class="name">Jane Smith</h5>
-                                                        <span class="designation">CEO, InDesign</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <!-- Testimonial Block -->
-                                        <div class="testimonial-block">
-                                            <div class="inner-box">
-                                                <div class="text">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of me.
-                                                </div>
-
-                                                <div class="info-box">
-                                                    <div class="image-box"><img src="images/resource/6.jpg" alt=""></div>
-                                                    <div class="text-box">
-                                                        <h5 class="name">Jane Smith</h5>
-                                                        <span class="designation">CEO, InDesign</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <!-- Testimonial Block -->
-                                        <div class="testimonial-block">
-                                            <div class="inner-box">
-                                                <div class="text">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of me.
-                                                </div>
-
-                                                <div class="info-box">
-                                                    <div class="image-box"><img src="images/resource/6.jpg" alt=""></div>
-                                                    <div class="text-box">
-                                                        <h5 class="name">Jane Smith</h5>
-                                                        <span class="designation">CEO, InDesign</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        <!-- Testimonial Block -->
-                                        <div class="testimonial-block">
-                                            <div class="inner-box">
-                                                <div class="text">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of me.
-                                                </div>
-
-                                                <div class="info-box">
-                                                    <div class="image-box"><img src="images/resource/6.jpg" alt=""></div>
-                                                    <div class="text-box">
-                                                        <h5 class="name">Jane Smith</h5>
-                                                        <span class="designation">CEO, InDesign</span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-    </section>
-    <!--End testimonial Section -->
 
     <!-- Team Section -->
     <section class="team-section">
@@ -907,63 +805,15 @@ include ("includes/navbar.php");
     </section>
     <!--End Team Section -->
 
-    <!-- Services Section -->
-    <section class="services-section style-two" style="background-image: url(images/background/9.jpg);">
-        <div class="auto-container">
-            <div class="services-box row clearfix">
-                <div class="services-carousel-two owl-carousel owl-theme">
-                    <!-- Service Block -->
-                    <div class="service-block">
-                        <div class="inner-box">
-                            <div class="lower-content">
-                                <h3><a href="#">Perfect Design</a></h3>
-                                <div class="text">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which.</div>
-                                <div class="link-box">
-                                    <a href="#">Read More <i class="fa fa-angle-double-right"></i></a>
-                                </div>
-                            </div>
-                            <div class="number-slide">01</div>
-                        </div>
-                    </div>
-                    <!-- Service Block -->
-                    <div class="service-block">
-                        <div class="inner-box">
-                            <div class="lower-content">
-                                <h3><a href="#">Carefully Planned</a></h3>
-                                <div class="text">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which.</div>
-                                <div class="link-box">
-                                    <a href="#">Read More <i class="fa fa-angle-double-right"></i></a>
-                                </div>
-                            </div>
-                            <div class="number-slide">02</div>
-                        </div>
-                    </div>
-                    <!-- Service Block -->
-                    <div class="service-block">
-                        <div class="inner-box">
-                            <div class="lower-content">
-                                <h3><a href="#">Smartly Execute</a></h3>
-                                <div class="text">A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which.</div>
-                                <div class="link-box">
-                                    <a href="#">Read More <i class="fa fa-angle-double-right"></i></a>
-                                </div>
-                            </div>
-                            <div class="number-slide">03</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
     <!--Skill Section -->
     <section class="skill-section">
         <div class="auto-container">
             <div class="row">
                 <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12">
                     <div class="inner-column">
-                        <div class="image-column wow fadeInLeft animated" style="visibility: visible; animation-name: fadeInUp;">
-                        <figure class="image-box"><img src="images/resource/11.jpg" alt=""></figure>
+                        <div class="image-column wow fadeInLeft animated"
+                             style="visibility: visible; animation-name: fadeInUp;">
+                            <figure class="image-box"><img src="images/resource/11.jpg" alt=""></figure>
                         </div>
                     </div>
                 </div>
@@ -981,7 +831,11 @@ include ("includes/navbar.php");
                                     <div class="box-title">Interior Design</div>
                                     <div class="inner">
                                         <div class="bar">
-                                            <div class="bar-innner"><div class="bar-fill" data-percent="85"><div class="percent"></div></div></div>
+                                            <div class="bar-innner">
+                                                <div class="bar-fill" data-percent="85">
+                                                    <div class="percent"></div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -991,7 +845,11 @@ include ("includes/navbar.php");
                                     <div class="box-title">AutoCAD</div>
                                     <div class="inner">
                                         <div class="bar">
-                                            <div class="bar-innner"><div class="bar-fill" data-percent="75"><div class="percent"></div></div></div>
+                                            <div class="bar-innner">
+                                                <div class="bar-fill" data-percent="75">
+                                                    <div class="percent"></div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -1001,7 +859,11 @@ include ("includes/navbar.php");
                                     <div class="box-title">Lighting</div>
                                     <div class="inner">
                                         <div class="bar">
-                                            <div class="bar-innner"><div class="bar-fill" data-percent="95"><div class="percent"></div></div></div>
+                                            <div class="bar-innner">
+                                                <div class="bar-fill" data-percent="95">
+                                                    <div class="percent"></div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -1011,7 +873,11 @@ include ("includes/navbar.php");
                                     <div class="box-title">3D Skills</div>
                                     <div class="inner">
                                         <div class="bar">
-                                            <div class="bar-innner"><div class="bar-fill" data-percent="82"><div class="percent"></div></div></div>
+                                            <div class="bar-innner">
+                                                <div class="bar-fill" data-percent="82">
+                                                    <div class="percent"></div>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -1024,6 +890,144 @@ include ("includes/navbar.php");
         </div>
     </section>
     <!--End testimonial Section -->
+
+    <!--testimonial Section -->
+    <section class="testimonial-section">
+        <div class="outer-container clearfix">
+            <div class="testmonial-outer">
+                <!--Image Column-->
+                <div class="image-column wow fadeInLeft animated"
+                     style="background-image: url(_images/background/7.html); visibility: visible; animation-name: fadeInLeft;">
+                    <figure class="image-box"><img src="images/background/7.jpg" alt=""></figure>
+                </div>
+
+                <!--Image Column-->
+                <div class="image-column-two wow fadeInRight animated"
+                     style="background-image: url(_images/background/6.html); visibility: visible; animation-name: fadeInRight;">
+                    <figure class="image-box"><img src="images/background/6.jpg" alt=""></figure>
+                </div>
+            </div>
+
+            <!-- Testimonial Column -->
+            <div class="auto-container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="testimonial-column clearfix">
+                            <div class="inner-column">
+                                <div class="sec-title text-left">
+                                    <h2>Clients Testimonials</h2>
+                                </div>
+                                <div class="testimonial-carousel owl-carousel owl-theme">
+                                    <!-- Testimonial Block -->
+                                    <div class="testimonial-block">
+                                        <div class="inner-box">
+                                            <div class="text">A wonderful serenity has taken possession of my entire
+                                                soul, like these sweet mornings of spring which I enjoy with my whole
+                                                heart. I am alone, and feel the charm of existence in this spot, which
+                                                was created for the bliss of souls like mine. I am so happy, my dear
+                                                friend, so absorbed in the exquisite sense of me.
+                                            </div>
+
+                                            <div class="info-box">
+                                                <div class="image-box"><img src="images/resource/6.jpg" alt=""></div>
+                                                <div class="text-box">
+                                                    <h5 class="name">Jane Smith</h5>
+                                                    <span class="designation">CEO, InDesign</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Testimonial Block -->
+                                    <div class="testimonial-block">
+                                        <div class="inner-box">
+                                            <div class="text">A wonderful serenity has taken possession of my entire
+                                                soul, like these sweet mornings of spring which I enjoy with my whole
+                                                heart. I am alone, and feel the charm of existence in this spot, which
+                                                was created for the bliss of souls like mine. I am so happy, my dear
+                                                friend, so absorbed in the exquisite sense of me.
+                                            </div>
+
+                                            <div class="info-box">
+                                                <div class="image-box"><img src="images/resource/6.jpg" alt=""></div>
+                                                <div class="text-box">
+                                                    <h5 class="name">Jane Smith</h5>
+                                                    <span class="designation">CEO, InDesign</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Testimonial Block -->
+                                    <div class="testimonial-block">
+                                        <div class="inner-box">
+                                            <div class="text">A wonderful serenity has taken possession of my entire
+                                                soul, like these sweet mornings of spring which I enjoy with my whole
+                                                heart. I am alone, and feel the charm of existence in this spot, which
+                                                was created for the bliss of souls like mine. I am so happy, my dear
+                                                friend, so absorbed in the exquisite sense of me.
+                                            </div>
+
+                                            <div class="info-box">
+                                                <div class="image-box"><img src="images/resource/6.jpg" alt=""></div>
+                                                <div class="text-box">
+                                                    <h5 class="name">Jane Smith</h5>
+                                                    <span class="designation">CEO, InDesign</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Testimonial Block -->
+                                    <div class="testimonial-block">
+                                        <div class="inner-box">
+                                            <div class="text">A wonderful serenity has taken possession of my entire
+                                                soul, like these sweet mornings of spring which I enjoy with my whole
+                                                heart. I am alone, and feel the charm of existence in this spot, which
+                                                was created for the bliss of souls like mine. I am so happy, my dear
+                                                friend, so absorbed in the exquisite sense of me.
+                                            </div>
+
+                                            <div class="info-box">
+                                                <div class="image-box"><img src="images/resource/6.jpg" alt=""></div>
+                                                <div class="text-box">
+                                                    <h5 class="name">Jane Smith</h5>
+                                                    <span class="designation">CEO, InDesign</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Testimonial Block -->
+                                    <div class="testimonial-block">
+                                        <div class="inner-box">
+                                            <div class="text">A wonderful serenity has taken possession of my entire
+                                                soul, like these sweet mornings of spring which I enjoy with my whole
+                                                heart. I am alone, and feel the charm of existence in this spot, which
+                                                was created for the bliss of souls like mine. I am so happy, my dear
+                                                friend, so absorbed in the exquisite sense of me.
+                                            </div>
+
+                                            <div class="info-box">
+                                                <div class="image-box"><img src="images/resource/6.jpg" alt=""></div>
+                                                <div class="text-box">
+                                                    <h5 class="name">Jane Smith</h5>
+                                                    <span class="designation">CEO, InDesign</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!--End testimonial Section -->
+
 
     <!-- News Section -->
     <section class="news-section">
@@ -1046,7 +1050,8 @@ include ("includes/navbar.php");
                                     <li><i class="far fa-user"></i>admin</li>
                                     <li><i class="far fa-comments"></i>Comment 03</li>
                                 </ul>
-                                <h3><a href="blog-detail.html">In Good Taste: Mark Finlay Architects & Interiors</a></h3>
+                                <h3><a href="blog-detail.html">In Good Taste: Mark Finlay Architects & Interiors</a>
+                                </h3>
                             </div>
                         </div>
                     </div>
@@ -1064,7 +1069,8 @@ include ("includes/navbar.php");
                                     <li><i class="far fa-user"></i>admin</li>
                                     <li><i class="far fa-comments"></i>Comment 03</li>
                                 </ul>
-                                <h3><a href="blog-detail.html">In Good Taste: Mark Finlay Architects & Interiors</a></h3>
+                                <h3><a href="blog-detail.html">In Good Taste: Mark Finlay Architects & Interiors</a>
+                                </h3>
                             </div>
                         </div>
                     </div>
@@ -1099,152 +1105,50 @@ include ("includes/navbar.php");
             <div class="sponsors-outer">
                 <!--Sponsors Carousel-->
                 <ul class="sponsors-carousel owl-carousel owl-theme">
-                    <li class="slide-item"><figure class="image-box"><a href="#"><img src="images/clients/1.png" alt=""></a></figure></li>
-                    <li class="slide-item"><figure class="image-box"><a href="#"><img src="images/clients/2.png" alt=""></a></figure></li>
-                    <li class="slide-item"><figure class="image-box"><a href="#"><img src="images/clients/3.png" alt=""></a></figure></li>
-                    <li class="slide-item"><figure class="image-box"><a href="#"><img src="images/clients/4.png" alt=""></a></figure></li>
-                    <li class="slide-item"><figure class="image-box"><a href="#"><img src="images/clients/5.png" alt=""></a></figure></li>
-                    <li class="slide-item"><figure class="image-box"><a href="#"><img src="images/clients/1.png" alt=""></a></figure></li>
-                    <li class="slide-item"><figure class="image-box"><a href="#"><img src="images/clients/2.png" alt=""></a></figure></li>
-                    <li class="slide-item"><figure class="image-box"><a href="#"><img src="images/clients/3.png" alt=""></a></figure></li>
-                    <li class="slide-item"><figure class="image-box"><a href="#"><img src="images/clients/4.png" alt=""></a></figure></li>
-                    <li class="slide-item"><figure class="image-box"><a href="#"><img src="images/clients/5.png" alt=""></a></figure></li>
+                    <li class="slide-item">
+                        <figure class="image-box"><a href="#"><img src="images/clients/1.png" alt=""></a></figure>
+                    </li>
+                    <li class="slide-item">
+                        <figure class="image-box"><a href="#"><img src="images/clients/2.png" alt=""></a></figure>
+                    </li>
+                    <li class="slide-item">
+                        <figure class="image-box"><a href="#"><img src="images/clients/3.png" alt=""></a></figure>
+                    </li>
+                    <li class="slide-item">
+                        <figure class="image-box"><a href="#"><img src="images/clients/4.png" alt=""></a></figure>
+                    </li>
+                    <li class="slide-item">
+                        <figure class="image-box"><a href="#"><img src="images/clients/5.png" alt=""></a></figure>
+                    </li>
+                    <li class="slide-item">
+                        <figure class="image-box"><a href="#"><img src="images/clients/1.png" alt=""></a></figure>
+                    </li>
+                    <li class="slide-item">
+                        <figure class="image-box"><a href="#"><img src="images/clients/2.png" alt=""></a></figure>
+                    </li>
+                    <li class="slide-item">
+                        <figure class="image-box"><a href="#"><img src="images/clients/3.png" alt=""></a></figure>
+                    </li>
+                    <li class="slide-item">
+                        <figure class="image-box"><a href="#"><img src="images/clients/4.png" alt=""></a></figure>
+                    </li>
+                    <li class="slide-item">
+                        <figure class="image-box"><a href="#"><img src="images/clients/5.png" alt=""></a></figure>
+                    </li>
                 </ul>
             </div>
         </div>
     </section>
     <!--End Clients Section-->
 
-     <!-- Main Footer -->
-    <footer class="main-footer">
-        <div class="auto-container">
-            <!--Widgets Section-->
-            <div class="widgets-section">
-                <div class="row">
-                    <!--Big Column-->
-                    <div class="big-column col-xl-6 col-lg-12 col-md-12 col-sm-12">
-                        <div class="row">
-                            <!--Footer Column-->
-                            <div class="footer-column col-xl-7 col-lg-6 col-md-6 col-sm-12">
-                                <div class="footer-widget about-widget">
-                                    <div class="footer-logo">
-                                        <figure>
-                                            <a href="index.php"><img src="images/footer-logo.png" alt=""></a>
-                                        </figure>
-                                    </div>
-                                    <div class="widget-content">
-                                        <div class="text">A wonderful serenity has taken possession of my entire soul, like these sweet morn ings of spring which I enjoy with my whole heart of me.</div>
-                                        <div class="social-links">
-                                            <ul class="social-icon-two">
-                                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                                <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
-                                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                                <li><a href="#"><i class="fab fa-skype"></i></a></li>
-                                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!--Footer Column-->
-                            <div class="footer-column col-xl-5 col-lg-6 col-md-6 col-sm-12">
-                                 <div class="footer-widget links-widget">
-                                    <h2 class="widget-title">Services</h2>
-                                    <div class="widget-content">
-                                        <ul class="list">
-                                            <li><a href="#">Plans and Projects</a></li>
-                                            <li><a href="#">Conceptual Architecture</a></li>
-                                            <li><a href="#">Apartment Buildings</a></li>
-                                            <li><a href="#">Skyscrapers Buildings</a></li>
-                                            <li><a href="#">Restauration Projects</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!--Big Column-->
-                    <div class="big-column col-xl-6 col-lg-12 col-md-12 col-sm-12">
-                        <div class="row clearfix">
-                            <!--Footer Column-->
-                            <div class="footer-column col-xl-7 col-lg-6 col-md-6 col-sm-12">
-                                <div class="footer-widget gallery-widget">
-                                    <h2 class="widget-title">Recent Works</h2>
-                                    <div class="widget-content">
-                                        <div class="outer clearfix">
-                                            <figure class="image">
-                                                <a href="images/resource/work-thumb-1.jpg" class="lightbox-image" title="Image Title Here"><img src="images/resource/work-thumb-1.jpg" alt=""></a>
-                                            </figure>
-
-                                            <figure class="image">
-                                                <a href="images/resource/work-thumb-2.jpg" class="lightbox-image" title="Image Title Here"><img src="images/resource/work-thumb-2.jpg" alt=""></a>
-                                            </figure>
-
-                                            <figure class="image">
-                                                <a href="images/resource/work-thumb-3.jpg" class="lightbox-image" title="Image Title Here"><img src="images/resource/work-thumb-3.jpg" alt=""></a>
-                                            </figure>
-
-                                            <figure class="image">
-                                                <a href="images/resource/work-thumb-4.jpg" class="lightbox-image" title="Image Title Here"><img src="images/resource/work-thumb-4.jpg" alt=""></a>
-                                            </figure>
-
-                                            <figure class="image">
-                                                <a href="images/resource/work-thumb-5.jpg" class="lightbox-image" title="Image Title Here"><img src="images/resource/work-thumb-5.jpg" alt=""></a>
-                                            </figure>
-
-                                            <figure class="image">
-                                                <a href="images/resource/work-thumb-6.jpg" class="lightbox-image" title="Image Title Here"><img src="images/resource/work-thumb-6.jpg" alt=""></a>
-                                            </figure>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="footer-column col-xl-5 col-lg-6 col-md-6 col-sm-12">
-                                 <div class="footer-widget links-widget">
-                                    <h2 class="widget-title">Contact Us</h2>
-                                    <div class="widget-content">
-                                        <ul class="list-address">
-                                            <li><i class="fas fa-map-marker-alt"></i>Structure Avenue, Melbourne City, Austalia</li>
-                                            <li><i class="fas fa-phone-volume"></i><a href="tel:+321456789012">+321 4567 89 012</a></li>
-                                            <li><i class="fas fa-envelope"></i><a href="mailto:">supportyou@altoona.com</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!--Footer Bottom-->
-        <div class="footer-bottom">
-            <div class="auto-container">
-                <div class="inner-container clearfix">
-                    <div class="footer-menu">
-                        <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Service</a></li>
-                            <li><a href="#">Project</a></li>
-                            <li><a href="#">Contact Us</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="copyright-text">
-                        <p>Copyright © 2019 <a href="#">Your Company Name</a> All right reserved</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
+    <!-- Main Footer -->
+    <?php
+    include("includes/footer.php");
+    ?>
     <!-- End Main Footer -->
 
 
 </div>
-
 
 
 <!--Scroll to top-->

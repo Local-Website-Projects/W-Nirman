@@ -281,7 +281,7 @@ ul,li{
 	box-shadow: rgba(255, 255, 255, 0) 0 0px 0px 0px inset;
 }
 
-.btn-style-three:hover{
+3.btn-style-three:hover{
 	color: #ffffff;
 	-webkit-box-shadow: rgba(277, 139, 0, 1) 0 0px 0px 40px inset;
 	-moz-box-shadow: rgba(277, 139, 0, 1) 0 0px 0px 40px inset;
@@ -11078,7 +11078,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 .contact-page-info {
     position: relative;
     width: 100%;
-    padding: 84px 0 63px;
+    padding: 0 0 63px;
 }
 
 .contact-page-info .info-column{
