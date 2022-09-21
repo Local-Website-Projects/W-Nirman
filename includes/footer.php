@@ -35,11 +35,11 @@
                                 <h2 class="widget-title">Services</h2>
                                 <div class="widget-content">
                                     <ul class="list">
-                                        <li><a href="#">Plans and Projects</a></li>
-                                        <li><a href="#">Conceptual Architecture</a></li>
-                                        <li><a href="#">Apartment Buildings</a></li>
-                                        <li><a href="#">Skyscrapers Buildings</a></li>
-                                        <li><a href="#">Restauration Projects</a></li>
+                                        <li><a href="#">Plan Approval from KDA</a></li>
+                                        <li><a href="#">Plan Approval from Upazilla</a></li>
+                                        <li><a href="#">Electrical Design</a></li>
+                                        <li><a href="#">Interior Design</a></li>
+                                        <li><a href="#">Cost Estimate</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -88,9 +88,10 @@
                                 <h2 class="widget-title">Contact Us</h2>
                                 <div class="widget-content">
                                     <ul class="list-address">
-                                        <li><i class="fas fa-map-marker-alt"></i>Structure Avenue, Melbourne City, Austalia</li>
-                                        <li><i class="fas fa-phone-volume"></i><a href="tel:+321456789012">+321 4567 89 012</a></li>
-                                        <li><i class="fas fa-envelope"></i><a href="mailto:">supportyou@altoona.com</a></li>
+                                        <li><i class="fas fa-map-marker-alt"></i>H-150, Road-9, Sonadanda R/A,
+                                            1st Phase, Khulna</li>
+                                        <li><i class="fas fa-phone-volume"></i><a href="tel:+8801765774465">+880 176 577 4465</a></li>
+                                        <li><i class="fas fa-envelope"></i><a href="mailto:info@nirmanad.org">info@nirmanad.org</a></li>
                                     </ul>
                                 </div>
                             </div>

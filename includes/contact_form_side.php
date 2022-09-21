@@ -7,9 +7,9 @@
 
         <!--Appointment Form-->
         <div class="appointment-form">
-            <form method="post" action="http://html.commonsupport.xyz/2019/Altoona/contact.html">
+            <form method="post" action="includes/contact_form_submission.php">
                 <div class="form-group">
-                    <input type="text" name="text" value="" placeholder="Name" required>
+                    <input type="text" name="username" value="" placeholder="Name" required>
                 </div>
                 <div class="form-group">
                     <input type="email" name="email" value="" placeholder="Email Address" required>
@@ -21,10 +21,10 @@
                     <input type="text" name="company" value="" placeholder="Company" required>
                 </div>
                 <div class="form-group">
-                    <textarea placeholder="Message"></textarea>
+                    <textarea placeholder="Message" name="message"></textarea>
                 </div>
                 <div class="form-group">
-                    <button type="submit" class="theme-btn btn-style-three">Submit now</button>
+                    <button type="submit" name="submit-form" class="theme-btn btn-style-three">Submit now</button>
                 </div>
             </form>
         </div>

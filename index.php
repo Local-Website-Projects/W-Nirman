@@ -128,13 +128,13 @@
                         <div class="content-box">
                             <div class="sec-title">
                                 <h2 data-animation-child class="title-fill" data-animation="title-fill-anim"
-                                    data-text="About Company">About Company</h2>
+                                    data-text="About Company">About NIRMAN</h2>
                             </div>
-                            <h5>We create functional, beautiful interiors for our clients since 1987.</h5>
-                            <div class="text">When an unknown printer took a galley of type and scrambled it to make a
-                                type specimen book. It has survived not only five centuries. When an unknown printer
-                                took a galley of type and scrambled it to make a type specimen book. When an unknown
-                                printer took a galley of type and scrambled it to make a type specimen book.
+                            <h5>We create functional, beautiful interiors and Constructions for our clients since
+                                2017.</h5>
+                            <div class="text"> Nirman Architecture & Development is one of the most reputed Company in Bangladesh,
+                                engaged in designing & developing luxurious housing & commercial projects, tourism,
+                                building construction services, health and agriculture industry.
                             </div>
                             <div class="link-box">
                                 <a href="#" class="theme-btn btn-style-one">Read More</a>
@@ -172,22 +172,6 @@
                         </div>
                     </div>
 
-                    <!-- Service Block -->
-                    <div class="service-block">
-                        <div class="inner-box">
-                            <div class="icon-box">
-                                <i class="flaticon-office-building"></i>
-                            </div>
-                            <div class="lower-content">
-                                <h3><a href="#">Master Plan</a></h3>
-                                <div class="text">A master plan includes analysis, recommendations, and proposals for a
-                                    site's population, economy, housing, transportation, community facilities, and land
-                                    use. It is based on public input, surveys, planning initiatives, existing
-                                    development, physical characteristics, and social and economic conditions.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
 
                     <!-- Service Block -->
                     <div class="service-block">
@@ -196,12 +180,10 @@
                                 <i class="flaticon-town"></i>
                             </div>
                             <div class="lower-content">
-                                <h3><a href="#">Engineering Design</a></h3>
-                                <div class="text">Engineering design is the method of identification and solving
-                                    engineering problems. Engineering design can have different forms, but they all
-                                    include a common attribute: any type of engineering design is a process. The main
-                                    types of engineering design are: Original design, sometimes called innovative
-                                    design.
+                                <h3><a href="#">Electrical Design</a></h3>
+                                <div class="text">Electrical design is the process of planning and creating electrical
+                                    equipment, such as electrical components, schematics, lighting equipment, power
+                                    systems and telecommunications infrastructure.
                                 </div>
                             </div>
                         </div>
@@ -246,11 +228,11 @@
                                 <i class="flaticon-urban"></i>
                             </div>
                             <div class="lower-content">
-                                <h3><a href="#">Conceptual Architecture</a></h3>
-                                <div class="text">Conceptual design takes the clients imaginary space and creates a
-                                    beautiful structure based on the information provided to the architect. It is an
-                                    essential part of the architectural process in which the homeowner should share
-                                    their personal needs and wants.
+                                <h3><a href="#">Structural Design</a></h3>
+                                <div class="text">Structural design is the methodical investigation of the stability,
+                                    strength and rigidity of structures. The basic objective in structural analysis and
+                                    design is to produce a structure capable of resisting all applied loads without
+                                    failure during its intended life
                                 </div>
                             </div>
                         </div>
@@ -263,11 +245,105 @@
                                 <i class="flaticon-house-1"></i>
                             </div>
                             <div class="lower-content">
-                                <h3><a href="#">Apartment Buildings</a></h3>
-                                <div class="text">An apartment building is a “building containing more than one dwelling
-                                    unit. Apartment buildings are those structures containing three or more living units
-                                    with independent cooking and bathroom facilities, whether designated as apartment
-                                    houses, condominiums, or garden apartments.
+                                <h3><a href="#">Plumbing Design</a></h3>
+                                <div class="text">A plumbing designer is a designer or engineer whose duties revolve
+                                    around creating plumbing systems. Your responsibilities could include working to
+                                    create a residential plumbing system, a fire suppression “sprinkler” system,
+                                    drainage networks, or municipal or commercial plumbing systems.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Service Block -->
+                    <div class="service-block">
+                        <div class="inner-box">
+                            <div class="icon-box">
+                                <i class="flaticon-house-1"></i>
+                            </div>
+                            <div class="lower-content">
+                                <h3><a href="#">Cost Estimate</a></h3>
+                                <div class="text">Cost estimation in project management is the process of forecasting
+                                    the financial and other resources needed to complete a project within a defined
+                                    scope. Cost estimation accounts for each element required for the project—from
+                                    materials to labor—and calculates a total amount that determines a project's budget.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Service Block -->
+                    <div class="service-block">
+                        <div class="inner-box">
+                            <div class="icon-box">
+                                <i class="flaticon-house-1"></i>
+                            </div>
+                            <div class="lower-content">
+                                <h3><a href="#">Bank Estimate</a></h3>
+                                <div class="text">Estimation in civil engineering is the process of determining the
+                                    number of materials, resources, and money needed to operate during a construction
+                                    project. This is usually done before the start of the project, so you can procure
+                                    estimated materials and gather the funds as the project progresses.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Service Block -->
+                    <div class="service-block">
+                        <div class="inner-box">
+                            <div class="icon-box">
+                                <i class="flaticon-house-1"></i>
+                            </div>
+                            <div class="lower-content">
+                                <h3><a href="#">Development</a></h3>
+                                <div class="text">The process of land development involves changing a landscape to
+                                    better suit the needs of those who seek to inhabit it. This could be for industrial,
+                                    residential, or commercial purposes. Numerous specialists work together to create a
+                                    plan for the land in question.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Service Block -->
+                    <div class="service-block">
+                        <div class="inner-box">
+                            <div class="icon-box">
+                                <i class="flaticon-house-1"></i>
+                            </div>
+                            <div class="lower-content">
+                                <h3><a href="#">Supervision</a></h3>
+                                <div class="text">Supervision is an accountable, two-way process, which supports,
+                                    motivates and enables the development of good practice for individual social care
+                                    workers. As a result, this improves the quality of service provided by the
+                                    organisation. Supervision is a vital part of individual performance management.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Service Block -->
+                    <div class="service-block">
+                        <div class="inner-box">
+                            <div class="icon-box">
+                                <i class="flaticon-house-1"></i>
+                            </div>
+                            <div class="lower-content">
+                                <h3><a href="#">Soil Test</a></h3>
+                                <div class="text">In agriculture, a soil test commonly refers to the analysis of a soil
+                                    sample to determine nutrient content, composition, and other characteristics such as
+                                    the acidity or pH level.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Service Block -->
+                    <div class="service-block">
+                        <div class="inner-box">
+                            <div class="icon-box">
+                                <i class="flaticon-house-1"></i>
+                            </div>
+                            <div class="lower-content">
+                                <h3><a href="#">3D Visualization</a></h3>
+                                <div class="text">3D visualization refers to the process where graphical content is
+                                    created using 3D software. Similar terms include 3D rendering, excellent
+                                    computer-generated imagery (CGI), 3D graphics and so on.
                                 </div>
                             </div>
                         </div>
@@ -288,8 +364,8 @@
                         <div class="inner-box">
                             <div class="lower-content">
                                 <h3><a href="#">Perfect Design</a></h3>
-                                <div class="text">A wonderful serenity has taken possession of my entire soul, like
-                                    these sweet mornings of spring which.
+                                <div class="text">At the very beginning we design a beautiful design and plan for you so
+                                    that you face no issues in the further development process for your construction.
                                 </div>
                             </div>
                             <div class="number-slide">01</div>
@@ -300,8 +376,8 @@
                         <div class="inner-box">
                             <div class="lower-content">
                                 <h3><a href="#">Carefully Planned</a></h3>
-                                <div class="text">A wonderful serenity has taken possession of my entire soul, like
-                                    these sweet mornings of spring which.
+                                <div class="text">Then we plan the complete construction process for you and we make
+                                    sure that there is no hole in the complete plan.
                                 </div>
                             </div>
                             <div class="number-slide">02</div>
@@ -312,8 +388,8 @@
                         <div class="inner-box">
                             <div class="lower-content">
                                 <h3><a href="#">Smartly Execute</a></h3>
-                                <div class="text">A wonderful serenity has taken possession of my entire soul, like
-                                    these sweet mornings of spring which.
+                                <div class="text">At the final stage we execute the plan, and provides all necessary
+                                    support to you. After completion we deliver you your dream construction.
                                 </div>
                             </div>
                             <div class="number-slide">03</div>
@@ -1100,45 +1176,9 @@
     <!--End News Section -->
 
     <!--Clients Section-->
-    <section class="clients-section">
-        <div class="auto-container">
-            <div class="sponsors-outer">
-                <!--Sponsors Carousel-->
-                <ul class="sponsors-carousel owl-carousel owl-theme">
-                    <li class="slide-item">
-                        <figure class="image-box"><a href="#"><img src="images/clients/1.png" alt=""></a></figure>
-                    </li>
-                    <li class="slide-item">
-                        <figure class="image-box"><a href="#"><img src="images/clients/2.png" alt=""></a></figure>
-                    </li>
-                    <li class="slide-item">
-                        <figure class="image-box"><a href="#"><img src="images/clients/3.png" alt=""></a></figure>
-                    </li>
-                    <li class="slide-item">
-                        <figure class="image-box"><a href="#"><img src="images/clients/4.png" alt=""></a></figure>
-                    </li>
-                    <li class="slide-item">
-                        <figure class="image-box"><a href="#"><img src="images/clients/5.png" alt=""></a></figure>
-                    </li>
-                    <li class="slide-item">
-                        <figure class="image-box"><a href="#"><img src="images/clients/1.png" alt=""></a></figure>
-                    </li>
-                    <li class="slide-item">
-                        <figure class="image-box"><a href="#"><img src="images/clients/2.png" alt=""></a></figure>
-                    </li>
-                    <li class="slide-item">
-                        <figure class="image-box"><a href="#"><img src="images/clients/3.png" alt=""></a></figure>
-                    </li>
-                    <li class="slide-item">
-                        <figure class="image-box"><a href="#"><img src="images/clients/4.png" alt=""></a></figure>
-                    </li>
-                    <li class="slide-item">
-                        <figure class="image-box"><a href="#"><img src="images/clients/5.png" alt=""></a></figure>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </section>
+    <?php
+    include ("includes/clients.php");
+    ?>
     <!--End Clients Section-->
 
     <!-- Main Footer -->
