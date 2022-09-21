@@ -23,12 +23,12 @@ include ("config/dbconfig.php");
                         <ul class="navigation clearfix">
                             <li <?php if ($page == "home"){?>class="current"<?php }?>><a href="index.php">Home</a>
                             </li>
-                            <li <?php if($page == "about"){?>class="current"<?php } ?>><a href="about_us.php">About</a>
+                            <li <?php if($page == "about"){?>class="current"<?php } ?>><a href="about_us.php">About Us</a>
                             </li>
                             <li <?php if($page == "service"){?>class="current"<?php } ?>><a href="services.php">Service</a>
                             </li>
                             <li <?php if($page == "portfolio"){?>class="current"<?php } ?>><a href="portfolio.php">Portfolio</a></li>
-                            <li <?php if ($page == "contact"){?>class="current"<?php }?>><a href="contact.php">Contact</a></li>
+                            <li <?php if ($page == "contact"){?>class="current"<?php }?>><a href="contact.php">Contact Us</a></li>
                         </ul>
                     </div>
                 </nav><!-- Main Menu End-->

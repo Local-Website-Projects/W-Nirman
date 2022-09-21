@@ -76,9 +76,6 @@
                                 engaged in designing & developing luxurious housing & commercial projects, tourism,
                                 building construction services, health and agriculture industry.
                             </div>
-                            <div class="link-box">
-                                <a href="#" class="theme-btn btn-style-one">Read More</a>
-                            </div>
                         </div>
                     </div>
                 </div>

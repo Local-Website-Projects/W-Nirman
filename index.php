@@ -4,6 +4,7 @@
 <head>
     <?php
     include("includes/head.php");
+    include ("config/dbconfig.php");
     $page = "home";
     ?>
 </head>
@@ -137,7 +138,7 @@
                                 building construction services, health and agriculture industry.
                             </div>
                             <div class="link-box">
-                                <a href="#" class="theme-btn btn-style-one">Read More</a>
+                                <a href="about_us.php" class="theme-btn btn-style-one">Read More</a>
                             </div>
                         </div>
                     </div>
@@ -415,11 +416,16 @@
                                 <!--Tabs Header-->
                                 <div class="tabs-header">
                                     <ul class="product-tab-btns clearfix">
-                                        <li class="p-tab-btn active-btn" data-tab="#p-tab-1">All Projects</li>
-                                        <li class="p-tab-btn" data-tab="#p-tab-2">Commercial</li>
-                                        <li class="p-tab-btn" data-tab="#p-tab-3">Hospitality</li>
-                                        <li class="p-tab-btn" data-tab="#p-tab-4">Interior Design</li>
-                                        <li class="p-tab-btn" data-tab="#p-tab-5">Residential</li>
+                                        <li class="p-tab-btn active-btn" data-tab="#p-tab">All Projects</li>
+                                        <?php
+                                        $catagory = $con->query("SELECT `id`, `c_name` FROM `category`");
+                                        while($row = mysqli_fetch_assoc($catagory)) {
+                                        ?>
+                                        <li class="p-tab-btn" data-tab="#p-tab-<?php echo $row["id"];?>"><?php echo $row["c_name"];?></li>
+                                        <?php
+                                        }
+                                        ?>
+
                                     </ul>
                                 </div>
                             </div>
@@ -429,11 +435,11 @@
                 <div class="col-md-3 col-sm-12">
                     <div class="text-column">
                         <div class="inner-box">
-                            <div class="text">Commerical</div>
-                            <h3>Buritis Belo Horizonte</h3>
-                            <h6>Cayler Offices</h6>
+                            <div class="text">Nirman</div>
+                            <h3>Architecture & Development</h3>
+                            <h6>Our Works</h6>
                             <div class="link-box"><a href="#" class="theme-btn btn-style-three">Read More</a></div>
-                            <div class="more-project"><a href="portfolio.html">View All Projects <i
+                            <div class="more-project"><a href="portfolio.php">View All Projects <i
                                             class="fa fa-arrows-alt"></i></a></div>
                         </div>
                     </div>
@@ -446,86 +452,59 @@
                         <div class="p-tabs-content">
 
                             <!--Portfolio Tab / Active Tab-->
-                            <div class="p-tab active-tab" id="p-tab-1">
+                            <div class="p-tab active-tab" id="p-tab">
                                 <div class="projects-carousel owl-theme owl-carousel">
-
-                                    <!--Project Block-->
-                                    <div class="project-block">
-                                        <div class="inner-box">
-                                            <div class="image">
-                                                <img src="images/gallery/1.jpg" alt=""/>
-                                                <!--Overlay Two-->
-                                                <div class="overlay-box">
-                                                    <div class="overlay-inner">
-                                                        <div class="overlay-content">
-                                                            <a href="images/gallery/1.jpg"
-                                                               class="see-more lightbox-image"
-                                                               data-fancybox="gallery"><span
-                                                                        class="flaticon-add"></span></a>
+                                    <?php
+                                    $portfolio = $con->query("SELECT `category_id`, `image` FROM `portfolio`");
+                                    while($rows = mysqli_fetch_assoc($portfolio)) {
+                                        ?>
+                                        <!--Project Block-->
+                                        <div class="project-block">
+                                            <div class="inner-box">
+                                                <div class="image">
+                                                    <img src="<?php echo $rows["image"];?>" alt=""/>
+                                                    <!--Overlay Two-->
+                                                    <div class="overlay-box">
+                                                        <div class="overlay-inner">
+                                                            <div class="overlay-content">
+                                                                <a href="<?php echo $rows["image"];?>"
+                                                                   class="see-more lightbox-image"
+                                                                   data-fancybox="gallery"><span
+                                                                            class="flaticon-add"></span></a>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
-
-                                    <!--Project Block-->
-                                    <div class="project-block">
-                                        <div class="inner-box">
-                                            <div class="image">
-                                                <img src="images/gallery/2.jpg" alt=""/>
-                                                <!--Overlay Two-->
-                                                <div class="overlay-box">
-                                                    <div class="overlay-inner">
-                                                        <div class="overlay-content">
-                                                            <a href="images/gallery/2.jpg"
-                                                               class="see-more lightbox-image"
-                                                               data-fancybox="gallery"><span
-                                                                        class="flaticon-add"></span></a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <!--Project Block-->
-                                    <div class="project-block">
-                                        <div class="inner-box">
-                                            <div class="image">
-                                                <img src="images/gallery/3.jpg" alt=""/>
-                                                <!--Overlay Two-->
-                                                <div class="overlay-box">
-                                                    <div class="overlay-inner">
-                                                        <div class="overlay-content">
-                                                            <a href="images/gallery/3.jpg"
-                                                               class="see-more lightbox-image"
-                                                               data-fancybox="gallery"><span
-                                                                        class="flaticon-add"></span></a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
+                                        <?php
+                                    }
+                                    ?>
                                 </div>
                             </div>
 
+                            <?php
+                            $catagory = $con->query("SELECT `id` FROM `category`");
+                            while($row = mysqli_fetch_assoc($catagory)) {
+                                $cat_id = $row["id"];
+                            ?>
                             <!--Portfolio Tab / Active Tab-->
-                            <div class="p-tab" id="p-tab-2">
+                            <div class="p-tab" id="p-tab-<?php echo $cat_id;?>">
                                 <div class="projects-carousel owl-theme owl-carousel">
-
+                                    <?php
+                                    $portfolio = $con->query("SELECT `category_id`, `image` FROM `portfolio` WHERE `category_id` = '$cat_id'");
+                                    while($rows = mysqli_fetch_assoc($portfolio)) {
+                                    ?>
                                     <!--Project Block-->
                                     <div class="project-block">
                                         <div class="inner-box">
                                             <div class="image">
-                                                <img src="images/gallery/1.jpg" alt=""/>
+                                                <img src="<?php echo $rows["image"];?>" alt=""/>
                                                 <!--Overlay Two-->
                                                 <div class="overlay-box">
                                                     <div class="overlay-inner">
                                                         <div class="overlay-content">
-                                                            <a href="images/gallery/1.jpg"
+                                                            <a href="<?php echo $rows["image"];?>"
                                                                class="see-more lightbox-image"
                                                                data-fancybox="gallery"><span
                                                                         class="flaticon-add"></span></a>
@@ -535,250 +514,15 @@
                                             </div>
                                         </div>
                                     </div>
-
-                                    <!--Project Block-->
-                                    <div class="project-block">
-                                        <div class="inner-box">
-                                            <div class="image">
-                                                <img src="images/gallery/2.jpg" alt=""/>
-                                                <!--Overlay Two-->
-                                                <div class="overlay-box">
-                                                    <div class="overlay-inner">
-                                                        <div class="overlay-content">
-                                                            <a href="images/gallery/2.jpg"
-                                                               class="see-more lightbox-image"
-                                                               data-fancybox="gallery"><span
-                                                                        class="flaticon-add"></span></a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <!--Project Block-->
-                                    <div class="project-block">
-                                        <div class="inner-box">
-                                            <div class="image">
-                                                <img src="images/gallery/3.jpg" alt=""/>
-                                                <!--Overlay Two-->
-                                                <div class="overlay-box">
-                                                    <div class="overlay-inner">
-                                                        <div class="overlay-content">
-                                                            <a href="images/gallery/3.jpg"
-                                                               class="see-more lightbox-image"
-                                                               data-fancybox="gallery"><span
-                                                                        class="flaticon-add"></span></a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
+                                    <?php
+                                    }
+                                    ?>
                                 </div>
                             </div>
+                            <?php
+                            }
+                            ?>
 
-                            <!--Portfolio Tab / Active Tab-->
-                            <div class="p-tab" id="p-tab-3">
-                                <div class="projects-carousel owl-theme owl-carousel">
-
-                                    <!--Project Block-->
-                                    <div class="project-block">
-                                        <div class="inner-box">
-                                            <div class="image">
-                                                <img src="images/gallery/1.jpg" alt=""/>
-                                                <!--Overlay Two-->
-                                                <div class="overlay-box">
-                                                    <div class="overlay-inner">
-                                                        <div class="overlay-content">
-                                                            <a href="images/gallery/1.jpg"
-                                                               class="see-more lightbox-image"
-                                                               data-fancybox="gallery"><span
-                                                                        class="flaticon-add"></span></a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <!--Project Block-->
-                                    <div class="project-block">
-                                        <div class="inner-box">
-                                            <div class="image">
-                                                <img src="images/gallery/2.jpg" alt=""/>
-                                                <!--Overlay Two-->
-                                                <div class="overlay-box">
-                                                    <div class="overlay-inner">
-                                                        <div class="overlay-content">
-                                                            <a href="images/gallery/2.jpg"
-                                                               class="see-more lightbox-image"
-                                                               data-fancybox="gallery"><span
-                                                                        class="flaticon-add"></span></a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <!--Project Block-->
-                                    <div class="project-block">
-                                        <div class="inner-box">
-                                            <div class="image">
-                                                <img src="images/gallery/3.jpg" alt=""/>
-                                                <!--Overlay Two-->
-                                                <div class="overlay-box">
-                                                    <div class="overlay-inner">
-                                                        <div class="overlay-content">
-                                                            <a href="images/gallery/3.jpg"
-                                                               class="see-more lightbox-image"
-                                                               data-fancybox="gallery"><span
-                                                                        class="flaticon-add"></span></a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-
-                            <!--Portfolio Tab / Active Tab-->
-                            <div class="p-tab" id="p-tab-4">
-                                <div class="projects-carousel owl-theme owl-carousel">
-
-                                    <!--Project Block-->
-                                    <div class="project-block">
-                                        <div class="inner-box">
-                                            <div class="image">
-                                                <img src="images/gallery/1.jpg" alt=""/>
-                                                <!--Overlay Two-->
-                                                <div class="overlay-box">
-                                                    <div class="overlay-inner">
-                                                        <div class="overlay-content">
-                                                            <a href="images/gallery/1.jpg"
-                                                               class="see-more lightbox-image"
-                                                               data-fancybox="gallery"><span
-                                                                        class="flaticon-add"></span></a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <!--Project Block-->
-                                    <div class="project-block">
-                                        <div class="inner-box">
-                                            <div class="image">
-                                                <img src="images/gallery/2.jpg" alt=""/>
-                                                <!--Overlay Two-->
-                                                <div class="overlay-box">
-                                                    <div class="overlay-inner">
-                                                        <div class="overlay-content">
-                                                            <a href="images/gallery/2.jpg"
-                                                               class="see-more lightbox-image"
-                                                               data-fancybox="gallery"><span
-                                                                        class="flaticon-add"></span></a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <!--Project Block-->
-                                    <div class="project-block">
-                                        <div class="inner-box">
-                                            <div class="image">
-                                                <img src="images/gallery/3.jpg" alt=""/>
-                                                <!--Overlay Two-->
-                                                <div class="overlay-box">
-                                                    <div class="overlay-inner">
-                                                        <div class="overlay-content">
-                                                            <a href="images/gallery/3.jpg"
-                                                               class="see-more lightbox-image"
-                                                               data-fancybox="gallery"><span
-                                                                        class="flaticon-add"></span></a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
-
-                            <!--Portfolio Tab / Active Tab-->
-                            <div class="p-tab" id="p-tab-5">
-                                <div class="projects-carousel owl-theme owl-carousel">
-
-                                    <!--Project Block-->
-                                    <div class="project-block">
-                                        <div class="inner-box">
-                                            <div class="image">
-                                                <img src="images/gallery/1.jpg" alt=""/>
-                                                <!--Overlay Two-->
-                                                <div class="overlay-box">
-                                                    <div class="overlay-inner">
-                                                        <div class="overlay-content">
-                                                            <a href="images/gallery/1.jpg"
-                                                               class="see-more lightbox-image"
-                                                               data-fancybox="gallery"><span
-                                                                        class="flaticon-add"></span></a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <!--Project Block-->
-                                    <div class="project-block">
-                                        <div class="inner-box">
-                                            <div class="image">
-                                                <img src="images/gallery/2.jpg" alt=""/>
-                                                <!--Overlay Two-->
-                                                <div class="overlay-box">
-                                                    <div class="overlay-inner">
-                                                        <div class="overlay-content">
-                                                            <a href="images/gallery/2.jpg"
-                                                               class="see-more lightbox-image"
-                                                               data-fancybox="gallery"><span
-                                                                        class="flaticon-add"></span></a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <!--Project Block-->
-                                    <div class="project-block">
-                                        <div class="inner-box">
-                                            <div class="image">
-                                                <img src="images/gallery/3.jpg" alt=""/>
-                                                <!--Overlay Two-->
-                                                <div class="overlay-box">
-                                                    <div class="overlay-inner">
-                                                        <div class="overlay-content">
-                                                            <a href="images/gallery/3.jpg"
-                                                               class="see-more lightbox-image"
-                                                               data-fancybox="gallery"><span
-                                                                        class="flaticon-add"></span></a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                </div>
-                            </div>
 
                         </div>
                     </div>
