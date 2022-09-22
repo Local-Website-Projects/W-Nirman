@@ -209,7 +209,7 @@
     <!--End Fun Fact Section -->
 
     <!--Skill Section -->
-    <section class="skill-section style-three">
+    <section class="skill-section">
         <div class="auto-container">
             <div class="row">
                 <div class="col-lg-8 col-md-12 col-sm-12 col-xs-12">
@@ -231,7 +231,7 @@
                             <div class="progress-levels">
                                 <!--Progress Box-->
                                 <div class="progress-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="0ms">
-                                    <div class="box-title">Interior Design</div>
+                                    <div class="box-title">Architecture Design</div>
                                     <div class="inner">
                                         <div class="bar">
                                             <div class="bar-innner">
@@ -245,7 +245,7 @@
 
                                 <!--Progress Box-->
                                 <div class="progress-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="0ms">
-                                    <div class="box-title">AutoCAD</div>
+                                    <div class="box-title">Structural Design</div>
                                     <div class="inner">
                                         <div class="bar">
                                             <div class="bar-innner">
@@ -259,7 +259,7 @@
 
                                 <!--Progress Box-->
                                 <div class="progress-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="0ms">
-                                    <div class="box-title">Lighting</div>
+                                    <div class="box-title">Interrior Design</div>
                                     <div class="inner">
                                         <div class="bar">
                                             <div class="bar-innner">
@@ -273,11 +273,25 @@
 
                                 <!--Progress Box-->
                                 <div class="progress-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="0ms">
-                                    <div class="box-title">3D Skills</div>
+                                    <div class="box-title">Construction</div>
                                     <div class="inner">
                                         <div class="bar">
                                             <div class="bar-innner">
                                                 <div class="bar-fill" data-percent="82">
+                                                    <div class="percent"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--Progress Box-->
+                                <div class="progress-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="0ms">
+                                    <div class="box-title">Land Development</div>
+                                    <div class="inner">
+                                        <div class="bar">
+                                            <div class="bar-innner">
+                                                <div class="bar-fill" data-percent="88">
                                                     <div class="percent"></div>
                                                 </div>
                                             </div>

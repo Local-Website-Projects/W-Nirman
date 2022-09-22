@@ -3,7 +3,7 @@
 
 <head>
     <?php
-    include ("includes/head.php");
+    include("includes/head.php");
     $page = "portfolio";
     ?>
 </head>
@@ -13,12 +13,12 @@
 <div class="page-wrapper">
     <!-- Preloader -->
     <?php
-    include ("includes/preloader.php");
+    include("includes/preloader.php");
     ?>
 
     <!-- Main Header-->
     <?php
-    include ("includes/navbar.php");
+    include("includes/navbar.php");
     ?>
     <!--End Main Header -->
 
@@ -27,7 +27,7 @@
 
     <!-- Hidden Bar -->
     <?php
-    include ("includes/contact_form_side.php");
+    include("includes/contact_form_side.php");
     ?>
     <!--End Hidden Bar -->
 
@@ -59,188 +59,51 @@
 
                     <ul class="filter-tabs filter-btns clearfix">
                         <li class="active filter" data-role="button" data-filter=".all">All Projects</li>
-                        <li class="filter" data-role="button" data-filter=".commercial">Commercial</li>
-                        <li class="filter" data-role="button" data-filter=".hospitality">Hospitality</li>
-                        <li class="filter" data-role="button" data-filter=".interior-design">Interior Design</li>
-                        <li class="filter" data-role="button" data-filter=".residential">Residential</li>
+                        <?php
+                        $catagory = $con->query("SELECT `id`, `c_name` FROM `category`");
+                        while ($row = mysqli_fetch_assoc($catagory)) {
+                            ?>
+                            <li class="filter" data-role="button"
+                                data-filter=".<?php echo 'cat-' . $row["id"]; ?>"><?php echo $row["c_name"]; ?></li>
+                            <?php
+                        }
+                        ?>
                     </ul>
                 </div>
 
                 <div class="items-container row clearfix">
 
                     <!--Default Portfolio Item-->
-                    <div class="default-portfolio-item column-gallery masonry-item all hospitality">
-                        <div class="inner-box">
-                            <figure class="image-box"><img src="images/gallery/2-1.jpg" alt=""></figure>
-                            <!--Overlay Box-->
-                            <div class="overlay-box">
-                                <div class="overlay-inner">
-                                    <div class="content">
-                                        <div class="content-inner">
-                                            <div class="tags">Commercial</div>
-                                            <h3><a href="project-detail.html">Tessellation Walls</a></h3>
+                    <?php
+                    $catagory = $con->query("SELECT * FROM `category`");
+                    while ($row = mysqli_fetch_assoc($catagory)) {
+                        $cat_name = $row["c_name"];
+                        $cat_id = $row["id"];
+                        $portfolio = $con->query("SELECT `category_id`, `image`,`caption` FROM `portfolio` WHERE `category_id` = '$cat_id'");
+                        while ($rows = mysqli_fetch_assoc($portfolio)) {
+                            ?>
+                            <div class="default-portfolio-item small-column masonry-item all <?php echo 'cat-' . $cat_id; ?>">
+                                <div class="inner-box">
+                                    <figure class="image-box"><img src="<?php echo $rows["image"]; ?>" alt=""></figure>
+                                    <!--Overlay Box-->
+                                    <div class="overlay-box">
+                                        <div class="overlay-inner">
+                                            <div class="content">
+                                                <div class="content-inner">
+                                                    <div class="tags"><?php echo $rows["caption"]; ?></div>
+                                                </div>
+                                                <a href="<?php echo $rows["image"]; ?>" class="lightbox-image link"
+                                                   data-fancybox="images" data-caption="" title=""><span
+                                                            class="icon flaticon-add"></span></a>
+                                            </div>
                                         </div>
-                                        <a href="images/gallery/2-1.jpg" class="lightbox-image link" data-fancybox="images" data-caption="" title=""><span class="icon flaticon-add"></span></a>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-
-                    <!--Default Portfolio Item-->
-                    <div class="default-portfolio-item small-column masonry-item all residential commercial">
-                        <div class="inner-box">
-                            <figure class="image-box"><img src="images/gallery/2-2.jpg" alt=""></figure>
-                            <!--Overlay Box-->
-                            <div class="overlay-box">
-                                <div class="overlay-inner">
-                                    <div class="content">
-                                        <div class="content-inner">
-                                            <div class="tags">Commercial</div>
-                                            <h3><a href="project-detail.html">Tessellation Walls</a></h3>
-                                        </div>
-                                        <a href="images/gallery/2-2.jpg" class="lightbox-image link" data-fancybox="images" data-caption="" title=""><span class="icon flaticon-add"></span></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!--Default Portfolio Item-->
-                    <div class="default-portfolio-item small-column masonry-item all commercial interior-design residential">
-                        <div class="inner-box">
-                            <figure class="image-box"><img src="images/gallery/2-3.jpg" alt=""></figure>
-                            <!--Overlay Box-->
-                            <div class="overlay-box">
-                                <div class="overlay-inner">
-                                    <div class="content">
-                                        <div class="content-inner">
-                                            <div class="tags">Commercial</div>
-                                            <h3><a href="project-detail.html">Tessellation Walls</a></h3>
-                                        </div>
-                                        <a href="images/gallery/2-3.jpg" class="lightbox-image link" data-fancybox="images" data-caption="" title=""><span class="icon flaticon-add"></span></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!--Default Portfolio Item-->
-                    <div class="default-portfolio-item small-column masonry-item all residential">
-                        <div class="inner-box">
-                            <figure class="image-box"><img src="images/gallery/2-4.jpg" alt=""></figure>
-                            <!--Overlay Box-->
-                            <div class="overlay-box">
-                                <div class="overlay-inner">
-                                    <div class="content">
-                                        <div class="content-inner">
-                                            <div class="tags">Commercial</div>
-                                            <h3><a href="project-detail.html">Tessellation Walls</a></h3>
-                                        </div>
-                                        <a href="images/gallery/2-4.jpg" class="lightbox-image link" data-fancybox="images" data-caption="" title=""><span class="icon flaticon-add"></span></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!--Default Portfolio Item-->
-                    <div class="default-portfolio-item small-column masonry-item all residential">
-                        <div class="inner-box">
-                            <figure class="image-box"><img src="images/gallery/2-5.jpg" alt=""></figure>
-                            <!--Overlay Box-->
-                            <div class="overlay-box">
-                                <div class="overlay-inner">
-                                    <div class="content">
-                                        <div class="content-inner">
-                                            <div class="tags">Commercial</div>
-                                            <h3><a href="project-detail.html">Tessellation Walls</a></h3>
-                                        </div>
-                                        <a href="images/gallery/2-5.jpg" class="lightbox-image link" data-fancybox="images" data-caption="" title=""><span class="icon flaticon-add"></span></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!--Default Portfolio Item-->
-                    <div class="default-portfolio-item column-gallery masonry-item all commercial residential">
-                        <div class="inner-box">
-                            <figure class="image-box"><img src="images/gallery/2-6.jpg" alt=""></figure>
-                            <!--Overlay Box-->
-                            <div class="overlay-box">
-                                <div class="overlay-inner">
-                                    <div class="content">
-                                        <div class="content-inner">
-                                            <div class="tags">Commercial</div>
-                                            <h3><a href="project-detail.html">Tessellation Walls</a></h3>
-                                        </div>
-                                        <a href="images/gallery/2-6.jpg" class="lightbox-image link" data-fancybox="images" data-caption="" title=""><span class="icon flaticon-add"></span></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!--Default Portfolio Item-->
-                    <div class="default-portfolio-item small-column masonry-item all interior-design">
-                        <div class="inner-box">
-                            <figure class="image-box"><img src="images/gallery/2-9.jpg" alt=""></figure>
-                            <!--Overlay Box-->
-                            <div class="overlay-box">
-                                <div class="overlay-inner">
-                                    <div class="content">
-                                        <div class="content-inner">
-                                            <div class="tags">Commercial</div>
-                                            <h3><a href="project-detail.html">Tessellation Walls</a></h3>
-                                        </div>
-                                        <a href="images/gallery/2-9.jpg" class="lightbox-image link" data-fancybox="images" data-caption="" title=""><span class="icon flaticon-add"></span></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!--Default Portfolio Item-->
-                    <div class="default-portfolio-item small-column masonry-item all interior-design">
-                        <div class="inner-box">
-                            <figure class="image-box"><img src="images/gallery/2-8.jpg" alt=""></figure>
-                            <!--Overlay Box-->
-                            <div class="overlay-box">
-                                <div class="overlay-inner">
-                                    <div class="content">
-                                        <div class="content-inner">
-                                            <div class="tags">Commercial</div>
-                                            <h3><a href="project-detail.html">Tessellation Walls</a></h3>
-                                        </div>
-                                        <a href="images/gallery/2-8.jpg" class="lightbox-image link" data-fancybox="images" data-caption="" title=""><span class="icon flaticon-add"></span></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--Default Portfolio Item-->
-                    <div class="default-portfolio-item small-column masonry-item all interior-design">
-                        <div class="inner-box">
-                            <figure class="image-box"><img src="images/gallery/2-7.jpg" alt=""></figure>
-                            <!--Overlay Box-->
-                            <div class="overlay-box">
-                                <div class="overlay-inner">
-                                    <div class="content">
-                                        <div class="content-inner">
-                                            <div class="tags">Commercial</div>
-                                            <h3><a href="project-detail.html">Tessellation Walls</a></h3>
-                                        </div>
-                                        <a href="images/gallery/2-7.jpg" class="lightbox-image link" data-fancybox="images" data-caption="" title=""><span class="icon flaticon-add"></span></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="load-more-btn text-center">
-                    <a href="#" class="theme-btn btn-style-four">View More</a>
+                            <?php
+                        }
+                    }
+                    ?>
                 </div>
             </div>
         </div>
@@ -250,20 +113,18 @@
 
     <!--clients section-->
     <?php
-    include ("includes/clients.php");
+    include("includes/clients.php");
     ?>
-
 
 
     <!-- Main Footer -->
     <?php
-    include ("includes/footer.php");
+    include("includes/footer.php");
     ?>
     <!-- End Main Footer -->
 
 
 </div>
-
 
 
 <!--Scroll to top-->

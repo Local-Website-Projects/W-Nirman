@@ -1,10 +1,12 @@
+<?php
+include("config/dbconfig.php");
+?>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <?php
     include("includes/head.php");
-    include ("config/dbconfig.php");
     $page = "home";
     ?>
 </head>
@@ -133,7 +135,8 @@
                             </div>
                             <h5>We create functional, beautiful interiors and Constructions for our clients since
                                 2017.</h5>
-                            <div class="text"> Nirman Architecture & Development is one of the most reputed Company in Bangladesh,
+                            <div class="text"> Nirman Architecture & Development is one of the most reputed Company in
+                                Bangladesh,
                                 engaged in designing & developing luxurious housing & commercial projects, tourism,
                                 building construction services, health and agriculture industry.
                             </div>
@@ -419,10 +422,11 @@
                                         <li class="p-tab-btn active-btn" data-tab="#p-tab">All Projects</li>
                                         <?php
                                         $catagory = $con->query("SELECT `id`, `c_name` FROM `category`");
-                                        while($row = mysqli_fetch_assoc($catagory)) {
-                                        ?>
-                                        <li class="p-tab-btn" data-tab="#p-tab-<?php echo $row["id"];?>"><?php echo $row["c_name"];?></li>
-                                        <?php
+                                        while ($row = mysqli_fetch_assoc($catagory)) {
+                                            ?>
+                                            <li class="p-tab-btn"
+                                                data-tab="#p-tab-<?php echo $row["id"]; ?>"><?php echo $row["c_name"]; ?></li>
+                                            <?php
                                         }
                                         ?>
 
@@ -456,18 +460,18 @@
                                 <div class="projects-carousel owl-theme owl-carousel">
                                     <?php
                                     $portfolio = $con->query("SELECT `category_id`, `image` FROM `portfolio`");
-                                    while($rows = mysqli_fetch_assoc($portfolio)) {
+                                    while ($rows = mysqli_fetch_assoc($portfolio)) {
                                         ?>
                                         <!--Project Block-->
                                         <div class="project-block">
                                             <div class="inner-box">
                                                 <div class="image">
-                                                    <img src="<?php echo $rows["image"];?>" alt=""/>
+                                                    <img src="<?php echo $rows["image"]; ?>" alt=""/>
                                                     <!--Overlay Two-->
                                                     <div class="overlay-box">
                                                         <div class="overlay-inner">
                                                             <div class="overlay-content">
-                                                                <a href="<?php echo $rows["image"];?>"
+                                                                <a href="<?php echo $rows["image"]; ?>"
                                                                    class="see-more lightbox-image"
                                                                    data-fancybox="gallery"><span
                                                                             class="flaticon-add"></span></a>
@@ -485,41 +489,41 @@
 
                             <?php
                             $catagory = $con->query("SELECT `id` FROM `category`");
-                            while($row = mysqli_fetch_assoc($catagory)) {
+                            while ($row = mysqli_fetch_assoc($catagory)) {
                                 $cat_id = $row["id"];
-                            ?>
-                            <!--Portfolio Tab / Active Tab-->
-                            <div class="p-tab" id="p-tab-<?php echo $cat_id;?>">
-                                <div class="projects-carousel owl-theme owl-carousel">
-                                    <?php
-                                    $portfolio = $con->query("SELECT `category_id`, `image` FROM `portfolio` WHERE `category_id` = '$cat_id'");
-                                    while($rows = mysqli_fetch_assoc($portfolio)) {
-                                    ?>
-                                    <!--Project Block-->
-                                    <div class="project-block">
-                                        <div class="inner-box">
-                                            <div class="image">
-                                                <img src="<?php echo $rows["image"];?>" alt=""/>
-                                                <!--Overlay Two-->
-                                                <div class="overlay-box">
-                                                    <div class="overlay-inner">
-                                                        <div class="overlay-content">
-                                                            <a href="<?php echo $rows["image"];?>"
-                                                               class="see-more lightbox-image"
-                                                               data-fancybox="gallery"><span
-                                                                        class="flaticon-add"></span></a>
+                                ?>
+                                <!--Portfolio Tab / Active Tab-->
+                                <div class="p-tab" id="p-tab-<?php echo $cat_id; ?>">
+                                    <div class="projects-carousel owl-theme owl-carousel">
+                                        <?php
+                                        $portfolio = $con->query("SELECT `category_id`, `image` FROM `portfolio` WHERE `category_id` = '$cat_id'");
+                                        while ($rows = mysqli_fetch_assoc($portfolio)) {
+                                            ?>
+                                            <!--Project Block-->
+                                            <div class="project-block">
+                                                <div class="inner-box">
+                                                    <div class="image">
+                                                        <img src="<?php echo $rows["image"]; ?>" alt=""/>
+                                                        <!--Overlay Two-->
+                                                        <div class="overlay-box">
+                                                            <div class="overlay-inner">
+                                                                <div class="overlay-content">
+                                                                    <a href="<?php echo $rows["image"]; ?>"
+                                                                       class="see-more lightbox-image"
+                                                                       data-fancybox="gallery"><span
+                                                                                class="flaticon-add"></span></a>
+                                                                </div>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
+                                            <?php
+                                        }
+                                        ?>
                                     </div>
-                                    <?php
-                                    }
-                                    ?>
                                 </div>
-                            </div>
-                            <?php
+                                <?php
                             }
                             ?>
 
@@ -648,7 +652,7 @@
                             <div class="progress-levels">
                                 <!--Progress Box-->
                                 <div class="progress-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="0ms">
-                                    <div class="box-title">Interior Design</div>
+                                    <div class="box-title">Architecture Design</div>
                                     <div class="inner">
                                         <div class="bar">
                                             <div class="bar-innner">
@@ -662,7 +666,7 @@
 
                                 <!--Progress Box-->
                                 <div class="progress-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="0ms">
-                                    <div class="box-title">AutoCAD</div>
+                                    <div class="box-title">Structural Design</div>
                                     <div class="inner">
                                         <div class="bar">
                                             <div class="bar-innner">
@@ -676,7 +680,7 @@
 
                                 <!--Progress Box-->
                                 <div class="progress-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="0ms">
-                                    <div class="box-title">Lighting</div>
+                                    <div class="box-title">Interrior Design</div>
                                     <div class="inner">
                                         <div class="bar">
                                             <div class="bar-innner">
@@ -690,11 +694,25 @@
 
                                 <!--Progress Box-->
                                 <div class="progress-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="0ms">
-                                    <div class="box-title">3D Skills</div>
+                                    <div class="box-title">Construction</div>
                                     <div class="inner">
                                         <div class="bar">
                                             <div class="bar-innner">
                                                 <div class="bar-fill" data-percent="82">
+                                                    <div class="percent"></div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!--Progress Box-->
+                                <div class="progress-box wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="0ms">
+                                    <div class="box-title">Land Development</div>
+                                    <div class="inner">
+                                        <div class="bar">
+                                            <div class="bar-innner">
+                                                <div class="bar-fill" data-percent="88">
                                                     <div class="percent"></div>
                                                 </div>
                                             </div>
@@ -738,105 +756,31 @@
                                     <h2>Clients Testimonials</h2>
                                 </div>
                                 <div class="testimonial-carousel owl-carousel owl-theme">
-                                    <!-- Testimonial Block -->
-                                    <div class="testimonial-block">
-                                        <div class="inner-box">
-                                            <div class="text">A wonderful serenity has taken possession of my entire
-                                                soul, like these sweet mornings of spring which I enjoy with my whole
-                                                heart. I am alone, and feel the charm of existence in this spot, which
-                                                was created for the bliss of souls like mine. I am so happy, my dear
-                                                friend, so absorbed in the exquisite sense of me.
-                                            </div>
+                                    <?php
+                                    $review = $con->query("SELECT * FROM `review` where status = '1'");
+                                    while ($row = mysqli_fetch_assoc($review)) {
+                                        ?>
 
-                                            <div class="info-box">
-                                                <div class="image-box"><img src="images/resource/6.jpg" alt=""></div>
-                                                <div class="text-box">
-                                                    <h5 class="name">Jane Smith</h5>
-                                                    <span class="designation">CEO, InDesign</span>
+                                        <!-- Testimonial Block -->
+                                        <div class="testimonial-block">
+                                            <div class="inner-box">
+                                                <div class="text"><?php echo $row["message"]; ?>
+                                                </div>
+
+                                                <div class="info-box">
+                                                    <div class="image-box"><img src="images/resource/6.jpg" alt="">
+                                                    </div>
+                                                    <div class="text-box">
+                                                        <h5 class="name"><?php echo $row["name"]; ?></h5>
+                                                        <span class="designation"><?php echo $row["designation"] . ', ' . $row["company"]; ?></span>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
 
-                                    <!-- Testimonial Block -->
-                                    <div class="testimonial-block">
-                                        <div class="inner-box">
-                                            <div class="text">A wonderful serenity has taken possession of my entire
-                                                soul, like these sweet mornings of spring which I enjoy with my whole
-                                                heart. I am alone, and feel the charm of existence in this spot, which
-                                                was created for the bliss of souls like mine. I am so happy, my dear
-                                                friend, so absorbed in the exquisite sense of me.
-                                            </div>
-
-                                            <div class="info-box">
-                                                <div class="image-box"><img src="images/resource/6.jpg" alt=""></div>
-                                                <div class="text-box">
-                                                    <h5 class="name">Jane Smith</h5>
-                                                    <span class="designation">CEO, InDesign</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <!-- Testimonial Block -->
-                                    <div class="testimonial-block">
-                                        <div class="inner-box">
-                                            <div class="text">A wonderful serenity has taken possession of my entire
-                                                soul, like these sweet mornings of spring which I enjoy with my whole
-                                                heart. I am alone, and feel the charm of existence in this spot, which
-                                                was created for the bliss of souls like mine. I am so happy, my dear
-                                                friend, so absorbed in the exquisite sense of me.
-                                            </div>
-
-                                            <div class="info-box">
-                                                <div class="image-box"><img src="images/resource/6.jpg" alt=""></div>
-                                                <div class="text-box">
-                                                    <h5 class="name">Jane Smith</h5>
-                                                    <span class="designation">CEO, InDesign</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <!-- Testimonial Block -->
-                                    <div class="testimonial-block">
-                                        <div class="inner-box">
-                                            <div class="text">A wonderful serenity has taken possession of my entire
-                                                soul, like these sweet mornings of spring which I enjoy with my whole
-                                                heart. I am alone, and feel the charm of existence in this spot, which
-                                                was created for the bliss of souls like mine. I am so happy, my dear
-                                                friend, so absorbed in the exquisite sense of me.
-                                            </div>
-
-                                            <div class="info-box">
-                                                <div class="image-box"><img src="images/resource/6.jpg" alt=""></div>
-                                                <div class="text-box">
-                                                    <h5 class="name">Jane Smith</h5>
-                                                    <span class="designation">CEO, InDesign</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <!-- Testimonial Block -->
-                                    <div class="testimonial-block">
-                                        <div class="inner-box">
-                                            <div class="text">A wonderful serenity has taken possession of my entire
-                                                soul, like these sweet mornings of spring which I enjoy with my whole
-                                                heart. I am alone, and feel the charm of existence in this spot, which
-                                                was created for the bliss of souls like mine. I am so happy, my dear
-                                                friend, so absorbed in the exquisite sense of me.
-                                            </div>
-
-                                            <div class="info-box">
-                                                <div class="image-box"><img src="images/resource/6.jpg" alt=""></div>
-                                                <div class="text-box">
-                                                    <h5 class="name">Jane Smith</h5>
-                                                    <span class="designation">CEO, InDesign</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                        <?php
+                                    }
+                                    ?>
                                 </div>
                             </div>
                         </div>
@@ -850,14 +794,14 @@
 
 
     <!-- News Section -->
-    <section class="news-section">
+    <!--<section class="news-section">
         <div class="auto-container">
             <div class="sec-title text-left">
                 <h2>Latest News Update</h2>
             </div>
             <div class="news-box row">
                 <div class="news-carousel owl-theme">
-                    <!-- News Block -->
+
                     <div class="news-block">
                         <div class="inner-box">
                             <div class="image-box">
@@ -876,7 +820,7 @@
                         </div>
                     </div>
 
-                    <!-- News Block -->
+
                     <div class="news-block">
                         <div class="inner-box">
                             <div class="image-box">
@@ -895,7 +839,7 @@
                         </div>
                     </div>
 
-                    <!-- News Block -->
+
                     <div class="news-block">
                         <div class="inner-box">
                             <div class="image-box">
@@ -916,12 +860,12 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section>-->
     <!--End News Section -->
 
     <!--Clients Section-->
     <?php
-    include ("includes/clients.php");
+    include("includes/clients.php");
     ?>
     <!--End Clients Section-->
 
@@ -933,7 +877,22 @@
 
 
 </div>
-
+<?php
+if (isset($_SESSION['status'])){
+if ($_SESSION['status'] && $_SESSION['status'] != ''){
+    ?>
+    <script>
+        Swal.fire({
+            icon: '<?php echo $_SESSION['status_code'];?>',
+            title: '<?php echo $_SESSION['status_title'];?>',
+            text: '<?php echo $_SESSION['status'];?>'
+        })
+    </script>
+    <?php
+    unset($_SESSION['status']);
+}
+}
+?>
 
 <!--Scroll to top-->
 <div class="scroll-to-top scroll-to-target" data-target="html"><span class="fa fa-arrow-up"></span></div>

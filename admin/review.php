@@ -50,7 +50,7 @@ $db_handle = new DBController();
                                                   method="POST" enctype="multipart/form-data">
                                                 <div class="form-group">
                                                     <label class="form-label">Status</label>
-                                                    <select name="scat" class="form-control select2"
+                                                    <select name="status" class="form-control select2"
                                                             data-validation="[NOTEMPTY]" required>
                                                         <option value="1" <?php if ($data[0]["status"] == 1) {
                                                             echo 'selected';
@@ -76,7 +76,7 @@ $db_handle = new DBController();
                     if (isset($_POST['up_rev'])) {
                         $status = $_POST['status'];
 
-                        $update = $db_handle->insertQuery("update review set stats='$status' where id=" . $_GET['edit'] . "");
+                        $update = $db_handle->insertQuery("update review set status=1 where id=" . $_GET['edit'] . "");
 
                         echo '<script type="text/javascript">';
                         echo "setTimeout(function () { swal({title: 'Review Edit', text: 'Review Edited Successfully', type: 'success', confirmButtonClass: 'btn-success', confirmButtonText: 'OK', },function() {window.location = 'review.php';});";
@@ -99,7 +99,8 @@ $db_handle = new DBController();
                                         <th>Sr No.</th>
                                         <th>Name</th>
                                         <th>Email</th>
-                                        <th>Phone</th>
+                                        <th>Company</th>
+                                        <th>Designation</th>
                                         <th>Message</th>
                                         <th>Star</th>
                                         <th>Status</th>
@@ -118,7 +119,8 @@ $db_handle = new DBController();
                                             <td><?php echo $i + 1; ?></td>
                                             <td><?php echo $data[$i]["name"]; ?></td>
                                             <td><?php echo $data[$i]["email"]; ?></td>
-                                            <td><?php echo $data[$i]["phone"]; ?></td>
+                                            <td><?php echo $data[$i]["company"]; ?></td>
+                                            <td><?php echo $data[$i]["designation"]; ?></td>
                                             <td><?php echo $data[$i]["message"]; ?></td>
                                             <td><?php echo $data[$i]["star"]; ?></td>
                                             <td><?php echo $data[$i]["status"]; ?></td>
@@ -133,7 +135,7 @@ $db_handle = new DBController();
                                             </td>
                                             <td>
                                                 <a class="primary"
-                                                   href="category.php?edit=<?php echo $data[$i]['id']; ?>"
+                                                   href="review.php?edit=<?php echo $data[$i]['id']; ?>"
                                                    data-original-title="" title="" style="text-decoration: none">
                                                     <i class="fas fa-edit text-info"></i>
                                                 </a>

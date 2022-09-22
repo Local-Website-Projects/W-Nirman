@@ -109,10 +109,11 @@
             <div class="inner-container clearfix">
                 <div class="footer-menu">
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Service</a></li>
-                        <li><a href="#">Project</a></li>
-                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="index.php">Home</a></li>
+                        <li><a href="about_us.php">About Us</a></li>
+                        <li><a href="services.php">Service</a></li>
+                        <li><a href="portfolio.php">Portfolio</a></li>
+                        <li><a href="contact.php">Contact Us</a></li>
                     </ul>
                 </div>
 

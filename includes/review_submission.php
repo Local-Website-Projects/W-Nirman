@@ -40,18 +40,27 @@ if (isset($_POST['submit-form'])) {
                 </body>
             </html>";
         if (mail($email_to, $subject, $messege, $headers)) {
-            echo "<script> alert('data inserted successfully');</script>
+            $_SESSION['status']="Your opinion is always important for us!";
+            $_SESSION['status_code'] = "success";
+            $_SESSION['status_title'] = 'Thank You!';
+            echo "
                <script>window.location.replace('../index.php');
                </script>";
         }
         else{
-            echo "<script> alert('Sorry Something Went Wrong');</script>
+            $_SESSION['status']="Something went wrong!";
+            $_SESSION['status_code'] = "error";
+            $_SESSION['status_title'] = 'Sorry!';
+            echo "
                <script>window.location.replace('../index.php');
                </script>";
         }
 
     }else{
-        echo "<script> alert('Sorry Something Went Wrong');</script>
+        $_SESSION['status']="Something went wrong!";
+        $_SESSION['status_code'] = "error";
+        $_SESSION['status_title'] = 'Sorry!';
+        echo "
                <script>window.location.replace('../index.php');
                </script>";
     }
