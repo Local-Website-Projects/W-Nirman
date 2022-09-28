@@ -35,11 +35,11 @@
                                 <h2 class="widget-title">Services</h2>
                                 <div class="widget-content">
                                     <ul class="list">
-                                        <li><a href="#">Plan Approval from KDA</a></li>
-                                        <li><a href="#">Plan Approval from Upazilla</a></li>
-                                        <li><a href="#">Electrical Design</a></li>
+                                        <li><a href="#">Architectural Design</a></li>
+                                        <li><a href="#">Structural Design</a></li>
                                         <li><a href="#">Interior Design</a></li>
-                                        <li><a href="#">Cost Estimate</a></li>
+                                        <li><a href="#">Land Development</a></li>
+                                        <li><a href="#">Construction</a></li>
                                     </ul>
                                 </div>
                             </div>

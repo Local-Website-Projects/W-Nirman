@@ -176,6 +176,38 @@ include("config/dbconfig.php");
                         </div>
                     </div>
 
+                    <!-- Service Block -->
+                    <div class="service-block">
+                        <div class="inner-box">
+                            <div class="icon-box">
+                                <i class="flaticon-town-2"></i>
+                            </div>
+                            <div class="lower-content">
+                                <h3><a href="#">Interior Design</a></h3>
+                                <div class="text">The art or practice of planning and supervising the design and
+                                    execution of architectural interiors and their furnishings.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Service Block -->
+                    <div class="service-block">
+                        <div class="inner-box">
+                            <div class="icon-box">
+                                <i class="flaticon-urban"></i>
+                            </div>
+                            <div class="lower-content">
+                                <h3><a href="#">Structural Design</a></h3>
+                                <div class="text">Structural design is the methodical investigation of the stability,
+                                    strength and rigidity of structures. The basic objective in structural analysis and
+                                    design is to produce a structure capable of resisting all applied loads without
+                                    failure during its intended life
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
 
                     <!-- Service Block -->
                     <div class="service-block">
@@ -214,33 +246,18 @@ include("config/dbconfig.php");
                     <div class="service-block">
                         <div class="inner-box">
                             <div class="icon-box">
-                                <i class="flaticon-town-2"></i>
+                                <i class="flaticon-town-1"></i>
                             </div>
                             <div class="lower-content">
-                                <h3><a href="#">Interior Design</a></h3>
-                                <div class="text">The art or practice of planning and supervising the design and
-                                    execution of architectural interiors and their furnishings.
+                                <h3><a href="#">Plan Approval</a></h3>
+                                <div class="text">The developer/builder's architect has to submit the building plan for
+                                    approval. He has to submit the proposed plan with all the required documents now the
+                                    proposal goes for two levels of check.
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <!-- Service Block -->
-                    <div class="service-block">
-                        <div class="inner-box">
-                            <div class="icon-box">
-                                <i class="flaticon-urban"></i>
-                            </div>
-                            <div class="lower-content">
-                                <h3><a href="#">Structural Design</a></h3>
-                                <div class="text">Structural design is the methodical investigation of the stability,
-                                    strength and rigidity of structures. The basic objective in structural analysis and
-                                    design is to produce a structure capable of resisting all applied loads without
-                                    failure during its intended life
-                                </div>
-                            </div>
-                        </div>
-                    </div>
 
                     <!-- Service Block -->
                     <div class="service-block">
@@ -274,22 +291,7 @@ include("config/dbconfig.php");
                             </div>
                         </div>
                     </div>
-                    <!-- Service Block -->
-                    <div class="service-block">
-                        <div class="inner-box">
-                            <div class="icon-box">
-                                <i class="flaticon-house-1"></i>
-                            </div>
-                            <div class="lower-content">
-                                <h3><a href="#">Bank Estimate</a></h3>
-                                <div class="text">Estimation in civil engineering is the process of determining the
-                                    number of materials, resources, and money needed to operate during a construction
-                                    project. This is usually done before the start of the project, so you can procure
-                                    estimated materials and gather the funds as the project progresses.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+
                     <!-- Service Block -->
                     <div class="service-block">
                         <div class="inner-box">
@@ -544,10 +546,10 @@ include("config/dbconfig.php");
 
             <div class="row clearfix">
                 <!-- Team Block -->
-                <div class="team-block col-lg-3 col-md-6 col-sm-12">
+                <div class="team-block col-lg-4 col-md-4 col-sm-12">
                     <div class="inner-box">
                         <div class="image-box">
-                            <div class="image"><a href="team.html"><img src="images/resource/7.jpg" alt=""></a></div>
+                            <div class="image"><img src="images/resource/8.jpg" alt=""></div>
                             <ul class="social-links">
                                 <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                                 <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
@@ -557,17 +559,17 @@ include("config/dbconfig.php");
                             </ul>
                         </div>
                         <div class="info-box">
-                            <h3 class="name"><a href="team.html">Marry Scott</a></h3>
-                            <span class="designation">Planning Manager</span>
+                            <h3 class="name">Tamanna Sultana</h3>
+                            <span class="designation">Chairman, Nirman</span>
                         </div>
                     </div>
                 </div>
 
                 <!-- Team Block -->
-                <div class="team-block col-lg-3 col-md-6 col-sm-12">
+                <div class="team-block col-lg-4 col-md-4 col-sm-12">
                     <div class="inner-box">
                         <div class="image-box">
-                            <div class="image"><a href="team.html"><img src="images/resource/8.jpg" alt=""></a></div>
+                            <div class="image"><img src="images/resource/9.jpg" alt=""></div>
                             <ul class="social-links">
                                 <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                                 <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
@@ -577,17 +579,17 @@ include("config/dbconfig.php");
                             </ul>
                         </div>
                         <div class="info-box">
-                            <h3 class="name"><a href="team.html">Michael Dow</a></h3>
-                            <span class="designation">CEO & Founder</span>
+                            <h3 class="name">Engr B M Mujahidul Alam</h3>
+                            <span class="designation">Managing Director & Structural Engineer</span>
                         </div>
                     </div>
                 </div>
 
                 <!-- Team Block -->
-                <div class="team-block col-lg-3 col-md-6 col-sm-12">
+                <div class="team-block col-lg-4 col-md-4 col-sm-12">
                     <div class="inner-box">
                         <div class="image-box">
-                            <div class="image"><a href="team.html"><img src="images/resource/9.jpg" alt=""></a></div>
+                            <div class="image"><img src="images/resource/7.jpg" alt=""></div>
                             <ul class="social-links">
                                 <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                                 <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
@@ -598,31 +600,12 @@ include("config/dbconfig.php");
 
                         </div>
                         <div class="info-box">
-                            <h3 class="name"><a href="team.html">Lili Jameson</a></h3>
-                            <span class="designation">Senior Interior</span>
+                            <h3 class="name">Prithul Justin Serao</h3>
+                            <span class="designation">Structural Engineer</span>
                         </div>
                     </div>
                 </div>
 
-                <!-- Team Block -->
-                <div class="team-block col-lg-3 col-md-6 col-sm-12">
-                    <div class="inner-box">
-                        <div class="image-box">
-                            <div class="image"><a href="team.html"><img src="images/resource/10.jpg" alt=""></a></div>
-                            <ul class="social-links">
-                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
-                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fab fa-skype"></i></a></li>
-                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                            </ul>
-                        </div>
-                        <div class="info-box">
-                            <h3 class="name"><a href="team.html">Jack Smith</a></h3>
-                            <span class="designation">Project Manager</span>
-                        </div>
-                    </div>
-                </div>
 
             </div>
         </div>
@@ -878,19 +861,19 @@ include("config/dbconfig.php");
 
 </div>
 <?php
-if (isset($_SESSION['status'])){
-if ($_SESSION['status'] && $_SESSION['status'] != ''){
-    ?>
-    <script>
-        Swal.fire({
-            icon: '<?php echo $_SESSION['status_code'];?>',
-            title: '<?php echo $_SESSION['status_title'];?>',
-            text: '<?php echo $_SESSION['status'];?>'
-        })
-    </script>
-    <?php
-    unset($_SESSION['status']);
-}
+if (isset($_SESSION['status'])) {
+    if ($_SESSION['status'] && $_SESSION['status'] != '') {
+        ?>
+        <script>
+            Swal.fire({
+                icon: '<?php echo $_SESSION['status_code'];?>',
+                title: '<?php echo $_SESSION['status_title'];?>',
+                text: '<?php echo $_SESSION['status'];?>'
+            })
+        </script>
+        <?php
+        unset($_SESSION['status']);
+    }
 }
 ?>
 

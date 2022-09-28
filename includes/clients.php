@@ -24,6 +24,12 @@
                 <li class="slide-item">
                     <figure class="image-box"><a href="#"><img src="images/clients/7.png" alt=""></a></figure>
                 </li>
+                <li class="slide-item">
+                    <figure class="image-box"><a href="#"><img src="images/clients/8.png" alt=""></a></figure>
+                </li>
+                <li class="slide-item">
+                    <figure class="image-box"><a href="#"><img src="images/clients/9.png" alt=""></a></figure>
+                </li>
             </ul>
         </div>
     </div>

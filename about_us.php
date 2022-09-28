@@ -138,7 +138,7 @@
                                             <div class="icon-box">
                                                 <i class="flaticon-home"></i>
                                             </div>
-                                            <h4>Modern interior Projects</h4>
+                                            <h4>Modern Interior & Exterior Projects</h4>
                                         </div>
                                     </div>
 
@@ -147,7 +147,7 @@
                                             <div class="icon-box">
                                                 <i class="flaticon-contract"></i>
                                             </div>
-                                            <h4>Fair Personal Estimate</h4>
+                                            <h4>Best Land Development</h4>
                                         </div>
                                     </div>
                                 </div>
