@@ -38,72 +38,22 @@ include("config/dbconfig.php");
     <section class="banner-section">
         <div class="carousel-column">
             <div class="carousel-outer">
-                <ul class="banner-carousel owl-carousel owl-theme">
-
-                    <!-- Slide Item -->
-                    <li class="slide-item" style="background-image: url(images/main-slider/image-1.jpg);">
-                        <div class="auto-container">
-                            <div class="content-box">
-                                <h1>Nirman Architecture & Development</h1>
-                                <div class="text">The great buildings that changed the world <br> all start with a
-                                    visionary
-                                </div>
-                                <div class="link-box">
-                                    <a href="#" class="theme-btn btn-style-one">Our Service</a>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-
-                    <!-- Slide Item -->
-                    <li class="slide-item" style="background-image: url(images/main-slider/image-2.jpg);">
-                        <div class="auto-container">
-                            <div class="content-box">
-                                <h1>Nirman Architecture & Development</h1>
-                                <div class="text">Take the opportunity to re-imagine, <br> how your space can serve its
-                                    purpose
-                                </div>
-                                <div class="link-box">
-                                    <a href="#" class="theme-btn btn-style-one">Our Service</a>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-                    <!-- Slide Item -->
-                    <li class="slide-item" style="background-image: url(images/main-slider/image-5.jpg);">
-                        <div class="auto-container">
-                            <div class="content-box">
-                                <h1>Nirman Architecture & Development</h1>
-                                <div class="text">Where else can you be inspired by the people, <br> who make world
-                                    class architecture happen?
-                                </div>
-                                <div class="link-box">
-                                    <a href="#" class="theme-btn btn-style-one">Our Service</a>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-
-                </ul>
-                <ul class="thumbs-carousel owl-carousel owl-theme">
-                    <li class="thumb-box">
-                        <figure><img src="images/resource/special-thumb-2.jpg" alt=""></figure>
-                    </li>
-                    <li class="thumb-box">
-                        <figure><img src="images/resource/special-thumb-3.jpg" alt=""></figure>
-                    </li>
-                    <li class="thumb-box">
-                        <figure><img src="images/resource/special-thumb-1.jpg" alt=""></figure>
-                    </li>
-                </ul>
+                <div class="bg-video-wrap">
+                    <video src="video/City.mp4" loop muted autoplay>
+                    </video>
+                    <div class="overlay">
+                    </div>
+                    <h1>Nirman Architecture & Development
+                        <br><a href="about_us.php" class="theme-btn btn-style-one">Read More</a></h1>
+                </div>
             </div>
         </div>
 
         <div class="social-links">
             <ul class="social-icon-three">
-                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                <li><a href="https://www.facebook.com/nirman.ad22/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="https://www.instagram.com/nirman.ad22" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="mailto:info@nirmanad.org"><i class="fab fa-google-plus-g"></i></a></li>
                 <li><a href="#"><i class="fab fa-skype"></i></a></li>
                 <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
             </ul>
@@ -567,7 +517,7 @@ include("config/dbconfig.php");
                                 <li><a href="https://www.facebook.com/mujahid.ce16/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
                                 <li><a href="mailto:mujahidce16@gmail.com"><i class="fab fa-google-plus-g"></i></a></li>
                                 <li><a href="https://api.whatsapp.com/send?phone=8801965046542" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
-                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="https://twitter.com/MujahidulAlam4" target="_blank"><i class="fab fa-twitter"></i></a></li>
                                 <li><a href="https://www.linkedin.com/in/mujahidul-alam-941158141" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
                             </ul>
                         </div>
@@ -587,7 +537,6 @@ include("config/dbconfig.php");
                                 <li><a href="https://www.facebook.com/prithulsera" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
                                 <li><a href="mailto:prithulserao55@gmail.com"><i class="fab fa-google-plus-g"></i></a></li>
                                 <li><a href="https://api.whatsapp.com/send?phone=8801875675823" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
-                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
                                 <li><a href="https://www.linkedin.com/in/prithul-justin-serao-00a587199" target="_blank\"><i class="fab fa-linkedin-in"></i></a></li>
                             </ul>
 

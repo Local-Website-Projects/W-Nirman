@@ -78,6 +78,23 @@
                     <div class="service-block">
                         <div class="inner-box">
                             <div class="icon-box">
+                                <i class="flaticon-town-2"></i>
+                            </div>
+                            <div class="lower-content">
+                                <h3><a href="#">Interior Design</a></h3>
+                                <div class="text">The art or practice of planning and supervising the design and
+                                    execution of architectural interiors and their furnishings.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <!-- Service Block -->
+                    <div class="service-block">
+                        <div class="inner-box">
+                            <div class="icon-box">
                                 <i class="flaticon-town"></i>
                             </div>
                             <div class="lower-content">
@@ -110,22 +127,6 @@
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <!-- Service Block -->
-                    <div class="service-block">
-                        <div class="inner-box">
-                            <div class="icon-box">
-                                <i class="flaticon-town-2"></i>
-                            </div>
-                            <div class="lower-content">
-                                <h3><a href="#">Interior Design</a></h3>
-                                <div class="text">The art or practice of planning and supervising the design and
-                                    execution of architectural interiors and their furnishings.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
                 <div class="col-lg-4 col-md-6 col-sm-12">
                     <!-- Service Block -->
@@ -170,10 +171,10 @@
                     <div class="service-block">
                         <div class="inner-box">
                             <div class="icon-box">
-                                <i class="flaticon-house-1"></i>
+                                <i class="flaticon-money"></i>
                             </div>
                             <div class="lower-content">
-                                <h3><a href="#">Cost Estimate</a></h3>
+                                <h3><a href="#">Estimate</a></h3>
                                 <div class="text">Cost estimation in project management is the process of forecasting
                                     the financial and other resources needed to complete a project within a defined
                                     scope. Cost estimation accounts for each element required for the project—from
@@ -189,26 +190,7 @@
                     <div class="service-block">
                         <div class="inner-box">
                             <div class="icon-box">
-                                <i class="flaticon-house-1"></i>
-                            </div>
-                            <div class="lower-content">
-                                <h3><a href="#">Bank Estimate</a></h3>
-                                <div class="text">Estimation in civil engineering is the process of determining the
-                                    number of materials, resources, and money needed to operate during a construction
-                                    project. This is usually done before the start of the project, so you can procure
-                                    estimated materials and gather the funds as the project progresses.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-4 col-md-6 col-sm-12">
-                    <!-- Service Block -->
-                    <div class="service-block">
-                        <div class="inner-box">
-                            <div class="icon-box">
-                                <i class="flaticon-house-1"></i>
+                                <i class="flaticon-home"></i>
                             </div>
                             <div class="lower-content">
                                 <h3><a href="#">Development</a></h3>
@@ -227,7 +209,7 @@
                     <div class="service-block">
                         <div class="inner-box">
                             <div class="icon-box">
-                                <i class="flaticon-house-1"></i>
+                                <i class="flaticon-plan"></i>
                             </div>
                             <div class="lower-content">
                                 <h3><a href="#">Supervision</a></h3>
@@ -245,7 +227,7 @@
                     <div class="service-block">
                         <div class="inner-box">
                             <div class="icon-box">
-                                <i class="flaticon-house-1"></i>
+                                <i class="flaticon-company"></i>
                             </div>
                             <div class="lower-content">
                                 <h3><a href="#">Soil Test</a></h3>
@@ -263,7 +245,7 @@
                     <div class="service-block">
                         <div class="inner-box">
                             <div class="icon-box">
-                                <i class="flaticon-house-1"></i>
+                                <i class="flaticon-skyscraper"></i>
                             </div>
                             <div class="lower-content">
                                 <h3><a href="#">3D Visualization</a></h3>
