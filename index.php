@@ -549,14 +549,7 @@ include("config/dbconfig.php");
                 <div class="team-block col-lg-4 col-md-4 col-sm-12">
                     <div class="inner-box">
                         <div class="image-box">
-                            <div class="image"><img src="images/resource/8.jpg" alt=""></div>
-                            <ul class="social-links">
-                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
-                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fab fa-skype"></i></a></li>
-                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                            </ul>
+                            <div class="image"><img src="images/resource/8.jpg" alt=""></a></div>
                         </div>
                         <div class="info-box">
                             <h3 class="name">Tamanna Sultana</h3>
@@ -571,11 +564,11 @@ include("config/dbconfig.php");
                         <div class="image-box">
                             <div class="image"><img src="images/resource/9.jpg" alt=""></div>
                             <ul class="social-links">
-                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                <li><a href="https://www.facebook.com/mujahid.ce16/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="mailto:mujahidce16@gmail.com"><i class="fab fa-google-plus-g"></i></a></li>
+                                <li><a href="https://api.whatsapp.com/send?phone=8801965046542" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
                                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fab fa-skype"></i></a></li>
-                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href="https://www.linkedin.com/in/mujahidul-alam-941158141" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
                             </ul>
                         </div>
                         <div class="info-box">
@@ -591,11 +584,11 @@ include("config/dbconfig.php");
                         <div class="image-box">
                             <div class="image"><img src="images/resource/7.jpg" alt=""></div>
                             <ul class="social-links">
-                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+                                <li><a href="https://www.facebook.com/prithulsera" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="mailto:prithulserao55@gmail.com"><i class="fab fa-google-plus-g"></i></a></li>
+                                <li><a href="https://api.whatsapp.com/send?phone=8801875675823" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
                                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="#"><i class="fab fa-skype"></i></a></li>
-                                <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                <li><a href="https://www.linkedin.com/in/prithul-justin-serao-00a587199" target="_blank\"><i class="fab fa-linkedin-in"></i></a></li>
                             </ul>
 
                         </div>
@@ -607,6 +600,36 @@ include("config/dbconfig.php");
                 </div>
 
 
+            </div>
+            <div class="row d-flex justify-content-center">
+                <div class="team-block col-lg-4 col-md-4 col-sm-12">
+                    <div class="inner-box">
+                        <div class="image-box">
+                            <div class="image"><img src="images/resource/team-11.jpg" alt=""></div>
+                            <ul class="social-links">
+                                <li><a href="facebook.com/pointjulkarnayeem" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="mailto:pointjulkarnayeem@gmail.com"><i class="fab fa-google-plus-g"></i></a></li>
+                            </ul>
+
+                        </div>
+                        <div class="info-box">
+                            <h3 class="name">Md Julkar Nayeem</h3>
+                            <span class="designation">Cheif Architect & 3D Visualizar</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-block col-lg-4 col-md-4 col-sm-12">
+                    <div class="inner-box">
+                        <div class="image-box">
+                            <div class="image"><img src="images/resource/team-12.jpg" alt=""></div>
+
+                        </div>
+                        <div class="info-box">
+                            <h3 class="name">Engr Md Leton Hossain</h3>
+                            <span class="designation">Advisor</span>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
