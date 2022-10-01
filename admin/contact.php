@@ -108,7 +108,7 @@ $db_handle = new DBController();
 
                                 let currentUrl = window.location.href;
                                 let params = (new URL(currentUrl)).searchParams;
-                                let contact_id = params.get('dele');
+                                let contact_id = params.get('del');
                                 $.ajax({
                                     type: 'get',
                                     url: 'delete_data.php',

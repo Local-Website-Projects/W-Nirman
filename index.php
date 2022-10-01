@@ -38,13 +38,19 @@ include("config/dbconfig.php");
     <section class="banner-section">
         <div class="carousel-column">
             <div class="carousel-outer">
-                <div class="bg-video-wrap">
-                    <video src="video/City.mp4" loop muted autoplay>
-                    </video>
-                    <div class="overlay">
-                    </div>
-                    <h1>Nirman Architecture & Development
-                        <br><a href="about_us.php" class="theme-btn btn-style-one">Read More</a></h1>
+                <video loop muted autoplay>
+                    <source src="video/city_new.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="overlay">
+                </div>
+                <h1>
+                    Nirman Architecture & Development
+                    <br/>
+                    <a href="contact.php" class="theme-btn btn-style-one">
+                        Contact Us
+                    </a>
+                </h1>
                 </div>
             </div>
         </div>
@@ -54,7 +60,7 @@ include("config/dbconfig.php");
                 <li><a href="https://www.facebook.com/nirman.ad22/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
                 <li><a href="https://www.instagram.com/nirman.ad22" target="_blank"><i class="fab fa-instagram"></i></a></li>
                 <li><a href="mailto:info@nirmanad.org"><i class="fab fa-google-plus-g"></i></a></li>
-                <li><a href="#"><i class="fab fa-skype"></i></a></li>
+                <li><a href="https://api.whatsapp.com/send?phone=8801765774465" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
                 <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
             </ul>
         </div>

@@ -2,6 +2,7 @@
 if (!empty($_SESSION['name'])) {
     $id = $_SESSION['user_id'];
 }
+error_reporting(0);
 ?>
 <nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
     <!-- Navbar Brand-->
