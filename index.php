@@ -51,7 +51,6 @@ include("config/dbconfig.php");
                         Contact Us
                     </a>
                 </h1>
-                </div>
             </div>
         </div>
 

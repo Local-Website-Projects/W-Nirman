@@ -4,11 +4,11 @@
 1.  Fonts
 2.  Reset
 3.  Global
-4.  Main Header / Style two / Style three / Style Four / Style Five 
-5.  Side Nav Bar 
+4.  Main Header / Style two / Style three / Style Four / Style Five
+5.  Side Nav Bar
 6.  Hidden Sidebar
 7.  Banner Section / Two / Three
-8.  Slider Section / Two 
+8.  Slider Section / Two
 9.  Page Title
 10. Section Title / Two
 11. About Section
@@ -25,24 +25,24 @@
 22. Styled Pagination
 23. Offer Section
 24. Team Section / Two
-25. Testimonial Section / Two 
+25. Testimonial Section / Two
 26. FAQ Section / two
 27. Featured Section
 28. Products Section / Two
 29. offers banner Section
-30. News Section / Two 
+30. News Section / Two
 31. Blog Section
 32. Blog Detail
-33. Clients Section / Two / Three / Four / Five / Six 
+33. Clients Section / Two / Three / Four / Five / Six
 34. Contact Section / Two
-35. Main Footer / Two / Three / 
+35. Main Footer / Two / Three /
 36. Sidebar Page Container
 37. Comment Area
 38. Comment Form
 39. Contact Page Section
 **********************************************/
 
-/*** 
+/***
 
 ====================================================================
 			Fonts
@@ -53,7 +53,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,400i,500,600,700,900|Open+Sans:300,400,600,700');
 @import url('https://fonts.googleapis.com/css?family=BenchNine:300,400,700');
 
-/* 
+/*
 font-family: 'Montserrat', sans-serif;
 font-family: 'Open Sans', sans-serif;
 */
@@ -68,7 +68,7 @@ font-family: 'Open Sans', sans-serif;
 @import url('jquery-ui.css');
 @import url('jquery.fancybox.min.css');
 
-/*** 
+/***
 
 ====================================================================
 		Reset
@@ -84,7 +84,7 @@ font-family: 'Open Sans', sans-serif;
 	font-size: 100%;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Global Settings
@@ -93,7 +93,7 @@ font-family: 'Open Sans', sans-serif;
 ***/
 
 body {
-	
+
 	font-size:14px;
 	color:#777777;
 	line-height: 28px;
@@ -128,13 +128,13 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 textarea{
-	overflow:hidden;	
+	overflow:hidden;
 	resize: none;
 }
 
 figure{
 	margin: 0;
-	padding: 0;	
+	padding: 0;
 }
 
 button{
@@ -173,7 +173,7 @@ p,.text{
 ul,li{
 	list-style:none;
 	padding:0px;
-	margin:0px;	
+	margin:0px;
 }
 
 .theme-btn{
@@ -411,26 +411,26 @@ ul,li{
 }
 
 
-.preloader{ 
-	position:fixed; 
-	left:0px; 
-	top:0px; 
-	width:100%; 
-	height:100%; 
-	z-index:999999; 
-	background-color:#ffffff; 
-	background-position:center center; 
-	background-repeat:no-repeat; 
+.preloader{
+	position:fixed;
+	left:0px;
+	top:0px;
+	width:100%;
+	height:100%;
+	z-index:999999;
+	background-color:#ffffff;
+	background-position:center center;
+	background-repeat:no-repeat;
 	background-image:url(../images/icons/preloader.svg);
 }
 
 img{
 	display:inline-block;
 	max-width:100%;
-	height:auto;	
+	height:auto;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Scroll To Top style
@@ -457,7 +457,7 @@ img{
 	-moz-transition:all 300ms ease;
 	-ms-transition:all 300ms ease;
 	-o-transition:all 300ms ease;
-	transition:all 300ms ease;		
+	transition:all 300ms ease;
 }
 
 .scroll-to-top:hover{
@@ -465,7 +465,7 @@ img{
 	color: #222222;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Main Header style
@@ -609,7 +609,7 @@ img{
 }
 
 .main-menu .navbar-collapse{
-	padding:0px;	
+	padding:0px;
 }
 
 .main-menu .navigation{
@@ -654,7 +654,7 @@ img{
 	position: absolute;
 	left: 0;
 	top: 0;
-	margin: 0 auto; 
+	margin: 0 auto;
 	width: 44px;
 	height: 2px;
 	background: #292a6b;
@@ -692,7 +692,7 @@ img{
 	font-size:13px;
 	font-weight: 900;
 	text-align:center;
-	z-index:5;	
+	z-index:5;
 }
 
 .main-menu .navigation > li > ul > li > ul > li.dropdown:hover > a:after{
@@ -722,7 +722,7 @@ img{
 
 .main-menu .navigation > li > ul.from-right{
 	left:auto;
-	right:0px;	
+	right:0px;
 }
 
 .main-menu .navigation > li > ul > li{
@@ -732,7 +732,7 @@ img{
 }
 
 .main-menu .navigation > li > ul > li:last-child{
-	border-bottom:none;	
+	border-bottom:none;
 }
 
 .main-menu .navigation > li > ul > li > a{
@@ -771,7 +771,7 @@ img{
 	color: #ffffff;
 	font-weight:normal;
 	text-align:center;
-	z-index:5;	
+	z-index:5;
 	font-family: 'Font Awesome 5 Free';
 	font-weight: 900;
 }
@@ -803,7 +803,7 @@ img{
 }
 
 .main-menu .navigation > li > ul > li > ul > li:last-child{
-	border-bottom:none;	
+	border-bottom:none;
 }
 
 .main-menu .navigation > li > ul > li  > ul > li > a{
@@ -850,7 +850,7 @@ img{
 	-moz-transition:all 500ms ease;
 	-webkit-transition:all 500ms ease;
 	-ms-transition:all 500ms ease;
-	-o-transition:all 500ms ease;	
+	-o-transition:all 500ms ease;
 }
 
 .main-menu .navbar-collapse > ul li.dropdown .dropdown-btn{
@@ -1232,18 +1232,18 @@ img{
 	left: auto !important;
 	transform: none !important;
 	padding:0px;
-	width:280px;	
+	width:280px;
 	border-radius:0px;
 	border-top:3px solid #25262c;
 }
 
 .main-header .search-panel .form-container{
-	padding:25px 20px;	
+	padding:25px 20px;
 }
 
 .main-header .search-panel .form-group{
 	position:relative;
-	margin:0px;	
+	margin:0px;
 }
 
 .main-header .search-panel input[type="text"],
@@ -1257,12 +1257,12 @@ img{
 	height:40px;
 	font-size:14px;
 	border:1px solid #e0e0e0;
-	background:#ffffff;	
+	background:#ffffff;
 }
 
 .main-header .search-panel input:focus,
 .main-header .search-panel select:focus{
-	border-color:#25262c;	
+	border-color:#25262c;
 }
 
 .main-header .search-panel .search-btn{
@@ -1708,7 +1708,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 	background-position: top center;
 	background-repeat: no-repeat;
 	padding: 0 30px;
-	background-size: cover; 
+	background-size: cover;
 }
 
 
@@ -1744,7 +1744,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 }
 
 
-.header-style-four .navigation > li > a:hover::before, 
+.header-style-four .navigation > li > a:hover::before,
 .header-style-four .navigation > li.current > a::before {
     content: "";
     position: absolute;
@@ -1757,7 +1757,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
     background: #292a6b;
 }
 
-.header-style-four .navigation > li > a:hover::after, 
+.header-style-four .navigation > li > a:hover::after,
 .header-style-four .navigation > li.current > a::after{
 	display: none;
 }
@@ -1892,7 +1892,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 }
 
 
-.header-style-five .navigation > li > a:hover::before, 
+.header-style-five .navigation > li > a:hover::before,
 .header-style-five .navigation > li.current > a::before {
     content: "";
     position: absolute;
@@ -1905,7 +1905,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
     background: #292a6b;
 }
 
-.header-style-five .navigation > li > a:hover::after, 
+.header-style-five .navigation > li > a:hover::after,
 .header-style-five .navigation > li.current > a::after{
 	display: none;
 }
@@ -1939,7 +1939,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 	color: #292a6b;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Side Nav Bar
@@ -1956,7 +1956,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 	overflow-y:auto;
 	background:#111111;
 	z-index: 99999;
-	transition: all 500ms ease;	
+	transition: all 500ms ease;
 }
 
 .active-side-nav .sidenav-bar{
@@ -2127,7 +2127,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 	-moz-transition:all 0.5s ease;
 	-webkit-transition:all 0.5s ease;
 	-ms-transition:all 0.5s ease;
-	-o-transition:all 0.5s ease;	
+	-o-transition:all 0.5s ease;
 }
 
 .active-side-nav .form-back-drop{
@@ -2324,7 +2324,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 	margin-right: 0;
 }
 
-/*** 
+/***
 
 ====================================================================
 				Sticky Header
@@ -2401,7 +2401,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 	color: #292a6b;
 }
 
-.sticky-header .main-menu .navigation > li > a:hover::after, 
+.sticky-header .main-menu .navigation > li > a:hover::after,
 .sticky-header .main-menu .navigation > li.current > a::after{
 	display: none;
 }
@@ -2544,7 +2544,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 	background:#222222;
 }
 
-/*** 
+/***
 
 ====================================================================
 		Banner Section
@@ -2644,7 +2644,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 .banner-section .owl-wrapper,
 .banner-section .owl-stage-outer,
 .banner-section .owl-wrapper-outer {
-    height: 100% !important;    
+    height: 100% !important;
 }
 
 .banner-section .slide-item{
@@ -2903,7 +2903,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 }
 
 
-/*** 
+/***
 
 ====================================================================
 			Banner Section Style two
@@ -2988,11 +2988,11 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 }
 .banner-form .form-group{
 	position:relative;
-	margin-bottom:20px;	
+	margin-bottom:20px;
 	text-align: center;
 }
 
-.banner-form .form-group input[type="text"], 
+.banner-form .form-group input[type="text"],
 .banner-form .form-group input[type="email"]  {
     position: relative;
     display: block;
@@ -3025,7 +3025,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 	line-height: 30px;
 }
 
-/*** 
+/***
 
 ====================================================================
 		Banner Section Three
@@ -3497,7 +3497,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 	font-weight: 700;
 }
 
-/*** 
+/***
 
 ====================================================================
 			Main Slider
@@ -3506,7 +3506,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 ***/
 
 .main-slider{
-	position:relative;	
+	position:relative;
 	z-index:99;
 }
 
@@ -3524,13 +3524,13 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
     left: 0;
     top: 0;
     pointer-events: none;
- 
+
     /* black overlay with 70% transparency */
     background: rgba(0, 0, 0, 0.7);
     z-index: 1;
 }
 
-.main-slider h1{	
+.main-slider h1{
 	font-size:60px;
 	line-height:1em;
 	color: #ffffff;
@@ -3596,7 +3596,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 
 }
 
-/*** 
+/***
 
 ====================================================================
 			Main Slider Style Two
@@ -3605,7 +3605,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 ***/
 
 .main-slider.style-two{
-	position:relative;	
+	position:relative;
 	z-index:99;
 	margin-top: 0;
 }
@@ -3618,7 +3618,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
     left: 0;
     top: 0;
     pointer-events: none;
- 
+
     /* black overlay with 0% transparency */
     background: rgba(0, 0, 0, 0);
     z-index: 1;
@@ -3684,7 +3684,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 	color: #292a6b;
 	border: none;
 }
-/*** 
+/***
 
 ====================================================================
 			Page Title
@@ -3787,7 +3787,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 	color:#292a6b ;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Section Title
@@ -3829,7 +3829,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 	bottom: 0;
 	width: 10px;
 	height: 2px;
-	background-color:#333333; 
+	background-color:#333333;
 }
 
 
@@ -3850,13 +3850,13 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
   from {
     -webkit-mask-position: 150%;
   }
-  
+
   to {
     -webkit-mask-position: -50%;
   }
 }
 
-/*** 
+/***
 
 ====================================================================
 	Section Title Style Two
@@ -3896,7 +3896,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 	bottom: 0;
 	width: 10px;
 	height: 2px;
-	background-color:#333333; 
+	background-color:#333333;
 }
 
 
@@ -3913,7 +3913,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 	left: 51%;
 }
 
-/*** 
+/***
 
 ====================================================================
 			About Section
@@ -4025,7 +4025,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 	font-weight: 700;
 }
 
-/*** 
+/***
 
 ====================================================================
 			Services Section
@@ -4105,7 +4105,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 }
 .service-block .inner-box .icon-box i:before{
 	margin:0;
-	font-size: 55px; 
+	font-size: 55px;
 	color: #bbbbbb;
 	line-height: 60px;
 	-webkit-transition: all 0.7s ease-in-out;
@@ -4304,7 +4304,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 	color: #ffffff;
 }
 
-/*** 
+/***
 
 ====================================================================
 			Services Section Style Two
@@ -4332,7 +4332,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 	top: 0;
 	width: 100%;
 	height: 100%;
-	background:rgba(0,0,0,0.5); 
+	background:rgba(0,0,0,0.5);
 }
 
 .services-section.style-two .services-carousel-two .service-block {
@@ -4398,7 +4398,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 	color: #333;
 }
 
-/*** 
+/***
 
 ====================================================================
 			Services Section Style Three
@@ -4438,7 +4438,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 }
 
 
-/*** 
+/***
 
 ====================================================================
 			Services Section Style Four
@@ -4509,7 +4509,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
     -ms-transition: all 500ms ease;
     -o-transition: all 500ms ease;
     transition: all 500ms ease;
-	
+
 }
 
 .services-section.style-four .service-block:hover .lower-content .sec-title h3 a,
@@ -4589,7 +4589,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
     display: none;
 }
 
-/*** 
+/***
 
 ====================================================================
 			Services Section Style Five
@@ -4604,7 +4604,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 	margin-top: 0;
 }
 
-/*** 
+/***
 
 ====================================================================
 			Services Section Style Six
@@ -4630,7 +4630,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 	top: 0;
 	width: 100%;
 	height: 100%;
-	background:rgba(0,0,0,0.9); 
+	background:rgba(0,0,0,0.9);
 }
 .services-section.style-six .services-carousel-two .service-block {
 	position: relative;
@@ -4688,7 +4688,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 	color: #333;
 }
 
-/*** 
+/***
 
 ====================================================================
 			Services Section Style Seven
@@ -4711,7 +4711,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 
 
 
-/*** 
+/***
 
 ====================================================================
 			Fluid Section One
@@ -4841,7 +4841,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 
 .fluid-section-one .image-column .image-box{
 	position:relative;
-	display:none;	
+	display:none;
 }
 
 .fluid-section-one .image-column .image-box img{
@@ -4908,38 +4908,38 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 }
 
 @-webkit-keyframes pulse-border {
-	
+
 	0% {
 	    -webkit-transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
             transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
 	    opacity: 1;
 	}
-	
+
 	100% {
 	    -webkit-transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
             transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
 	    opacity: 0;
 	}
-	
+
 }
 
 @keyframes pulse-border {
-	
+
 	0% {
 	    -webkit-transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
 	        transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
 	    opacity: 1;
 	}
-	
+
 	100% {
 	    -webkit-transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
 	        transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
 	    opacity: 0;
 	}
-	
+
 }
 
-/*** 
+/***
 
 ====================================================================
 			Fluid Section two
@@ -5070,7 +5070,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 }
 
 
-/*** 
+/***
 
 ====================================================================
 	Skill Secstion
@@ -5106,25 +5106,25 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 }
 
 .normal-section .column .progress-levels{
-	padding-left:15px;	
+	padding-left:15px;
 }
 
 .progress-levels .progress-box{
 	position:relative;
 	margin-bottom:30px;
-	overflow:hidden;	
+	overflow:hidden;
 }
 
 .member-details .progress-levels .progress-box{
-	margin-bottom:40px;	
+	margin-bottom:40px;
 }
 
 .member-details .progress-levels .progress-box:last-child{
-	margin-bottom:0px;	
+	margin-bottom:0px;
 }
 
 .about-myself .progress-levels .progress-box:last-child{
-	margin-bottom:30px;	
+	margin-bottom:30px;
 }
 
 .progress-levels .progress-box .box-title {
@@ -5138,7 +5138,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 
 .progress-levels .progress-box .bar{
 	 position:relative;
-	 height:4px;	
+	 height:4px;
 }
 
 .progress-levels .progress-box .bar .bar-innner {
@@ -5165,7 +5165,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 }
 
 .progress-levels .progress-box.animated .bar .bar-fill{
-	left:0px;	
+	left:0px;
 }
 
 .progress-levels .progress-box .percent{
@@ -5187,11 +5187,11 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 }
 
 .progress-levels .progress-box.animated .percent{
-	opacity:1;	
+	opacity:1;
 }
 
 
-/*** 
+/***
 
 ====================================================================
 	Skill Secstion style two
@@ -5245,7 +5245,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 	color: #777 !important;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Skill Secstion style Three
@@ -5257,7 +5257,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 	padding: 100px 0 60px;
 }
 
-/*** 
+/***
 
 ====================================================================
 			Video bottom Banner Section
@@ -5532,7 +5532,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 }
 
 
-/*** 
+/***
 
 ====================================================================
 			Price Section
@@ -5554,8 +5554,8 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
     background-position: right top;
     background-repeat: no-repeat;
     border:1px solid #d7d7d7;
-    background-color: #fff; 
-    overflow:hidden; 
+    background-color: #fff;
+    overflow:hidden;
     background-color: #fff;
 	-webkit-transition: all 0.7s ease-in-out;
 	-moz-transition: all 0.7s ease-in-out;
@@ -5717,11 +5717,11 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 }
 
 .pricing-tabs .tabs-content .tab.active-tab{
-	display:block;	
+	display:block;
 }
 
 
-/*** 
+/***
 
 ====================================================================
 			Price Section style two
@@ -5733,7 +5733,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 	padding: 100px 0 90px;
 }
 
-/*** 
+/***
 
 ====================================================================
 			Legecy Section
@@ -5746,7 +5746,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
     padding: 100px 0 0;
 }
 .legacy-section.style-three{
-	padding: 100px 0;	
+	padding: 100px 0;
 }
 .legacy-section .image-column {
     position: relative;
@@ -5765,7 +5765,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 }
 
 
-/*** 
+/***
 
 ====================================================================
 			Legecy Section style Two
@@ -5807,7 +5807,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
     left: 0;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Subscribe Section
@@ -5864,9 +5864,9 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 	margin-bottom:20px;
 }
 
-.newsletter-form .form-group input[type="text"], 
-.newsletter-form .form-group input[type="tel"], 
-.newsletter-form .form-group input[type="email"], 
+.newsletter-form .form-group input[type="text"],
+.newsletter-form .form-group input[type="tel"],
+.newsletter-form .form-group input[type="email"],
 .newsletter-form .form-group textarea {
     position: relative;
     display: block;
@@ -5902,7 +5902,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 	border-radius:50px;
 	text-transform:uppercase;
 }
-/*** 
+/***
 
 
 /***
@@ -6001,7 +6001,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
     padding: 93px 0 85px;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Project Section
@@ -6054,7 +6054,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 }
 
 .project-tab{
-	position:relative;	
+	position:relative;
 }
 
 .project-tab .sec-title{
@@ -6085,7 +6085,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 .project-tab .projects-carousel .owl-nav .owl-prev span{
 	margin-right: 15px;
 }
-.project-tab .projects-carousel .owl-nav .owl-prev, 
+.project-tab .projects-carousel .owl-nav .owl-prev,
 .project-tab .projects-carousel .owl-nav .owl-next {
 	display: inline-block;
 	margin: 0 14px;
@@ -6099,7 +6099,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 	-o-transition: all 0.5s ease-in-out;
 	transition: all 0.5s ease-in-out;
 }
-.project-tab .projects-carousel .owl-nav .owl-prev:hover, 
+.project-tab .projects-carousel .owl-nav .owl-prev:hover,
 .project-tab .projects-carousel .owl-nav .owl-next:hover {
 	color: #292a6b;
 }
@@ -6109,7 +6109,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 }
 .project-tab .p-tabs-content{
 	position:relative;
-	display:block;	
+	display:block;
 }
 .project-tab .p-tab{
 	position:absolute;
@@ -6119,7 +6119,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 	height:auto;
 	visibility:hidden;
 
-}	
+}
 .p-tab.active-tab{
 	position:relative;
 	visibility:visible;
@@ -6282,7 +6282,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 }
 
 
-/*** 
+/***
 
 ====================================================================
 	Project Section Style two
@@ -6323,7 +6323,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 }
 .project-section.style-three .project-block {
     position: relative;
-    padding: 0 100px 0 45px; 
+    padding: 0 100px 0 45px;
 }
 .projects-carousel-three .owl-nav {
 	display: none;
@@ -6393,7 +6393,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
     transition: all 0.5s;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Gallery Section Two
@@ -6488,7 +6488,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 
 .default-portfolio-item .image-box{
 	position:relative;
-	display:block;	
+	display:block;
 }
 
 .default-portfolio-item .image-box img{
@@ -6616,7 +6616,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 }
 
 
-/*** 
+/***
 
 ====================================================================
 	Gallery Section Three
@@ -6655,7 +6655,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 .gallery-section.style-two .filters .filter-tabs .filter{
 	color: #fff;
 }
-/*** 
+/***
 
 ====================================================================
 		Projects Section Two
@@ -6700,7 +6700,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 
 .projects-section-two .upper-box .link-box a:hover{
 	color: #222222;
-}	
+}
 
 .projects-carousel-two{
 	position: relative;
@@ -6895,7 +6895,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 	top: 0;
 }
 
-/*** 
+/***
 
 ====================================================================
 	Project Detail
@@ -7187,7 +7187,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 .recent-portfolio-carousal .owl-nav .owl-prev span{
 	margin-right: 15px;
 }
-.recent-portfolio-carousal .owl-nav .owl-prev, 
+.recent-portfolio-carousal .owl-nav .owl-prev,
 .recent-portfolio-carousal .owl-nav .owl-next {
 	display: inline-block;
 	margin: 0 14px;
@@ -7202,7 +7202,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 	transition: all 0.5s ease-in-out;
 	cursor: pointer;
 }
-.recent-portfolio-carousal .owl-nav .owl-prev:hover, 
+.recent-portfolio-carousal .owl-nav .owl-prev:hover,
 .recent-portfolio-carousal .owl-nav .owl-next:hover {
 	color: #292a6b;
 }
@@ -7211,7 +7211,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 	transform: rotate(270deg);
 }
 
-/*** 
+/***
 
 ====================================================================
 			Styled Pagination
@@ -7259,7 +7259,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 
 .styled-pagination li a:hover,
 .styled-pagination li.active a{
-	color:#fff;	
+	color:#fff;
 	background-color: #292a6b;
 	border-color:#292a6b;
 }
@@ -7281,7 +7281,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 	border-color: #ebebeb;
 }
 
-/*** 
+/***
 
 ====================================================================
 		Offer Section
@@ -7380,7 +7380,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 
 .discount-form .form-group{
 	position:relative;
-	margin-bottom:20px;	
+	margin-bottom:20px;
 }
 
 .discount-form .form-group input[type="text"],
@@ -7428,7 +7428,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 }
 
 
-/*** 
+/***
 
 ====================================================================
 			Team Section
@@ -7463,11 +7463,11 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 .team-section .team-block .inner-box{
 	position: relative;
 	z-index: 1;
-}	
+}
 
 .team-section .team-block .image-box{
 	position: relative;
-	
+
 }
 
 .team-section .team-block .image-box .image{
@@ -7651,7 +7651,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 	font-weight: 400;
 }
 
-/*** 
+/***
 
 ====================================================================
 			Team Section style Two
@@ -7675,7 +7675,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
     width: 100%;
     height: 100%;
     background: rgba(0,0,0,0.7);
-    
+
 
 }
 .team-section.style-two .sec-title h2{
@@ -7701,7 +7701,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 	color: #292a6b;
 }
 
-/*** 
+/***
 
 ====================================================================
 		Testimonial Section
@@ -7758,7 +7758,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 
 .testimonial-section .image-column .image-box{
 	position:relative;
-	display:none;	
+	display:none;
 }
 
 .testimonial-section .image-column .image-box img{
@@ -7955,7 +7955,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 	text-align: center;
 	transform: translate(-50%, -50%);
 }
-/*** 
+/***
 
 ====================================================================
 		Testimonial Section Two
@@ -7977,7 +7977,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 
 .testimonial-block-two{
 	position: relative;
-	
+
 }
 
 .testimonial-block-two .inner-box{
@@ -8076,7 +8076,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 
 
 
-/*** 
+/***
 
 ====================================================================
 			FAQ Section
@@ -8275,7 +8275,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 	margin-bottom: 10px;
 }
 
-/*** 
+/***
 
 ====================================================================
 			FAQ Section style two
@@ -8309,7 +8309,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 .faq-section.style-two .accordion-box .block .acc-btn {
     font-size: 18px;
 }
-/*** 
+/***
 
 ====================================================================
 				Featured Section
@@ -8333,7 +8333,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
     -ms-transition: all 500ms ease-in-out;
     transition: all 500ms ease-in-out;
     width: 100%;
-    margin-bottom:30px; 
+    margin-bottom:30px;
 }
 .featured-secion .outer-cloumn:hover{
 	border-color: #292a6b;
@@ -8374,7 +8374,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 }
 
 
-/*** 
+/***
 
 ====================================================================
 	Products Section
@@ -8406,7 +8406,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 	-ms-transition:all 300ms ease;
 	-o-transition:all 300ms ease;
 	-moz-transition:all 300ms ease;
-	transition:all 300ms ease;	
+	transition:all 300ms ease;
 }
 
 .product-block .inner-box .image{
@@ -8426,7 +8426,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 	-ms-transition:all 900ms ease;
 	-o-transition:all 900ms ease;
 	-moz-transition:all 900ms ease;
-	transition:all 900ms ease;	
+	transition:all 900ms ease;
 	transform: scale(0);
 }
 .product-block .inner-box:hover .image:before{
@@ -8441,7 +8441,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 	-ms-transition:all 900ms ease;
 	-o-transition:all 900ms ease;
 	-moz-transition:all 900ms ease;
-	transition:all 900ms ease;	
+	transition:all 900ms ease;
 	z-index: 2;
 	transform: scale(0);
 }
@@ -8525,7 +8525,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 	-ms-transition:all 300ms ease;
 	-o-transition:all 300ms ease;
 	-moz-transition:all 300ms ease;
-	transition:all 300ms ease;	
+	transition:all 300ms ease;
 }
 
 .product-block .inner-box .lower-box .product-price li{
@@ -8548,7 +8548,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
     width: 100%;
 }
 
-/*** 
+/***
 
 ====================================================================
 		Products Section style two
@@ -8694,7 +8694,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
     height: 3px;
     background-color: #333;
 }
-/*** 
+/***
 
 ====================================================================
 				offers banner Section
@@ -8758,7 +8758,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
     text-align: right;
 }
 
-/*** 
+/***
 
 ====================================================================
 				News Section
@@ -8936,7 +8936,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 	width: 50px;
 }
 .news-block .inner-box .caption-box .post-date span{
-	width: 100%; 
+	width: 100%;
 	display: inline-block;
 	font-size: 14px;
 }
@@ -9010,7 +9010,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 .news-carousel .owl-nav .owl-prev span{
 	margin-right: 15px;
 }
-.news-carousel .owl-nav .owl-prev, 
+.news-carousel .owl-nav .owl-prev,
 .news-carousel .owl-nav .owl-next {
 	display: inline-block;
 	margin: 0 14px;
@@ -9025,7 +9025,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 	transition: all 0.5s ease-in-out;
 	cursor: pointer;
 }
-.news-carousel .owl-nav .owl-prev:hover, 
+.news-carousel .owl-nav .owl-prev:hover,
 .news-carousel .owl-nav .owl-next:hover {
 	color: #292a6b;
 }
@@ -9035,7 +9035,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 }
 
 
-/*** 
+/***
 
 ====================================================================
 				News Section style Two
@@ -9082,7 +9082,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 .news-carousel-two .owl-nav .owl-prev span{
 	margin-right: 15px;
 }
-.news-carousel-two .owl-nav .owl-prev, 
+.news-carousel-two .owl-nav .owl-prev,
 .news-carousel-two .owl-nav .owl-next {
 	display: inline-block;
 	margin: 0 14px;
@@ -9097,7 +9097,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 	transition: all 0.5s ease-in-out;
 	cursor: pointer;
 }
-.news-carousel-two .owl-nav .owl-prev:hover, 
+.news-carousel-two .owl-nav .owl-prev:hover,
 .news-carousel-two .owl-nav .owl-next:hover {
 	color: #292a6b;
 }
@@ -9108,7 +9108,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 
 
 
-/*** 
+/***
 
 ====================================================================
 		Blog Section
@@ -9159,7 +9159,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 	font-size: 16px;
 	color: #fff;
 	padding: 50px 10px;
-	background:rgba(0,0,0,0.5); 
+	background:rgba(0,0,0,0.5);
 	-webkit-transition: all 300ms ease;
 	-moz-transition: all 300ms ease;
 	-ms-transition: all 300ms ease;
@@ -9168,7 +9168,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 }
 .blog-carousal .owl-nav .owl-prev:hover,
 .blog-carousal .owl-nav .owl-next:hover{
-	background:rgba(255,255,255,0.5); 
+	background:rgba(255,255,255,0.5);
 	color: #000;
 }
 
@@ -9298,7 +9298,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
     z-index: -1;
 }
 
-/*** 
+/***
 
 ====================================================================
 		Blog Detail
@@ -9869,13 +9869,13 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 
 .contact-form .form-group{
 	position:relative;
-	margin-bottom:30px;	
+	margin-bottom:30px;
 }
 
-.contact-form .form-group input[type="text"], 
-.contact-form .form-group input[type="email"], 
-.contact-form .form-group input[type="url"], 
-.contact-form .form-group textarea, 
+.contact-form .form-group input[type="text"],
+.contact-form .form-group input[type="email"],
+.contact-form .form-group input[type="url"],
+.contact-form .form-group textarea,
 .contact-form .form-group select {
     position: relative;
     display: block;
@@ -10015,7 +10015,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 }
 
 .main-footer .footer-logo{
-	position:relative;	
+	position:relative;
 	margin-bottom: 15px;
 }
 
@@ -10026,7 +10026,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 
 .main-footer .footer-logo img{
 	display:block;
-	max-width:100%;	
+	max-width:100%;
 }
 
 .main-footer .about-widget .text {
@@ -10223,7 +10223,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 
 .main-footer .gallery-widget .image img{
 	display:block;
-	width:100%;	
+	width:100%;
 }
 
 .main-footer .gallery-widget .image a{
@@ -10535,7 +10535,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 
 .sidebar .search-box .form-group{
 	position:relative;
-	margin:0px;	
+	margin:0px;
 }
 
 .sidebar .search-box .form-group input[type="text"],
@@ -10656,7 +10656,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 .latest-news .post-thumb{
 	position: absolute;
 	left: 0;
-	top: 0;	
+	top: 0;
 	height: 80px;
 	width: 80px;
 	margin-bottom: 20px;
@@ -10777,7 +10777,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 	float: left;
 	margin-bottom: 13px;
 	margin-right: 10px;
-} 
+}
 
 .tag-list li a{
 	position: relative;
@@ -10804,7 +10804,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 	color: #ffffff;
 }
 
-/*** 
+/***
 
 ====================================================================
 		Comment Area
@@ -10844,7 +10844,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 	bottom: 0;
 	width: 10px;
 	height: 2px;
-	background-color:#333333; 
+	background-color:#333333;
 }
 
 .comments-area{
@@ -10954,7 +10954,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 	background-color: #222;
 }
 
-/*** 
+/***
 
 ====================================================================
 		Comment Form
@@ -11022,7 +11022,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 }
 
 
-/*** 
+/***
 
 ====================================================================
 		Contact Page Section
@@ -11132,31 +11132,35 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
     font-family: 'Montserrat', sans-serif;
 }
 
-
-
-
-
 .bg-video-wrap {
 	position: relative;
 	overflow: hidden;
 	width: 100%;
 	height: 100vh;
 }
-video {
-	min-width: 100%;
-	min-height: 100vh;
-	z-index: 1;
-}
-.overlay {
+
+.carousel-outer {
+	position: relative;
 	width: 100%;
-	height: 115vh;
-	position: absolute;
-	top: 0;
-	left: 0;
-	background-image: linear-gradient(45deg, rgba(0,0,0,.3) 50%, rgba(0,0,0,.7) 50%);
-	background-size: 3px 3px;
-	z-index: 2;
+	margin: 0 auto;
 }
+
+.carousel-outer video {
+	width: 100%;
+	display: block;
+}
+
+.carousel-outer:before {
+	content: '';
+	position: absolute;
+	background-image: linear-gradient(45deg, rgba(0,0,0,.3) 100%, rgba(0,0,0,.7) 100%);
+	border-radius: 5px;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
 h1 {
 	text-align: center;
 	color: #fff;
