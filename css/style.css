@@ -7736,7 +7736,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 	top: 0;
 	height: 100%;
 	width: 100%;
-	background-color: #000;
+	background-color: rgba(255, 255, 255, 0);
 	opacity: .55;
 	content: "";
 }
@@ -9548,7 +9548,7 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 	left: 0;
 	top: 0;
 	width: 10%;
-	height: 292px;
+	height: 350px;
 	background-color: #292a6b;
 }
 .clients-section .sponsors-outer{
@@ -9569,8 +9569,8 @@ body.flyout-searchbar-active .wraper_search > .table > .table-cell .inner_search
 .clients-section .image-box img{
 	display: inline-block;
 	max-width: 100%;
-	width: auto;
-	height: auto;
+	width: 80%;
+	height: 80%;
 }
 
 .clients-section .sponsors-carousel .owl-dots,
@@ -11176,6 +11176,10 @@ h1 {
 	height: 50px;
 	font-size: 72px;
 	font-weight: bold;
+}
+
+.img-responsive{
+	display: inline-block;
 }
 
 @media screen and (max-width: 480px) {

@@ -118,7 +118,7 @@
                 </div>
 
                 <div class="copyright-text">
-                    <p>Copyright © 2019 <a href="#">Your Company Name</a> All right reserved</p>
+                    <p>Copyright © 2019 <a href="#">Nirman</a> All right reserved | Developed with <a href="https://frogbid.com/" target="_blank">FrogBid</a> </p>
                 </div>
             </div>
         </div>

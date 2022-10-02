@@ -32,7 +32,7 @@
     <!--End Hidden Bar -->
 
     <!--Page Title-->
-    <section class="page-title" style="background-image:url(images/background/24.jpg);">
+    <section class="page-title" style="background-image:url(images/background/25.jpg);">
         <div class="auto-container">
             <div class="inner-container clearfix">
                 <div class="title-box">
@@ -231,7 +231,7 @@
                             </div>
                             <div class="lower-content">
                                 <h3><a href="#">Soil Test</a></h3>
-                                <div class="text">In agriculture, a soil test commonly refers to the analysis of a soil
+                                <div class="text">In construction, a soil test commonly refers to the analysis of a soil
                                     sample to determine nutrient content, composition, and other characteristics such as
                                     the acidity or pH level.
                                 </div>

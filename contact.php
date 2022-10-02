@@ -32,7 +32,7 @@
     <!--End Hidden Bar -->
 
     <!--Page Title-->
-    <section class="page-title" style="background-image:url(images/background/24.jpg);">
+    <section class="page-title" style="background-image:url(images/background/27.jpg);">
         <div class="auto-container">
             <div class="inner-container clearfix">
                 <div class="title-box">

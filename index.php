@@ -14,10 +14,7 @@ include("config/dbconfig.php");
 <body>
 
 <div class="page-wrapper">
-    <!-- Preloader -->
-    <?php
-    include("includes/preloader.php");
-    ?>
+
 
     <!-- Main Header-->
     <?php
@@ -88,7 +85,7 @@ include("config/dbconfig.php");
                                 <h2 data-animation-child class="title-fill" data-animation="title-fill-anim"
                                     data-text="About Company">About NIRMAN</h2>
                             </div>
-                            <h5>We create functional, beautiful interiors and Constructions for our clients since
+                            <h5>We create functional, beautiful interiors, exteriors and Constructions for our clients since
                                 2017.</h5>
                             <div class="text"> Nirman Architecture & Development is one of the most reputed Company in
                                 Bangladesh,
@@ -287,7 +284,7 @@ include("config/dbconfig.php");
                             </div>
                             <div class="lower-content">
                                 <h3><a href="#">Soil Test</a></h3>
-                                <div class="text">In agriculture, a soil test commonly refers to the analysis of a soil
+                                <div class="text">In construction, a soil test commonly refers to the analysis of a soil
                                     sample to determine nutrient content, composition, and other characteristics such as
                                     the acidity or pH level.
                                 </div>
@@ -499,9 +496,21 @@ include("config/dbconfig.php");
                 <h2>Expert Team Person</h2>
             </div>
 
-            <div class="row clearfix">
+            <div class="row clearfix d-flex justify-content-center">
+
+                <div class="team-block col-lg-3 col-md-3 col-sm-12">
+                    <div class="inner-box">
+                        <div class="image-box">
+                            <div class="image"><img src="images/resource/team-12.jpg" alt=""></div>
+                        </div>
+                        <div class="info-box">
+                            <h3 class="name">Engr Md Leton Hossain</h3>
+                            <span class="designation">Advisor</span>
+                        </div>
+                    </div>
+                </div>
                 <!-- Team Block -->
-                <div class="team-block col-lg-4 col-md-4 col-sm-12">
+                <div class="team-block col-lg-3 col-md-3 col-sm-12">
                     <div class="inner-box">
                         <div class="image-box">
                             <div class="image"><img src="images/resource/8.jpg" alt=""></a></div>
@@ -509,12 +518,13 @@ include("config/dbconfig.php");
                         <div class="info-box">
                             <h3 class="name">Tamanna Sultana</h3>
                             <span class="designation">Chairman, Nirman</span>
+                            <br/>
                         </div>
                     </div>
                 </div>
 
                 <!-- Team Block -->
-                <div class="team-block col-lg-4 col-md-4 col-sm-12">
+                <div class="team-block col-lg-3 col-md-3 col-sm-12">
                     <div class="inner-box">
                         <div class="image-box">
                             <div class="image"><img src="images/resource/9.jpg" alt=""></div>
@@ -533,8 +543,27 @@ include("config/dbconfig.php");
                     </div>
                 </div>
 
+            </div>
+            <div class="row d-flex justify-content-center">
+                <div class="team-block col-lg-3 col-md-4 col-sm-12">
+                    <div class="inner-box">
+                        <div class="image-box">
+                            <div class="image"><img src="images/resource/team-11.jpg" alt=""></div>
+                            <ul class="social-links">
+                                <li><a href="facebook.com/pointjulkarnayeem" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="mailto:pointjulkarnayeem@gmail.com"><i class="fab fa-google-plus-g"></i></a></li>
+                            </ul>
+
+                        </div>
+                        <div class="info-box">
+                            <h3 class="name">Arch. Md Julkar Nayeem</h3>
+                            <span class="designation">Cheif Architect & 3D Visualizar</span>
+                        </div>
+                    </div>
+                </div>
+
                 <!-- Team Block -->
-                <div class="team-block col-lg-4 col-md-4 col-sm-12">
+                <div class="team-block col-lg-3 col-md-4 col-sm-12">
                     <div class="inner-box">
                         <div class="image-box">
                             <div class="image"><img src="images/resource/7.jpg" alt=""></div>
@@ -547,43 +576,12 @@ include("config/dbconfig.php");
 
                         </div>
                         <div class="info-box">
-                            <h3 class="name">Prithul Justin Serao</h3>
+                            <h3 class="name">Engr. Prithul Justin Serao</h3>
                             <span class="designation">Structural Engineer</span>
                         </div>
                     </div>
                 </div>
 
-
-            </div>
-            <div class="row d-flex justify-content-center">
-                <div class="team-block col-lg-4 col-md-4 col-sm-12">
-                    <div class="inner-box">
-                        <div class="image-box">
-                            <div class="image"><img src="images/resource/team-11.jpg" alt=""></div>
-                            <ul class="social-links">
-                                <li><a href="facebook.com/pointjulkarnayeem" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="mailto:pointjulkarnayeem@gmail.com"><i class="fab fa-google-plus-g"></i></a></li>
-                            </ul>
-
-                        </div>
-                        <div class="info-box">
-                            <h3 class="name">Md Julkar Nayeem</h3>
-                            <span class="designation">Cheif Architect & 3D Visualizar</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="team-block col-lg-4 col-md-4 col-sm-12">
-                    <div class="inner-box">
-                        <div class="image-box">
-                            <div class="image"><img src="images/resource/team-12.jpg" alt=""></div>
-
-                        </div>
-                        <div class="info-box">
-                            <h3 class="name">Engr Md Leton Hossain</h3>
-                            <span class="designation">Advisor</span>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </section>

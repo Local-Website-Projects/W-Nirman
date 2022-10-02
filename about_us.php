@@ -69,7 +69,7 @@
                                 <h2 data-animation-child class="title-fill" data-animation="title-fill-anim"
                                     data-text="About Company">About NIRMAN</h2>
                             </div>
-                            <h5>We create functional, beautiful interiors and Constructions for our clients since
+                            <h5>We create functional, beautiful interiors, exteriors and Constructions for our clients since
                                 2017.</h5>
                             <div class="text"> Nirman Architecture & Development is one of the most reputed Company in
                                 Bangladesh,
