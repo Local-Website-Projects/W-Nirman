@@ -504,7 +504,7 @@ include("config/dbconfig.php");
                             <div class="image"><img src="images/resource/team-12.jpg" alt=""></div>
                         </div>
                         <div class="info-box">
-                            <h3 class="name">Engr Md Leton Hossain</h3>
+                            <h3 class="name">Engr. Md Leton Hossain</h3>
                             <span class="designation">Advisor</span>
                         </div>
                     </div>
@@ -516,9 +516,8 @@ include("config/dbconfig.php");
                             <div class="image"><img src="images/resource/8.jpg" alt=""></a></div>
                         </div>
                         <div class="info-box">
-                            <h3 class="name">Tamanna Sultana</h3>
+                            <h3 class="name">Arch. Tamanna Sultana</h3>
                             <span class="designation">Chairman, Nirman</span>
-                            <br/>
                         </div>
                     </div>
                 </div>
@@ -537,7 +536,7 @@ include("config/dbconfig.php");
                             </ul>
                         </div>
                         <div class="info-box">
-                            <h3 class="name">Engr B M Mujahidul Alam</h3>
+                            <h3 class="name">Engr. B M Mujahidul Alam</h3>
                             <span class="designation">Managing Director & Structural Engineer</span>
                         </div>
                     </div>
@@ -550,7 +549,7 @@ include("config/dbconfig.php");
                         <div class="image-box">
                             <div class="image"><img src="images/resource/team-11.jpg" alt=""></div>
                             <ul class="social-links">
-                                <li><a href="facebook.com/pointjulkarnayeem" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="https://www.facebook.com/pointjulkarnayeem" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
                                 <li><a href="mailto:pointjulkarnayeem@gmail.com"><i class="fab fa-google-plus-g"></i></a></li>
                             </ul>
 
@@ -868,6 +867,4 @@ if (isset($_SESSION['status'])) {
 <!-- Color Setting -->
 <script src="js/color-settings.js"></script>
 </body>
-
-<!-- Mirrored from html.commonsupport.xyz/2019/Altoona/index.php by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 17 Sep 2022 10:51:59 GMT -->
 </html>
