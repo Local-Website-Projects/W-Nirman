@@ -411,7 +411,7 @@
                                     </div>
 
                                     <div class="form-group col-lg-12 col-md-12 text-center">
-                                        <button class="theme-btn btn-style-one " type="submit" name="submit-form">
+                                        <button class="theme-btn btn-style-one " type="submit" name="submitform">
                                             Submit
                                         </button>
                                     </div>
