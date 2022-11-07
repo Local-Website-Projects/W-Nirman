@@ -504,7 +504,7 @@ include("config/dbconfig.php");
                             <div class="image"><img src="images/resource/team-12.jpg" alt=""></div>
                         </div>
                         <div class="info-box">
-                            <h3 class="name">Engr Md Leton Hossain</h3>
+                            <h3 class="name">Engr. Md Leton Hossain</h3>
                             <span class="designation">Advisor</span>
                         </div>
                     </div>
@@ -516,9 +516,8 @@ include("config/dbconfig.php");
                             <div class="image"><img src="images/resource/8.jpg" alt=""></a></div>
                         </div>
                         <div class="info-box">
-                            <h3 class="name">Tamanna Sultana</h3>
+                            <h3 class="name">Arch. Tamanna Sultana</h3>
                             <span class="designation">Chairman, Nirman</span>
-                            <br/>
                         </div>
                     </div>
                 </div>
@@ -537,7 +536,7 @@ include("config/dbconfig.php");
                             </ul>
                         </div>
                         <div class="info-box">
-                            <h3 class="name">Engr B M Mujahidul Alam</h3>
+                            <h3 class="name">Engr. B M Mujahidul Alam</h3>
                             <span class="designation">Managing Director & Structural Engineer</span>
                         </div>
                     </div>
@@ -550,7 +549,7 @@ include("config/dbconfig.php");
                         <div class="image-box">
                             <div class="image"><img src="images/resource/team-11.jpg" alt=""></div>
                             <ul class="social-links">
-                                <li><a href="facebook.com/pointjulkarnayeem" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="https://www.facebook.com/pointjulkarnayeem" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
                                 <li><a href="mailto:pointjulkarnayeem@gmail.com"><i class="fab fa-google-plus-g"></i></a></li>
                             </ul>
 
@@ -578,6 +577,24 @@ include("config/dbconfig.php");
                         <div class="info-box">
                             <h3 class="name">Engr. Prithul Justin Serao</h3>
                             <span class="designation">Structural Engineer</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-block col-lg-3 col-md-4 col-sm-12">
+                    <div class="inner-box">
+                        <div class="image-box">
+                            <div class="image"><img src="images/resource/10.jpg" alt=""></div>
+                            <ul class="social-links">
+                                <li><a href="instagram.com/sm_alauddin" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="mailto:abdullah2173504@stud.kuet.ac.bd"><i class="fab fa-google-plus-g"></i></a></li>
+                                <li><a href="https://api.whatsapp.com/send?phone=8801988468265" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
+                                <li><a href="https://www.linkedin.com/in/smalauddin" target="_blank\"><i class="fab fa-linkedin-in"></i></a></li>
+                            </ul>
+
+                        </div>
+                        <div class="info-box">
+                            <h3 class="name">Engr. S. M. Alauddin Abdullah</h3>
+                            <span class="designation">Structural Engineer & Environmental Specialist</span>
                         </div>
                     </div>
                 </div>
@@ -628,7 +645,7 @@ include("config/dbconfig.php");
                                     <div class="inner">
                                         <div class="bar">
                                             <div class="bar-innner">
-                                                <div class="bar-fill" data-percent="75">
+                                                <div class="bar-fill" data-percent="89">
                                                     <div class="percent"></div>
                                                 </div>
                                             </div>
@@ -642,7 +659,7 @@ include("config/dbconfig.php");
                                     <div class="inner">
                                         <div class="bar">
                                             <div class="bar-innner">
-                                                <div class="bar-fill" data-percent="95">
+                                                <div class="bar-fill" data-percent="93">
                                                     <div class="percent"></div>
                                                 </div>
                                             </div>
@@ -656,7 +673,7 @@ include("config/dbconfig.php");
                                     <div class="inner">
                                         <div class="bar">
                                             <div class="bar-innner">
-                                                <div class="bar-fill" data-percent="82">
+                                                <div class="bar-fill" data-percent="88">
                                                     <div class="percent"></div>
                                                 </div>
                                             </div>
@@ -670,7 +687,7 @@ include("config/dbconfig.php");
                                     <div class="inner">
                                         <div class="bar">
                                             <div class="bar-innner">
-                                                <div class="bar-fill" data-percent="88">
+                                                <div class="bar-fill" data-percent="82">
                                                     <div class="percent"></div>
                                                 </div>
                                             </div>
@@ -868,6 +885,4 @@ if (isset($_SESSION['status'])) {
 <!-- Color Setting -->
 <script src="js/color-settings.js"></script>
 </body>
-
-<!-- Mirrored from html.commonsupport.xyz/2019/Altoona/index.php by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 17 Sep 2022 10:51:59 GMT -->
 </html>

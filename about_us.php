@@ -55,8 +55,10 @@
                 <div class="image-column col-lg-6 col-md-12 col-sm-12">
                     <div class="inner-column">
                         <div class="image-box">
-                            <figure class="image wow fadeInLeft" data-wow-delay='600ms'><img src="images/resource/1.jpg"
-                                                                                             alt=""></figure>
+                            <video width="520" height="440" autoplay muted loop>
+                                <source src="video/nirman.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
                         </div>
                     </div>
                 </div>
@@ -411,7 +413,7 @@
                                     </div>
 
                                     <div class="form-group col-lg-12 col-md-12 text-center">
-                                        <button class="theme-btn btn-style-one " type="submit" name="submit-form">
+                                        <button class="theme-btn btn-style-one " type="submit" name="submitform">
                                             Submit
                                         </button>
                                     </div>

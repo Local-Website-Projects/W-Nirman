@@ -1,6 +1,6 @@
 <?php
-include ("../config/dbconfig.php");
-if (isset($_POST['submit-form'])) {
+include("../config/dbconfig.php");
+if (isset($_POST['submitform'])) {
     $username = mysqli_real_escape_string($con, $_POST['username']);
     $designation = mysqli_real_escape_string($con, $_POST['designation']);
     $company = mysqli_real_escape_string($con, $_POST['company']);
@@ -9,7 +9,7 @@ if (isset($_POST['submit-form'])) {
 
     $query = $con->query("INSERT INTO `review`( `name`, `email`, `designation`, `company`, `message`, `star`) VALUES ('$username','$email','$designation','$company','$message','5')");
 
-    if($query){
+    if ($query) {
         $email_to = $email;
         $subject = 'Email From Nirman Architecture & Development';
 
@@ -29,7 +29,13 @@ if (isset($_POST['submit-form'])) {
                 
                     <p style='text-align: center;color:green;font-weight:bold'>Thank you for your feedback!</p>
                 
-                    <p style='color:black'>Our team is excited to receive your feedback!<br>
+                    <p style='color:black'>
+                    Thank you so much for your kind words, $username. We really appreciate you 
+                    taking the time out to share your experience with us, 
+                    We count ourselves lucky for customers like you. 
+                    We look forward to working with you again in the future!<br/>
+                    
+                        Our team is excited to receive your feedback!<br>
                         We are looking forward to focous on your suggestions. Your opinion always incourage us to improve our services.<br>
                         If you have any mnore suggestion for us, please let us know by <a href='mailto:info@nirmanad.org'>info@nirmanad.org</a>
                     </p>
@@ -40,15 +46,14 @@ if (isset($_POST['submit-form'])) {
                 </body>
             </html>";
         if (mail($email_to, $subject, $messege, $headers)) {
-            $_SESSION['status']="Your opinion is always important for us!";
+            $_SESSION['status'] = "Your opinion is always important for us!";
             $_SESSION['status_code'] = "success";
             $_SESSION['status_title'] = 'Thank You!';
             echo "
                <script>window.location.replace('../index.php');
                </script>";
-        }
-        else{
-            $_SESSION['status']="Something went wrong!";
+        } else {
+            $_SESSION['status'] = "Something went wrong!";
             $_SESSION['status_code'] = "error";
             $_SESSION['status_title'] = 'Sorry!';
             echo "
@@ -56,8 +61,8 @@ if (isset($_POST['submit-form'])) {
                </script>";
         }
 
-    }else{
-        $_SESSION['status']="Something went wrong!";
+    } else {
+        $_SESSION['status'] = "Something went wrong!";
         $_SESSION['status_code'] = "error";
         $_SESSION['status_title'] = 'Sorry!';
         echo "
