@@ -92,8 +92,8 @@
 
             <!--Image Column-->
             <div class="image-column wow fadeInLeft animated"
-                 style="background-image: url(_images/resource/22.html); visibility: visible; animation-name: fadeInLeft;">
-                <figure class="image-box"><img src="images/resource/22.jpg" alt=""></figure>
+                 style="background-image: url('images/img.png'); visibility: visible; animation-name: fadeInLeft;">
+                <figure class="image-box"><img src="images/img.png" alt=""></figure>
             </div>
 
             <!--Content Column-->
@@ -251,7 +251,7 @@
                                     <div class="inner">
                                         <div class="bar">
                                             <div class="bar-innner">
-                                                <div class="bar-fill" data-percent="75">
+                                                <div class="bar-fill" data-percent="89">
                                                     <div class="percent"></div>
                                                 </div>
                                             </div>
@@ -265,7 +265,7 @@
                                     <div class="inner">
                                         <div class="bar">
                                             <div class="bar-innner">
-                                                <div class="bar-fill" data-percent="95">
+                                                <div class="bar-fill" data-percent="93">
                                                     <div class="percent"></div>
                                                 </div>
                                             </div>
@@ -279,7 +279,7 @@
                                     <div class="inner">
                                         <div class="bar">
                                             <div class="bar-innner">
-                                                <div class="bar-fill" data-percent="82">
+                                                <div class="bar-fill" data-percent="88">
                                                     <div class="percent"></div>
                                                 </div>
                                             </div>
@@ -293,7 +293,7 @@
                                     <div class="inner">
                                         <div class="bar">
                                             <div class="bar-innner">
-                                                <div class="bar-fill" data-percent="88">
+                                                <div class="bar-fill" data-percent="82">
                                                     <div class="percent"></div>
                                                 </div>
                                             </div>
