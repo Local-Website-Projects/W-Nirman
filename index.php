@@ -580,6 +580,24 @@ include("config/dbconfig.php");
                         </div>
                     </div>
                 </div>
+                <div class="team-block col-lg-3 col-md-4 col-sm-12">
+                    <div class="inner-box">
+                        <div class="image-box">
+                            <div class="image"><img src="images/resource/10.jpg" alt=""></div>
+                            <ul class="social-links">
+                                <li><a href="instagram.com/sm_alauddin" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="mailto:abdullah2173504@stud.kuet.ac.bd"><i class="fab fa-google-plus-g"></i></a></li>
+                                <li><a href="https://api.whatsapp.com/send?phone=8801988468265" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
+                                <li><a href="https://www.linkedin.com/in/smalauddin" target="_blank\"><i class="fab fa-linkedin-in"></i></a></li>
+                            </ul>
+
+                        </div>
+                        <div class="info-box">
+                            <h3 class="name">Engr. S. M. Alauddin Abdullah</h3>
+                            <span class="designation">Structural Engineer & Environmental Specialist</span>
+                        </div>
+                    </div>
+                </div>
 
             </div>
         </div>
@@ -627,7 +645,7 @@ include("config/dbconfig.php");
                                     <div class="inner">
                                         <div class="bar">
                                             <div class="bar-innner">
-                                                <div class="bar-fill" data-percent="75">
+                                                <div class="bar-fill" data-percent="89">
                                                     <div class="percent"></div>
                                                 </div>
                                             </div>
@@ -641,7 +659,7 @@ include("config/dbconfig.php");
                                     <div class="inner">
                                         <div class="bar">
                                             <div class="bar-innner">
-                                                <div class="bar-fill" data-percent="95">
+                                                <div class="bar-fill" data-percent="93">
                                                     <div class="percent"></div>
                                                 </div>
                                             </div>
@@ -655,7 +673,7 @@ include("config/dbconfig.php");
                                     <div class="inner">
                                         <div class="bar">
                                             <div class="bar-innner">
-                                                <div class="bar-fill" data-percent="82">
+                                                <div class="bar-fill" data-percent="88">
                                                     <div class="percent"></div>
                                                 </div>
                                             </div>
@@ -669,7 +687,7 @@ include("config/dbconfig.php");
                                     <div class="inner">
                                         <div class="bar">
                                             <div class="bar-innner">
-                                                <div class="bar-fill" data-percent="88">
+                                                <div class="bar-fill" data-percent="82">
                                                     <div class="percent"></div>
                                                 </div>
                                             </div>
