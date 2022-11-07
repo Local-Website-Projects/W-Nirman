@@ -57,27 +57,27 @@
                                 <div class="widget-content">
                                     <div class="outer clearfix">
                                         <figure class="image">
-                                            <a href="images/resource/work-thumb-1.jpg" class="lightbox-image" title="Image Title Here"><img src="images/resource/work-thumb-1.jpg" alt=""></a>
+                                            <a href="images/resource/Footer-1.png" class="lightbox-image" title="Image Title Here"><img src="images/resource/work-thumb-1.jpg" alt=""></a>
                                         </figure>
 
                                         <figure class="image">
-                                            <a href="images/resource/work-thumb-2.jpg" class="lightbox-image" title="Image Title Here"><img src="images/resource/work-thumb-2.jpg" alt=""></a>
+                                            <a href="images/resource/Footer-2.png" class="lightbox-image" title="Image Title Here"><img src="images/resource/work-thumb-2.jpg" alt=""></a>
                                         </figure>
 
                                         <figure class="image">
-                                            <a href="images/resource/work-thumb-3.jpg" class="lightbox-image" title="Image Title Here"><img src="images/resource/work-thumb-3.jpg" alt=""></a>
+                                            <a href="images/resource/Footer-3.png" class="lightbox-image" title="Image Title Here"><img src="images/resource/work-thumb-3.jpg" alt=""></a>
                                         </figure>
 
                                         <figure class="image">
-                                            <a href="images/resource/work-thumb-4.jpg" class="lightbox-image" title="Image Title Here"><img src="images/resource/work-thumb-4.jpg" alt=""></a>
+                                            <a href="images/resource/Footer-4.png" class="lightbox-image" title="Image Title Here"><img src="images/resource/work-thumb-4.jpg" alt=""></a>
                                         </figure>
 
                                         <figure class="image">
-                                            <a href="images/resource/work-thumb-5.jpg" class="lightbox-image" title="Image Title Here"><img src="images/resource/work-thumb-5.jpg" alt=""></a>
+                                            <a href="images/resource/Footer-5.png" class="lightbox-image" title="Image Title Here"><img src="images/resource/work-thumb-5.jpg" alt=""></a>
                                         </figure>
 
                                         <figure class="image">
-                                            <a href="images/resource/work-thumb-6.jpg" class="lightbox-image" title="Image Title Here"><img src="images/resource/work-thumb-6.jpg" alt=""></a>
+                                            <a href="images/resource/Footer-6.png" class="lightbox-image" title="Image Title Here"><img src="images/resource/work-thumb-6.jpg" alt=""></a>
                                         </figure>
                                     </div>
                                 </div>
