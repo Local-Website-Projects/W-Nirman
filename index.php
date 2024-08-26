@@ -413,7 +413,7 @@ include("config/dbconfig.php");
                             <div class="p-tab active-tab" id="p-tab">
                                 <div class="projects-carousel owl-theme owl-carousel">
                                     <?php
-                                    $portfolio = $con->query("SELECT `category_id`, `image` FROM `portfolio`");
+                                    $portfolio = $con->query("SELECT `category_id`, `image` FROM `portfolio` order by id desc");
                                     while ($rows = mysqli_fetch_assoc($portfolio)) {
                                         ?>
                                         <!--Project Block-->
@@ -450,7 +450,7 @@ include("config/dbconfig.php");
                                 <div class="p-tab" id="p-tab-<?php echo $cat_id; ?>">
                                     <div class="projects-carousel owl-theme owl-carousel">
                                         <?php
-                                        $portfolio = $con->query("SELECT `category_id`, `image` FROM `portfolio` WHERE `category_id` = '$cat_id'");
+                                        $portfolio = $con->query("SELECT `category_id`, `image` FROM `portfolio` WHERE `category_id` = '$cat_id' order by id desc");
                                         while ($rows = mysqli_fetch_assoc($portfolio)) {
                                             ?>
                                             <!--Project Block-->
@@ -541,28 +541,7 @@ include("config/dbconfig.php");
                         </div>
                     </div>
                 </div>
-
-            </div>
-            <div class="row d-flex justify-content-center">
-                <div class="team-block col-lg-3 col-md-4 col-sm-12">
-                    <div class="inner-box">
-                        <div class="image-box">
-                            <div class="image"><img src="images/resource/team-11.jpg" alt=""></div>
-                            <ul class="social-links">
-                                <li><a href="https://www.facebook.com/pointjulkarnayeem" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="mailto:pointjulkarnayeem@gmail.com"><i class="fab fa-google-plus-g"></i></a></li>
-                            </ul>
-
-                        </div>
-                        <div class="info-box">
-                            <h3 class="name">Arch. Md Julkar Nayeem</h3>
-                            <span class="designation">Cheif Architect & 3D Visualizar</span>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Team Block -->
-                <div class="team-block col-lg-3 col-md-4 col-sm-12">
+                <div class="team-block col-lg-3 col-md-3 col-sm-12">
                     <div class="inner-box">
                         <div class="image-box">
                             <div class="image"><img src="images/resource/7.jpg" alt=""></div>
@@ -580,7 +559,9 @@ include("config/dbconfig.php");
                         </div>
                     </div>
                 </div>
-                <div class="team-block col-lg-3 col-md-4 col-sm-12">
+            </div>
+            <div class="row d-flex justify-content-center">
+                <div class="team-block col-lg-3 col-md-3 col-sm-12">
                     <div class="inner-box">
                         <div class="image-box">
                             <div class="image"><img src="images/resource/10.jpg" alt=""></div>
@@ -598,7 +579,143 @@ include("config/dbconfig.php");
                         </div>
                     </div>
                 </div>
+                <div class="team-block col-lg-3 col-md-3 col-sm-12">
+                    <div class="inner-box">
+                        <div class="image-box">
+                            <div class="image"><img src="images/resource/n17.jpg" alt=""></a></div>
+                        </div>
+                        <div class="info-box">
+                            <h3 class="name">Arc. Sarah Mobassira</h3>
+                            <span class="designation"> B. Arch (AIUB)</span>
+                            <span class="designation"> Chief Architect</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-block col-lg-3 col-md-3 col-sm-12">
+                    <div class="inner-box">
+                        <div class="image-box">
+                            <div class="image"><img src="images/resource/n7.jpg" alt=""></a></div>
+                        </div>
+                        <div class="info-box">
+                            <h3 class="name">Engr. Md. Jahid Hasan</h3>
+                            <span class="designation">  B.sc (Civil)</span>
+                            <span class="designation"> Structure Engineer</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-block col-lg-3 col-md-3 col-sm-12">
+                    <div class="inner-box">
+                        <div class="image-box">
+                            <div class="image"><img src="images/resource/n9.jpg" alt=""></a></div>
+                        </div>
+                        <div class="info-box">
+                            <h3 class="name">Arc. Rafi Ahamed</h3>
+                            <span class="designation">  B. Arch (SUST)</span>
+                            <span class="designation">  Senior Architect</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-center">
+                <div class="team-block col-lg-3 col-md-3 col-sm-12">
+                    <div class="inner-box">
+                        <div class="image-box">
+                            <div class="image"><img src="images/resource/n15.jpg" alt=""></a></div>
+                        </div>
+                        <div class="info-box">
+                            <h3 class="name">Engr. Fatema Sultana</h3>
+                            <span class="designation">  B.sc (Civil), MSc (Structure)</span>
+                            <span class="designation">  Structure Engineer</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-block col-lg-3 col-md-3 col-sm-12">
+                    <div class="inner-box">
+                        <div class="image-box">
+                            <div class="image"><img src="images/resource/n16.jpg" alt=""></a></div>
+                        </div>
+                        <div class="info-box">
+                            <h3 class="name">Arc. Md. Nahidul Islam</h3>
+                            <span class="designation"> B. Arch. (KUET)</span>
+                            <span class="designation">  Architect</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-block col-lg-3 col-md-3 col-sm-12">
+                    <div class="inner-box">
+                        <div class="image-box">
+                            <div class="image"><img src="images/resource/n8.jpg" alt=""></a></div>
+                        </div>
+                        <div class="info-box">
+                            <h3 class="name">Fahad Ahmed Haidary</h3>
+                            <span class="designation"> Chief Account Officer</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-block col-lg-3 col-md-3 col-sm-12">
+                    <div class="inner-box">
+                        <div class="image-box">
+                            <div class="image"><img src="images/resource/team-11.jpg" alt=""></div>
+                        </div>
+                        <div class="info-box">
+                            <h3 class="name">Arc. Md. Hossain Shikder</h3>
+                            <span class="designation">Diploma in Architect</span>
+                            <span class="designation">Junior Architect</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
+                <!-- Team Block -->
+            <div class="row d-flex justify-content-center">
+                <div class="team-block col-lg-3 col-md-3 col-sm-12">
+                    <div class="inner-box">
+                        <div class="image-box">
+                            <div class="image"><img src="images/resource/n14.jpg" alt=""></a></div>
+                        </div>
+                        <div class="info-box">
+                            <h3 class="name">Engr. Imran Nazir Niaz</h3>
+                            <span class="designation">   Diploma in Civil</span>
+                            <span class="designation">  Project Engineer</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-block col-lg-3 col-md-3 col-sm-12">
+                    <div class="inner-box">
+                        <div class="image-box">
+                            <div class="image"><img src="images/resource/n13.jpg" alt=""></a></div>
+                        </div>
+                        <div class="info-box">
+                            <h3 class="name">Engr. Tonmoy Roy</h3>
+                            <span class="designation"> Diploma in Civil</span>
+                            <span class="designation"> Draftsman</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-block col-lg-3 col-md-3 col-sm-12">
+                    <div class="inner-box">
+                        <div class="image-box">
+                            <div class="image"><img src="images/resource/n10.jpg" alt=""></a></div>
+                        </div>
+                        <div class="info-box">
+                            <h3 class="name">Shaikh Hasib Ahmed</h3>
+                            <span class="designation"> Diploma in Civil</span>
+                            <span class="designation"> Draftsman</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-block col-lg-3 col-md-3 col-sm-12">
+                    <div class="inner-box">
+                        <div class="image-box">
+                            <div class="image"><img src="images/resource/n12.jpg" alt=""></a></div>
+                        </div>
+                        <div class="info-box">
+                            <h3 class="name">Engr. Md Shamim Ahamed</h3>
+                            <span class="designation">  B.Sc in Civil</span>
+                            <span class="designation"> Director of Shatkhira Branch</span>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>

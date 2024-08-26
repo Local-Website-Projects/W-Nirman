@@ -10,10 +10,10 @@ class DBController {
 
     function __construct() {
         if($_SERVER['SERVER_NAME']=="nirmanad.org"||$_SERVER['SERVER_NAME']=="www.nirmanad.org"){
-            $this->host = "premium11";
-            $this->user = "biplgmwr_nirman";
-            $this->password = "JA#8i9rYhH)f";
-            $this->database = "biplgmwr_nirman";
+            $this->host = "localhost";
+            $this->user = "u9teqfxcvjnfg";
+            $this->password = "4}&6[gb1l%z1";
+            $this->database = "dbsz91hzoluixg";
         }
 
         $this->conn = $this->connectDB();

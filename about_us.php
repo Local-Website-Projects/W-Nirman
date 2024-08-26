@@ -171,7 +171,7 @@
                         <!--Column-->
                         <div class="counter-column col-lg-3 col-md-6 col-sm-12 wow fadeInUp">
                             <div class="count-box">
-                                <div class="count"><span class="count-text" data-speed="5000" data-stop="30">0</span>+
+                                <div class="count"><span class="count-text" data-speed="5000" data-stop="60">0</span>+
                                 </div>
                                 <h4 class="counter-title">HAPPY CLIENTS</h4>
                             </div>
@@ -180,7 +180,7 @@
                         <!--Column-->
                         <div class="counter-column col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="400ms">
                             <div class="count-box">
-                                <div class="count"><span class="count-text" data-speed="5000" data-stop="64">0</span>+
+                                <div class="count"><span class="count-text" data-speed="5000" data-stop="100">0</span>+
                                 </div>
                                 <h4 class="counter-title">AMAZING WORKS</h4>
                             </div>
@@ -189,7 +189,7 @@
                         <!--Column-->
                         <div class="counter-column col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="800ms">
                             <div class="count-box">
-                                <div class="count"><span class="count-text" data-speed="5000" data-stop="20">0</span>+
+                                <div class="count"><span class="count-text" data-speed="5000" data-stop="50">0</span>+
                                 </div>
                                 <h4 class="counter-title">AWARDS WINNING</h4>
                             </div>
@@ -198,7 +198,7 @@
                         <!--Column-->
                         <div class="counter-column col-lg-3 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay="1200ms">
                             <div class="count-box">
-                                <div class="count"><span class="count-text" data-speed="5000" data-stop="5">0</span>
+                                <div class="count"><span class="count-text" data-speed="5000" data-stop="7">0</span>
                                 </div>
                                 <h4 class="counter-title">OPERATED YEARS</h4>
                             </div>

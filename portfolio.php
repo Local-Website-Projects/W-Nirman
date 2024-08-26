@@ -79,7 +79,7 @@
                     while ($row = mysqli_fetch_assoc($catagory)) {
                         $cat_name = $row["c_name"];
                         $cat_id = $row["id"];
-                        $portfolio = $con->query("SELECT `category_id`, `image`,`caption` FROM `portfolio` WHERE `category_id` = '$cat_id'");
+                        $portfolio = $con->query("SELECT `category_id`, `image`,`caption` FROM `portfolio` WHERE `category_id` = '$cat_id' order by id desc");
                         while ($rows = mysqli_fetch_assoc($portfolio)) {
                             ?>
                             <div class="default-portfolio-item small-column masonry-item all <?php echo 'cat-' . $cat_id; ?>">
@@ -146,5 +146,5 @@
 <script src="js/color-settings.js"></script>
 </body>
 
-<!-- Mirrored from html.commonsupport.xyz/2019/Altoona/index.php by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 17 Sep 2022 10:51:59 GMT -->
+
 </html>

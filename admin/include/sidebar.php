@@ -21,6 +21,10 @@
                     <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
                     Portfolio
                 </a>
+                <a class="nav-link" href="team.php">
+                    <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
+                    Team
+                </a>
                 <a class="nav-link" href="review.php">
                     <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
                     Review

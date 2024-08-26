@@ -29,3 +29,8 @@ if (isset($_GET['user_id'])) {
     echo 'success';
 }
 
+if (isset($_GET['team_id'])) {
+    $db_handle->runQuery("delete FROM team where team_id={$_GET['team_id']}");
+    echo 'success';
+}
+

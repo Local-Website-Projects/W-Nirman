@@ -6,6 +6,12 @@
                     <figure class="image-box"><a href="#"><img src="images/clients/1.png" alt=""></a></figure>
                 </li>
                 <li class="slide-item">
+                    <figure class="image-box"><a href="#"><img src="images/clients/11.png" alt=""></a></figure>
+                </li>
+                <li class="slide-item">
+                    <figure class="image-box"><a href="#"><img src="images/clients/12.png" alt=""></a></figure>
+                </li>
+                <li class="slide-item">
                     <figure class="image-box"><a href="#"><img src="images/clients/3.png" alt=""></a></figure>
                 </li>
                 <li class="slide-item">
