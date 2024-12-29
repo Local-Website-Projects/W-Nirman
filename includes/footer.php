@@ -15,7 +15,9 @@
                                     </figure>
                                 </div>
                                 <div class="widget-content">
-                                    <div class="text">A wonderful serenity has taken possession of my entire soul, like these sweet morn ings of spring which I enjoy with my whole heart of me.</div>
+                                    <div class="text">A wonderful serenity has taken possession of my entire soul, like
+                                        these sweet morn ings of spring which I enjoy with my whole heart of me.
+                                    </div>
                                     <div class="social-links">
                                         <ul class="social-icon-two">
                                             <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
@@ -56,29 +58,18 @@
                                 <h2 class="widget-title">Recent Works</h2>
                                 <div class="widget-content">
                                     <div class="outer clearfix">
-                                        <figure class="image">
-                                            <a href="images/resource/Footer-1.png" class="lightbox-image" title="Image Title Here"><img src="images/resource/work-thumb-1.jpg" alt=""></a>
-                                        </figure>
-
-                                        <figure class="image">
-                                            <a href="images/resource/Footer-2.png" class="lightbox-image" title="Image Title Here"><img src="images/resource/work-thumb-2.jpg" alt=""></a>
-                                        </figure>
-
-                                        <figure class="image">
-                                            <a href="images/resource/Footer-3.png" class="lightbox-image" title="Image Title Here"><img src="images/resource/work-thumb-3.jpg" alt=""></a>
-                                        </figure>
-
-                                        <figure class="image">
-                                            <a href="images/resource/Footer-4.png" class="lightbox-image" title="Image Title Here"><img src="images/resource/work-thumb-4.jpg" alt=""></a>
-                                        </figure>
-
-                                        <figure class="image">
-                                            <a href="images/resource/Footer-5.png" class="lightbox-image" title="Image Title Here"><img src="images/resource/work-thumb-5.jpg" alt=""></a>
-                                        </figure>
-
-                                        <figure class="image">
-                                            <a href="images/resource/Footer-6.png" class="lightbox-image" title="Image Title Here"><img src="images/resource/work-thumb-6.jpg" alt=""></a>
-                                        </figure>
+                                        <?php
+                                        $review = $con->query("SELECT image FROM `portfolio` order by id DESC limit 6;");
+                                        while ($row = mysqli_fetch_assoc($review)) {
+                                            ?>
+                                            <figure class="image">
+                                                <a href="<?php echo $row['image']?>" class="lightbox-image"
+                                                   title="Image Title Here"><img src="<?php echo $row['image']?>"
+                                                                                 alt="" style="height: 100px; width: 100px"></a>
+                                            </figure>
+                                            <?php
+                                        }
+                                        ?>
                                     </div>
                                 </div>
                             </div>
@@ -89,9 +80,12 @@
                                 <div class="widget-content">
                                     <ul class="list-address">
                                         <li><i class="fas fa-map-marker-alt"></i>H-150, Road-9, Sonadanda R/A,
-                                            1st Phase, Khulna</li>
-                                        <li><i class="fas fa-phone-volume"></i><a href="tel:+8801765774465">+880 176 577 4465</a></li>
-                                        <li><i class="fas fa-envelope"></i><a href="mailto:info@nirmanad.org">info@nirmanad.org</a></li>
+                                            1st Phase, Khulna
+                                        </li>
+                                        <li><i class="fas fa-phone-volume"></i><a href="tel:+8801765774465">+880 176 577
+                                                4465</a></li>
+                                        <li><i class="fas fa-envelope"></i><a href="mailto:info@nirmanad.org">info@nirmanad.org</a>
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
@@ -118,7 +112,8 @@
                 </div>
 
                 <div class="copyright-text">
-                    <p>Copyright © 2019 <a href="#">Nirman</a> All right reserved | Developed with <a href="https://frogbid.com/" target="_blank">FrogBid</a> </p>
+                    <p>Copyright © 2019 <a href="#">Nirman</a> All right reserved | Developed with <a
+                                href="https://frogbid.com/" target="_blank">FrogBid</a></p>
                 </div>
             </div>
         </div>

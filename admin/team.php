@@ -258,7 +258,7 @@ $db_handle = new DBController();
 
                                             <td><?php echo $i+1; ?></td>
                                             <td><?php echo $data[$i]["employee_name"]; ?></td>
-                                            <td><?php echo $data[$i]["employee_post"]; ?></td>
+                                            <td><?php echo $data[$i]["post"]; ?></td>
                                             <td class="text-center"><img class="media-object round-media"
                                                                          src="../<?php echo $data[$i]["image"]; ?>"
                                                                          alt="Generic placeholder image"

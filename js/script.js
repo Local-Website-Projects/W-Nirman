@@ -837,6 +837,7 @@
 	
 		});
 	}
+
 	
 	// Elements Animation
 	if($('.wow').length){

@@ -12811,6 +12811,8 @@ $.widget( "ui.dialog", {
 			( this.document.data( "ui-dialog-overlays" ) || 0 ) + 1 );
 	},
 
+
+
 	_destroyOverlay: function() {
 		if ( !this.options.modal ) {
 			return;
@@ -13097,6 +13099,7 @@ $.widget( "ui.droppable", {
 		this._removeClass( "ui-droppable-active" );
 	}
 } );
+
 
 var intersect = $.ui.intersect = ( function() {
 	function isOverAxis( x, reference, size ) {

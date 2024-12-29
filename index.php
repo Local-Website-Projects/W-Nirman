@@ -53,10 +53,13 @@ include("config/dbconfig.php");
 
         <div class="social-links">
             <ul class="social-icon-three">
-                <li><a href="https://www.facebook.com/nirman.ad22/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-                <li><a href="https://www.instagram.com/nirman.ad22" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="https://www.facebook.com/nirman.ad22/" target="_blank"><i
+                                class="fab fa-facebook-f"></i></a></li>
+                <li><a href="https://www.instagram.com/nirman.ad22" target="_blank"><i class="fab fa-instagram"></i></a>
+                </li>
                 <li><a href="mailto:info@nirmanad.org"><i class="fab fa-google-plus-g"></i></a></li>
-                <li><a href="https://api.whatsapp.com/send?phone=8801765774465" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
+                <li><a href="https://api.whatsapp.com/send?phone=8801765774465" target="_blank"><i
+                                class="fab fa-whatsapp"></i></a></li>
                 <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
             </ul>
         </div>
@@ -85,7 +88,8 @@ include("config/dbconfig.php");
                                 <h2 data-animation-child class="title-fill" data-animation="title-fill-anim"
                                     data-text="About Company">About NIRMAN</h2>
                             </div>
-                            <h5>We create functional, beautiful interiors, exteriors and Constructions for our clients since
+                            <h5>We create functional, beautiful interiors, exteriors and Constructions for our clients
+                                since
                                 2017.</h5>
                             <div class="text"> Nirman Architecture & Development is one of the most reputed Company in
                                 Bangladesh,
@@ -497,225 +501,36 @@ include("config/dbconfig.php");
             </div>
 
             <div class="row clearfix d-flex justify-content-center">
+                <?php
+                $team = $con->query("SELECT * FROM `team`");
+                while ($row = mysqli_fetch_assoc($team)) {
+                    ?>
+                    <div class="team-block col-lg-3 col-md-3 col-sm-12">
+                        <div class="inner-box">
+                            <div class="image-box">
+                                <div class="image"><img src="<?php echo $row['image']; ?>" alt=""></div>
+                                <ul class="social-links">
+                                    <li><a href="<?php echo $row['facebook']; ?>" target="_blank"><i
+                                                    class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="mailto:<?php echo $row['google']; ?>"><i class="fab fa-google-plus-g"></i></a></li>
+                                    <li><a href="https://api.whatsapp.com/send?phone=88<?php echo $row['whatsapp']; ?>" target="_blank"><i
+                                                    class="fab fa-whatsapp"></i></a></li>
+                                    <li><a href="<?php echo $row['twiter']; ?>" target="_blank"><i
+                                                    class="fab fa-twitter"></i></a></li>
+                                    <li><a href="<?php echo $row['linkedin']; ?>" target="_blank"><i
+                                                    class="fab fa-linkedin-in"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="info-box">
+                                <h3 class="name">Engr. B M Mujahidul Alam</h3>
+                                <span class="designation">Managing Director & Structural Engineer</span>
+                            </div>
+                        </div>
+                    </div>
+                    <?php
+                }
+                ?>
 
-                <div class="team-block col-lg-3 col-md-3 col-sm-12">
-                    <div class="inner-box">
-                        <div class="image-box">
-                            <div class="image"><img src="images/resource/team-12.jpg" alt=""></div>
-                        </div>
-                        <div class="info-box">
-                            <h3 class="name">Engr. Md Leton Hossain</h3>
-                            <span class="designation">Advisor</span>
-                        </div>
-                    </div>
-                </div>
-                <!-- Team Block -->
-                <div class="team-block col-lg-3 col-md-3 col-sm-12">
-                    <div class="inner-box">
-                        <div class="image-box">
-                            <div class="image"><img src="images/resource/8.jpg" alt=""></a></div>
-                        </div>
-                        <div class="info-box">
-                            <h3 class="name">Arch. Tamanna Sultana</h3>
-                            <span class="designation">Chairman, Nirman</span>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Team Block -->
-                <div class="team-block col-lg-3 col-md-3 col-sm-12">
-                    <div class="inner-box">
-                        <div class="image-box">
-                            <div class="image"><img src="images/resource/9.jpg" alt=""></div>
-                            <ul class="social-links">
-                                <li><a href="https://www.facebook.com/mujahid.ce16/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="mailto:mujahidce16@gmail.com"><i class="fab fa-google-plus-g"></i></a></li>
-                                <li><a href="https://api.whatsapp.com/send?phone=8801965046542" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
-                                <li><a href="https://twitter.com/MujahidulAlam4" target="_blank"><i class="fab fa-twitter"></i></a></li>
-                                <li><a href="https://www.linkedin.com/in/mujahidul-alam-941158141" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
-                            </ul>
-                        </div>
-                        <div class="info-box">
-                            <h3 class="name">Engr. B M Mujahidul Alam</h3>
-                            <span class="designation">Managing Director & Structural Engineer</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="team-block col-lg-3 col-md-3 col-sm-12">
-                    <div class="inner-box">
-                        <div class="image-box">
-                            <div class="image"><img src="images/resource/7.jpg" alt=""></div>
-                            <ul class="social-links">
-                                <li><a href="https://www.facebook.com/prithulsera" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
-                                <li><a href="mailto:prithulserao55@gmail.com"><i class="fab fa-google-plus-g"></i></a></li>
-                                <li><a href="https://api.whatsapp.com/send?phone=8801875675823" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
-                                <li><a href="https://www.linkedin.com/in/prithul-justin-serao-00a587199" target="_blank\"><i class="fab fa-linkedin-in"></i></a></li>
-                            </ul>
-
-                        </div>
-                        <div class="info-box">
-                            <h3 class="name">Engr. Prithul Justin Serao</h3>
-                            <span class="designation">Structural Engineer</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row d-flex justify-content-center">
-                <div class="team-block col-lg-3 col-md-3 col-sm-12">
-                    <div class="inner-box">
-                        <div class="image-box">
-                            <div class="image"><img src="images/resource/10.jpg" alt=""></div>
-                            <ul class="social-links">
-                                <li><a href="instagram.com/sm_alauddin" target="_blank"><i class="fab fa-instagram"></i></a></li>
-                                <li><a href="mailto:abdullah2173504@stud.kuet.ac.bd"><i class="fab fa-google-plus-g"></i></a></li>
-                                <li><a href="https://api.whatsapp.com/send?phone=8801988468265" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
-                                <li><a href="https://www.linkedin.com/in/smalauddin" target="_blank\"><i class="fab fa-linkedin-in"></i></a></li>
-                            </ul>
-
-                        </div>
-                        <div class="info-box">
-                            <h3 class="name">Engr. S. M. Alauddin Abdullah</h3>
-                            <span class="designation">Structural Engineer & Environmental Specialist</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="team-block col-lg-3 col-md-3 col-sm-12">
-                    <div class="inner-box">
-                        <div class="image-box">
-                            <div class="image"><img src="images/resource/n17.jpg" alt=""></a></div>
-                        </div>
-                        <div class="info-box">
-                            <h3 class="name">Arc. Sarah Mobassira</h3>
-                            <span class="designation"> B. Arch (AIUB)</span>
-                            <span class="designation"> Chief Architect</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="team-block col-lg-3 col-md-3 col-sm-12">
-                    <div class="inner-box">
-                        <div class="image-box">
-                            <div class="image"><img src="images/resource/n7.jpg" alt=""></a></div>
-                        </div>
-                        <div class="info-box">
-                            <h3 class="name">Engr. Md. Jahid Hasan</h3>
-                            <span class="designation">  B.sc (Civil)</span>
-                            <span class="designation"> Structure Engineer</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="team-block col-lg-3 col-md-3 col-sm-12">
-                    <div class="inner-box">
-                        <div class="image-box">
-                            <div class="image"><img src="images/resource/n9.jpg" alt=""></a></div>
-                        </div>
-                        <div class="info-box">
-                            <h3 class="name">Arc. Rafi Ahamed</h3>
-                            <span class="designation">  B. Arch (SUST)</span>
-                            <span class="designation">  Senior Architect</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row d-flex justify-content-center">
-                <div class="team-block col-lg-3 col-md-3 col-sm-12">
-                    <div class="inner-box">
-                        <div class="image-box">
-                            <div class="image"><img src="images/resource/n15.jpg" alt=""></a></div>
-                        </div>
-                        <div class="info-box">
-                            <h3 class="name">Engr. Fatema Sultana</h3>
-                            <span class="designation">  B.sc (Civil), MSc (Structure)</span>
-                            <span class="designation">  Structure Engineer</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="team-block col-lg-3 col-md-3 col-sm-12">
-                    <div class="inner-box">
-                        <div class="image-box">
-                            <div class="image"><img src="images/resource/n16.jpg" alt=""></a></div>
-                        </div>
-                        <div class="info-box">
-                            <h3 class="name">Arc. Md. Nahidul Islam</h3>
-                            <span class="designation"> B. Arch. (KUET)</span>
-                            <span class="designation">  Architect</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="team-block col-lg-3 col-md-3 col-sm-12">
-                    <div class="inner-box">
-                        <div class="image-box">
-                            <div class="image"><img src="images/resource/n8.jpg" alt=""></a></div>
-                        </div>
-                        <div class="info-box">
-                            <h3 class="name">Fahad Ahmed Haidary</h3>
-                            <span class="designation"> Chief Account Officer</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="team-block col-lg-3 col-md-3 col-sm-12">
-                    <div class="inner-box">
-                        <div class="image-box">
-                            <div class="image"><img src="images/resource/team-11.jpg" alt=""></div>
-                        </div>
-                        <div class="info-box">
-                            <h3 class="name">Arc. Md. Hossain Shikder</h3>
-                            <span class="designation">Diploma in Architect</span>
-                            <span class="designation">Junior Architect</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-                <!-- Team Block -->
-            <div class="row d-flex justify-content-center">
-                <div class="team-block col-lg-3 col-md-3 col-sm-12">
-                    <div class="inner-box">
-                        <div class="image-box">
-                            <div class="image"><img src="images/resource/n14.jpg" alt=""></a></div>
-                        </div>
-                        <div class="info-box">
-                            <h3 class="name">Engr. Imran Nazir Niaz</h3>
-                            <span class="designation">   Diploma in Civil</span>
-                            <span class="designation">  Project Engineer</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="team-block col-lg-3 col-md-3 col-sm-12">
-                    <div class="inner-box">
-                        <div class="image-box">
-                            <div class="image"><img src="images/resource/n13.jpg" alt=""></a></div>
-                        </div>
-                        <div class="info-box">
-                            <h3 class="name">Engr. Tonmoy Roy</h3>
-                            <span class="designation"> Diploma in Civil</span>
-                            <span class="designation"> Draftsman</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="team-block col-lg-3 col-md-3 col-sm-12">
-                    <div class="inner-box">
-                        <div class="image-box">
-                            <div class="image"><img src="images/resource/n10.jpg" alt=""></a></div>
-                        </div>
-                        <div class="info-box">
-                            <h3 class="name">Shaikh Hasib Ahmed</h3>
-                            <span class="designation"> Diploma in Civil</span>
-                            <span class="designation"> Draftsman</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="team-block col-lg-3 col-md-3 col-sm-12">
-                    <div class="inner-box">
-                        <div class="image-box">
-                            <div class="image"><img src="images/resource/n12.jpg" alt=""></a></div>
-                        </div>
-                        <div class="info-box">
-                            <h3 class="name">Engr. Md Shamim Ahamed</h3>
-                            <span class="designation">  B.Sc in Civil</span>
-                            <span class="designation"> Director of Shatkhira Branch</span>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </section>
@@ -1001,5 +816,8 @@ if (isset($_SESSION['status'])) {
 <script src="js/script.js"></script>
 <!-- Color Setting -->
 <script src="js/color-settings.js"></script>
+<script>
+
+</script>
 </body>
 </html>
